@@ -1,3 +1,4 @@
+# TARGET.mk_X86_SIMULATE.PC.Unknown
 ###############################################################################################
 TARGET_PLATFORM := X86_SIMULATE
 export TARGET_PLATFORM 

@@ -1,2 +1,0 @@
-This is Hisome C library with extensible and portable in mind and support Linux(x86,arm...) and Win32 platform;
-  
