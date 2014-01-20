@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<pj_db version="1.0">
+	<manufacturer v="3M">
+		<model_list v="7640/7650/7740/7750">
+			<baudrate>19200</baudrate>
+			<pwron>BEEF030600BAD2010000600100</pwron>
+			<pwroff>BEEF0306002AD3010000600000</pwroff>
+			<pc>BEEF030600FED2010000200000</pc>
+			<video>BEEF0306006ED3010000200100</video>
+			<svideo>BEEF0306009ED3010000200200</svideo>
+		</model_list>
+		<model_list v="8625/8725/8730/8740">
+			<baudrate>9600</baudrate>
+			<pwron>31111F</pwron>
+			<pwroff>31111E</pwroff>
+			<pc>312121</pc>
+			<video>312111</video>
+			<svideo>312112</svideo>		
+		</model_list>
+	</manufacturer>
+	<manufacturer v="epson">
+		<model_list v="810/800/600/TS10">
+			<baudrate>9600</baudrate>
+			<pwron>505752204f4e0d</pwron>
+			<pwroff>505752204f46460d</pwroff>
+			<pc>534f555243452032310d</pc>
+			<video>534f555243452034310d</video>
+			<svideo>534f555243452034320d</svideo>
+			<dvi>534f555243452031320d</dvi>
+		</model_list>
+		<model_list v="720/730/520/30/52/73/53/S1">
+			<baudrate>9600</baudrate>
+			<pwron>505752204f4e0d</pwron>
+			<pwroff>505752204f46460d</pwroff>
+			<pc>534f555243452031310d</pc>
+			<video>534f555243452034310d</video>
+			<svideo>534f555243452034320d</svideo>
+		</model_list>		
+	</manufacturer>
+</pj_db>

@@ -1,0 +1,6 @@
+1. create TARGET.mk with command(ln -s) to TARGET.mk_xxx
+2. modify any skeleton or SK value to new target lib's own name;
+3. rename file include/xeSK_ERR.h,include/xeSK.h,src/xeSK_INC.h,src/xeSK.c;
+4. rename all values in include/xeSK_ERR.h,include/xeSK.h according new lib;
+5. rename LIBNAME in Makefile;
+6. never forget to ChangeLog and ReleaseNotes's update;

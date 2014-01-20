@@ -1,0 +1,54 @@
+TOPDIR := $(shell pwd)
+RELEASEDIR :=$(TOPDIR)/release
+DEBUGDIR := $(TOPDIR)/debug
+
+#package debug|release build
+#BUILD_TARGET := Release
+BUILD_TARGET ?= Debug
+
+DATE=$(shell date "+%Y%m%d")
+
+#define lib name 
+#MODNAME=
+
+CC := gcc
+
+ifeq ($(BUILD_TARGET), Release)
+CFLAGS += -O2 -DNDEBUG -DBUILD_TARGET=\"Release\"
+CFLAGS +=-DCONFIG_CLOSE_DBG
+else
+CFLAGS += -g -DBUILD_TARGET=\"Debug\" -DDEBUG=1
+CFLAGS +=-DCONFIG_CLOSE_DBG
+#CFLAGS +=-UCONFIG_CLOSE_DBG
+endif
+
+CFLAGS += -Wall 
+#CFLAGS += -I$(TOPDIR)/include  
+LDFLAGS += -lpthread
+
+export TOPDIR CFLAGS LDFLAGS
+
+SRC_FILES := $(wildcard *.c)
+ALL_BINS := $(patsubst %.c, %.bin, $(SRC_FILES))
+DEP_FILES := $(addsuffix .d,$(basename $(SRC_FILES)))
+
+%.bin:%.c
+	$(CC) -o $@ $(CFLAGS) $< $(LDFLAGS)
+
+.PHONY: all clean
+
+all: $(ALL_BINS)
+	chmod +x $(ALL_BINS)
+	rm -rf $(DEP_FILES)
+	@echo "build test_local finish"
+
+clean:
+	rm -rf $(ALL_BINS) $(DEP_FILES)
+	
+#test:
+#	make -C test all
+	
+ifneq ($(MAKECMDGOALS),clean)
+-include $(DEP_FILES)
+endif
+
