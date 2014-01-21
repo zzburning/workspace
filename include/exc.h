@@ -1,45 +1,45 @@
 /******************************************************************************
- * xeHSC.h
+ * exc.h
  *
  *  Created on: 2011-10-19
- *      Author: wuhm<wuhm@hisome.com>
+ *      Author: 
  *
  * Description:
- * 	This file is Hisome C Interface
+ * 	This file is EXC Interface
  *
  * Revision History:
  * 	V0.1 initial version code
  *****************************************************************************/
 
-#ifndef __HISOME_XEHSC_H__
-#define __HISOME_XEHSC_H__
+#ifndef __EXC_H__
+#define __EXC_H__
 
-#include "xeT.h"
-#include "xeR.h"
-#include "xeL.h"
-#include "xeHSC_port.h"
+#include "excT.h"
+#include "excR.h"
+#include "exclist.h"
+#include "excport.h"
 
 typedef struct
 {
 	int log_level;
-}xeHSC_init_t;
+}exc_init_t;
 
-extern xeR_t xeHSC_init(xeHSC_init_t *init_p);
+// extern excR_t exc_init(exc_init_t *init_p);
 
-typedef struct
-{
-	int major;
-	int minor;
-	int revision;
-	int buildID;
-	char vstr[256];/*extra human readable version message*/
-}xeHSC_version_t;
-
+// typedef struct
+// {
+// 	int major;
+// 	int minor;
+// 	int revision;
+// 	int buildID;
+// 	char vstr[256];/*extra human readable version message*/
+// }exc_version_t;
+// 
 /******************************************************************************
- * Function: xeHSC_version()
+ * Function: exc_version()
  *-----------------------------------------------------------------------------
  * Description:
- *	Get libxeHSC's version info;
+ *	Get libexc's version info;
  *-----------------------------------------------------------------------------
  * Reenterable: Yes
  *-----------------------------------------------------------------------------
@@ -48,6 +48,6 @@ typedef struct
  *-----------------------------------------------------------------------------
  * Return: NONE
  *****************************************************************************/
-extern void xeHSC_version(xeHSC_version_t *ver_p);
+// extern void exc_version(exc_version_t *ver_p);
 
-#endif /* __HISOME_XEHSC_H__ */
+#endif /* __EXC_H__ */

@@ -1,0 +1,1 @@
+gcc   -O0 -Wall -g -ggdb -DBUILD_TARGET="Debug" -DDEBUG=1 -UCONFIG_CLOSE_DBG    CMakeFiles/test.bin.dir/test.c.o  -o ../test.bin -rdynamic -L/develop/dev-notes/src/lib -L/develop/dev-notes/lib -L/develop/dev-notes/build/lib ../libEXC.so -lexcLOG -Wl,-rpath,/develop/dev-notes/src/lib:/develop/dev-notes/lib:/develop/dev-notes/build/lib:/develop/dev-notes/build 

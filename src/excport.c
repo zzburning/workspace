@@ -1,50 +1,49 @@
 /******************************************************************************
- * xeHSC_port.c
+ * excport.c
  *
  *  Created on: 2013-06-05
- *      Author: hanln<hanln@hisome.com>
+ *      Author: 
  *
  * Description:
- * 	This file is libxeHSC port .C file
+ * 	This file is libexc port .C file
  *
  * Revision History:
  * 	V0.1 initial version code
  *****************************************************************************/
 
-#include "xeHSC_INC.h"
-#include "xeHSC_port.h"
+#include "excport.h"
 
 #ifdef MEMWATCH
 #include <memwatch.h>
 #endif/*MEMWATCH*/
 
-#ifdef CONFIG_USE_XEHSC
+#ifdef CONFIG_USE_EXC
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#if defined(CONFIG_XEHSC_DEVPLAT_VC6)
+#if defined(CONFIG_EXC_DEVPLAT_VC6)
 
-int WIN_pthread_mutex_init(xe_pthread_mutex_t *mutex, void *attr)
+int WIN_pthread_mutex_init(exc_pthread_mutex_t *mutex, void *attr)
 {
 	*mutex=CreateMutex(NULL, FALSE, NULL);
 	return 0;
 }
 
-int WIN_pthread_mutex_lock(xe_pthread_mutex_t * hMutex)
+int WIN_pthread_mutex_lock(exc_pthread_mutex_t * hMutex)
 {
 	WaitForSingleObject(*hMutex, INFINITE);
 	return 0;
 }
 
-int WIN_pthread_mutex_unlock(xe_pthread_mutex_t * hMutex)
+int WIN_pthread_mutex_unlock(exc_pthread_mutex_t * hMutex)
 {
 	ReleaseMutex(*hMutex);
 	return 0;
 }
 
-int WIN_pthread_mutex_destroy(xe_pthread_mutex_t * hMutex)
+int WIN_pthread_mutex_destroy(exc_pthread_mutex_t * hMutex)
 {
 	CloseHandle(*hMutex);
 	return 0;
@@ -64,7 +63,7 @@ static unsigned WINAPI thread_starter(void *data)
 	return (DWORD)ret;
 }
 
-int WIN_pthread_create(xe_pthread_t *th, void *attr, void * (*func)(void *), void *data)
+int WIN_pthread_create(exc_pthread_t *th, void *attr, void * (*func)(void *), void *data)
 {
     thread_param_t *params=malloc(sizeof(thread_param_t));
     params->func=func;
@@ -76,7 +75,7 @@ int WIN_pthread_create(xe_pthread_t *th, void *attr, void * (*func)(void *), voi
 		return 0;
 }
 
-int WIN_pthread_join(xe_pthread_t thread_h, void **unused)
+int WIN_pthread_join(exc_pthread_t thread_h, void **unused)
 {
 	if (thread_h!=NULL)
 	{
@@ -86,13 +85,13 @@ int WIN_pthread_join(xe_pthread_t thread_h, void **unused)
 	return 0;
 }
 
-int WIN_pthread_cond_init(xe_pthread_cond_t *cond, void *attr)
+int WIN_pthread_cond_init(exc_pthread_cond_t *cond, void *attr)
 {
 	*cond=CreateEvent(NULL, FALSE, FALSE, NULL);
 	return 0;
 }
 
-int WIN_pthread_cond_wait(xe_pthread_cond_t* hCond, xe_pthread_mutex_t * hMutex)
+int WIN_pthread_cond_wait(exc_pthread_cond_t* hCond, exc_pthread_mutex_t * hMutex)
 {
 	WIN_pthread_mutex_unlock(hMutex);
 	WaitForSingleObject(*hCond, INFINITE);
@@ -100,25 +99,25 @@ int WIN_pthread_cond_wait(xe_pthread_cond_t* hCond, xe_pthread_mutex_t * hMutex)
 	return 0;
 }
 
-int WIN_pthread_cond_signal(xe_pthread_cond_t * hCond)
+int WIN_pthread_cond_signal(exc_pthread_cond_t * hCond)
 {
 	SetEvent(*hCond);
 	return 0;
 }
 
-int WIN_pthread_cond_broadcast(xe_pthread_cond_t * hCond)
+int WIN_pthread_cond_broadcast(exc_pthread_cond_t * hCond)
 {
 	WIN_pthread_cond_signal(hCond);
 	return 0;
 }
 
-int WIN_pthread_cond_destroy(xe_pthread_cond_t * hCond)
+int WIN_pthread_cond_destroy(exc_pthread_cond_t * hCond)
 {
 	CloseHandle(*hCond);
 	return 0;
 }
 
-int WIN_pthread_cond_timedwait(xe_pthread_cond_t *hCond, xe_pthread_mutex_t *hMutex, DWORD dwMilliseconds)
+int WIN_pthread_cond_timedwait(exc_pthread_cond_t *hCond, exc_pthread_mutex_t *hMutex, DWORD dwMilliseconds)
 {
 	DWORD ret=WaitForSingleObject(*hCond,dwMilliseconds);
 	if(WAIT_TIMEOUT==ret)
@@ -132,7 +131,7 @@ int WIN_pthread_cond_timedwait(xe_pthread_cond_t *hCond, xe_pthread_mutex_t *hMu
 }
 
 //Debug message functions
-static void xeLOG_fprintf_stderr(char *fmt,va_list args)
+static void excLOG_fprintf_stderr(char *fmt,va_list args)
 {
 	char temp[255];
 	char Format[255];
@@ -181,7 +180,7 @@ static void xeLOG_fprintf_stderr(char *fmt,va_list args)
 	return;
 }
 
-static void xeLOG_fprintf_stdout(char *fmt,va_list args)
+static void excLOG_fprintf_stdout(char *fmt,va_list args)
 {
 	char temp[255];
 	char Format[255];
@@ -230,104 +229,104 @@ static void xeLOG_fprintf_stdout(char *fmt,va_list args)
 	return;
 }
 
-void xeLOG_EMERG_fprintf(char *fmt,...)
+void excLOG_EMERG_fprintf(char *fmt,...)
 {
 	va_list args;
 	va_start(args, fmt);
 	//if(_xeHSC_log_level>=(0))
 	{
-		xeLOG_fprintf_stderr(fmt,args);
+		excLOG_fprintf_stderr(fmt,args);
 		fprintf(stderr,"\r\n");
 		fflush(stderr);
 	}
 	va_end (args);
 }
 
-void xeLOG_CRIT_fprintf(char *fmt,...)
+void excLOG_CRIT_fprintf(char *fmt,...)
 {
 	va_list args;
 	va_start(args, fmt);
 	//if(_xeHSC_log_level>=(1))
 	{
-		xeLOG_fprintf_stderr(fmt,args);
+		excLOG_fprintf_stderr(fmt,args);
 		fprintf(stderr,"\r\n");
 		fflush(stderr);
 	}
 	va_end (args);
 }
 
-void xeLOG_ALERT_fprintf(char *fmt,...)
+void excLOG_ALERT_fprintf(char *fmt,...)
 {
 	va_list args;
 	va_start(args, fmt);
 	//if(_xeHSC_log_level>=(2))
 	{
-		xeLOG_fprintf_stderr(fmt,args);
+		excLOG_fprintf_stderr(fmt,args);
 		fprintf(stderr,"\r\n");
 		fflush(stderr);
 	}
 	va_end (args);
 }
 
-void xeLOG_ERR_fprintf(char *fmt,...)
+void excLOG_ERR_fprintf(char *fmt,...)
 {
 	va_list args;
 	va_start(args, fmt);
 	//if(_xeHSC_log_level>=(3))
 	{
-		xeLOG_fprintf_stderr(fmt,args);
+		excLOG_fprintf_stderr(fmt,args);
 		fprintf(stderr,"\r\n");
 		fflush(stderr);
 	}
 	va_end (args);
 }
 
-void xeLOG_WARNING_fprintf(char *fmt,...)
+void excLOG_WARNING_fprintf(char *fmt,...)
 {
 	va_list args;
 	va_start(args, fmt);
 	//if(_xeHSC_log_level>=(4))
 	{
-		xeLOG_fprintf_stderr(fmt,args);
+		excLOG_fprintf_stderr(fmt,args);
 		fprintf(stderr,"\r\n");
 		fflush(stderr);
 	}
 	va_end (args);
 }
 
-void xeLOG_NOTICE_fprintf(char *fmt,...)
+void excLOG_NOTICE_fprintf(char *fmt,...)
 {
 	va_list args;
 	va_start(args, fmt);
 	//if(_xeHSC_log_level>=(5))
 	{
-		xeLOG_fprintf_stderr(fmt,args);
+		excLOG_fprintf_stderr(fmt,args);
 		fprintf(stderr,"\r\n");
 		fflush(stderr);
 	}
 	va_end (args);
 }
 
-void xeLOG_INFO_fprintf(char *fmt,...)
+void excLOG_INFO_fprintf(char *fmt,...)
 {
 	va_list args;
 	va_start(args, fmt);
 	//if(_xeHSC_log_level>=(6))
 	{
-		xeLOG_fprintf_stdout(fmt,args);
+		excLOG_fprintf_stdout(fmt,args);
 		fprintf(stdout,"\r\n");
 		fflush(stdout);
 	}
 	va_end (args);
 }
 
-void xeLOG_DEBUG_fprintf(char *fmt,...)
+void excLOG_DEBUG_fprintf(char *fmt,...)
 {
 	va_list args;
 	va_start(args, fmt);
 	//if(_xeHSC_log_level>=(7))
 	{
-		xeLOG_fprintf_stdout(fmt,args);
+		excLOG_fprintf_stdout(fmt,args);
 		fprintf(stdout,"\r\n");
 		fflush(stdout);
 	}

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../libEXC.a  CMakeFiles/libEXC.a.dir/memwatch.c.o CMakeFiles/libEXC.a.dir/xeHSC_port.c.o
+/usr/bin/ranlib ../libEXC.a
