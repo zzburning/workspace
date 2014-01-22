@@ -1,3 +1,0 @@
-/develop/dev-notes/build/src/CMakeFiles/libEXC.a.dir
-/develop/dev-notes/build/src/CMakeFiles/libEXC.so.dir
-/develop/dev-notes/build/test/CMakeFiles/test.bin.dir
