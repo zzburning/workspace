@@ -78,3 +78,36 @@ done
 pause "press y to contine, n to cancel ..."
 
 echo "third line"
+#!/bin/sh
+function f(){
+sleep "$1"
+echo "$1"
+}
+while [ -n "$1" ]
+do
+	f "$1" & 
+	shift
+done
+wait
+
+PROTO=ftp
+USER=testuser        
+PASSWD=testuserpwd  
+SERVER=NASERVER    
+PORT=21           
+RDIR=/testuser   
+CROSS_PKG_FILENAME=hxS2506a.K3_S2500_16SD.conf
+URL="${PROTO}://${USER}:${PASSWD}@${SERVER}:${PORT}${RDIR}/${CROSS_PKG_FILENAME}"
+#get the cross package from our FTP server
+if [ ! -f ${CROSS_PKG_FILENAME} ]; then
+        echo "try download from FTP";
+        if wget ${URL} 
+        then
+                echo "download ${CROSS_PKG_FILENAME} success."
+        #exit ;
+        else
+                echo "downlaod ${CROSS_PKG_FILENAME} fail."
+        exit ;
+        fi
+fi 
+find . -name "*.c"|xargs cat|grep -v -e ^$ -e ^\s*\/\/.*$|wc -l

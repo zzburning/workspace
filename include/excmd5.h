@@ -1,5 +1,6 @@
-#ifndef MYMD5_H_2008_8_6
-#define MYMD5_H_2008_8_6
+
+#ifndef __EXC_MD5_H_2008_8_6
+#define __EXC_MD5_H_2008_8_6
 
 
 
@@ -18,4 +19,4 @@ extern char* hmac_md5(char* text, char* key);
 
 
 
-#endif /*MYMD5_H_*/
+#endif /*MD5_H_*/

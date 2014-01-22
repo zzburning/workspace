@@ -6,19 +6,17 @@
  * Version:
  *	 	 V_0.6 Jun-07-2011
  * Copyright:
- * 		 HISOME <http://www.hisome.com>
  * Author:
- * 		 renhw <renhw@hisome.com.>
 ******************************************************************************************************************/
 #ifndef __EXCLOG_INTERNAL_H_
 #define __EXCLOG_INTERNAL_H_
 
-#ifdef CONFIG_USE_EXTERNAL_excLOG
-#include <excLOG.h>
-#else/*!CONFIG_USE_EXTERNAL_excLOG*/
+#ifdef CONFIG_USE_EXTERNAL_EXCLOG
+#include <exclog.h>
+#else/*!CONFIG_USE_EXTERNAL_EXCLOG*/
 
 #include <stdio.h>
-#if defined(CONFIG_XEHSC_DEVPLAT_LINUXGCC_32)
+#if defined(CONFIG_EXC_DEVPLAT_LINUXGCC_32)
 #include <syslog.h>
 #endif
 #include <errno.h>
@@ -39,9 +37,9 @@ extern "C"
  *		6 - excLOG_INFO(fmt, args...)
  *		7 - excLOG_DEBUG(fmt, args...)
  **/
-extern int xeDEX_log_level;
+extern int log_level;
 
-#define LOG_PREFIX "libxeDEX2"
+#define LOG_PREFIX "libexcLOG"
 
 #define BLACK     "\033[0;30m"
 #define RED       "\033[0;31m"
@@ -64,10 +62,10 @@ extern int xeDEX_log_level;
 #define COLOR_EMERG		LIGNT_RED
 #define COLOR_END		END
 
-#if defined(CONFIG_XEHSC_DEVPLAT_LINUXGCC_32)
+#if defined(CONFIG_EXC_DEVPLAT_LINUXGCC_32)
 #define excLOG_EMERG(fmt, args...) \
 		do{ \
-			if(xeDEX_log_level>=(LOG_EMERG)) { \
+			if(log_level>=(LOG_EMERG)) { \
 				fprintf(stderr, COLOR_EMERG LOG_PREFIX"(%s.%d.EMERG): "fmt"\n"COLOR_END,__FILE__,__LINE__, ##args); \
 				fflush(stderr); \
 			} \
@@ -75,7 +73,7 @@ extern int xeDEX_log_level;
 
 #define excLOG_CRIT(fmt, args...) \
 		do{ \
-			if(xeDEX_log_level>=(LOG_CRIT)) { \
+			if(log_level>=(LOG_CRIT)) { \
 				fprintf(stderr, COLOR_CRIT LOG_PREFIX"(%s.%d.CRIT): "fmt"\n"COLOR_END,__FILE__,__LINE__, ##args); \
 				fflush(stderr); \
 			} \
@@ -83,7 +81,7 @@ extern int xeDEX_log_level;
 
 #define excLOG_ALERT(fmt, args...) \
 		do{ \
-			if(xeDEX_log_level>=(LOG_ALERT)) { \
+			if(log_level>=(LOG_ALERT)) { \
 				fprintf(stderr, COLOR_ALERT LOG_PREFIX"(%s.%d.ALERT): "fmt"\n"COLOR_END,__FILE__,__LINE__, ##args); \
 				fflush(stderr); \
 			} \
@@ -91,7 +89,7 @@ extern int xeDEX_log_level;
 
 #define excLOG_ERR(fmt, args...) \
 		do{ \
-			if(xeDEX_log_level>=(LOG_ERR)) { \
+			if(log_level>=(LOG_ERR)) { \
 				fprintf(stderr, COLOR_ERR LOG_PREFIX"(%s.%d.ERR): "fmt"\n"COLOR_END,__FILE__,__LINE__, ##args); \
 				fflush(stderr); \
 			} \
@@ -99,7 +97,7 @@ extern int xeDEX_log_level;
 
 #define excLOG_WARNING(fmt, args...) \
 		do{ \
-			if(xeDEX_log_level>=(LOG_WARNING)) { \
+			if(log_level>=(LOG_WARNING)) { \
 				fprintf(stderr, COLOR_WARNING LOG_PREFIX"(%s.%d.WARNING): "fmt"\n"COLOR_END,__FILE__,__LINE__, ##args); \
 				fflush(stderr); \
 			} \
@@ -107,7 +105,7 @@ extern int xeDEX_log_level;
 
 #define excLOG_NOTICE(fmt, args...) \
 		do{ \
-			if(xeDEX_log_level>=(LOG_NOTICE)) { \
+			if(log_level>=(LOG_NOTICE)) { \
 				fprintf(stderr, COLOR_NOTICE LOG_PREFIX"(%s.%d.NOTICE): "fmt"\n"COLOR_END,__FILE__,__LINE__, ##args); \
 				fflush(stderr); \
 			} \
@@ -115,7 +113,7 @@ extern int xeDEX_log_level;
 
 #define excLOG_INFO(fmt, args...) \
 		do{ \
-			if(xeDEX_log_level>=(LOG_INFO)) { \
+			if(log_level>=(LOG_INFO)) { \
 				fprintf(stdout, COLOR_INFO LOG_PREFIX"(%s.%d.INFO): "fmt"\n"COLOR_END,__FILE__,__LINE__, ##args); \
 				fflush(stdout); \
 			} \
@@ -123,7 +121,7 @@ extern int xeDEX_log_level;
 
 #define excLOG_DEBUG(fmt, args...) \
 		do{ \
-			if(xeDEX_log_level>=(LOG_DEBUG)) { \
+			if(log_level>=(LOG_DEBUG)) { \
 				fprintf(stdout, COLOR_DEBUG LOG_PREFIX"(%s.%d.DBG): "fmt"\n"COLOR_END,__FILE__,__LINE__, ##args); \
 				fflush(stdout); \
 			} \
@@ -154,53 +152,53 @@ extern int xeDEX_log_level;
 	excLOG_ALERT("BUG: "fmt,##args);\
 	}while(0);
 #endif/*BUGMSG*/
-#elif defined(CONFIG_XEHSC_DEVPLAT_VC6)
+#elif defined(CONFIG_EXC_DEVPLAT_VC6)
 #define excLOG_EMERG \
-	if(xeDEX_log_level>=(0))\
+	if(log_level>=(0))\
 	fprintf(stderr,LOG_PREFIX"(%s.%d.EMERG):",__FILE__,__LINE__);\
-	if(xeDEX_log_level>=(0))\
+	if(log_level>=(0))\
 	excLOG_EMERG_fprintf
 
 #define excLOG_CRIT \
-	if(xeDEX_log_level>=(1))\
+	if(log_level>=(1))\
 	fprintf(stderr,LOG_PREFIX"(%s.%d.CRIT):",__FILE__,__LINE__);\
-	if(xeDEX_log_level>=(1))\
+	if(log_level>=(1))\
 	excLOG_CRIT_fprintf
 
 #define excLOG_ALERT \
-	if(xeDEX_log_level>=(2))\
+	if(log_level>=(2))\
 	fprintf(stderr,LOG_PREFIX"(%s.%d.ALERT):",__FILE__,__LINE__);\
-	if(xeDEX_log_level>=(2))\
+	if(log_level>=(2))\
 	excLOG_ALERT_fprintf
 
 #define excLOG_ERR \
-	if(xeDEX_log_level>=(3))\
+	if(log_level>=(3))\
 	fprintf(stderr,LOG_PREFIX"(%s.%d.ERR):",__FILE__,__LINE__);\
-	if(xeDEX_log_level>=(3))\
+	if(log_level>=(3))\
 	excLOG_ERR_fprintf
 
 #define excLOG_WARNING \
-	if(xeDEX_log_level>=(4))\
+	if(log_level>=(4))\
 	fprintf(stderr,LOG_PREFIX"(%s.%d.WARNING):",__FILE__,__LINE__);\
-	if(xeDEX_log_level>=(4))\
+	if(log_level>=(4))\
 	excLOG_WARNING_fprintf
 
 #define excLOG_NOTICE \
-	if(xeDEX_log_level>=(5))\
+	if(log_level>=(5))\
 	fprintf(stderr,LOG_PREFIX"(%s.%d.NOTICE):",__FILE__,__LINE__);\
-	if(xeDEX_log_level>=(5))\
+	if(log_level>=(5))\
 	excLOG_NOTICE_fprintf
 
 #define excLOG_INFO \
-	if(xeDEX_log_level>=(6))\
+	if(log_level>=(6))\
 	fprintf(stdout,LOG_PREFIX"(%s.%d.INFO):",__FILE__,__LINE__);\
-	if(xeDEX_log_level>=(6))\
+	if(log_level>=(6))\
 	excLOG_INFO_fprintf
 
 #define excLOG_DEBUG \
-	if(xeDEX_log_level>=(7))\
+	if(log_level>=(7))\
 	fprintf(stdout,LOG_PREFIX"(%s.%d.DEBUG):",__FILE__,__LINE__);\
-	if(xeDEX_log_level>=(7))\
+	if(log_level>=(7))\
 	excLOG_DEBUG_fprintf
 
 #ifndef eprintf
@@ -219,15 +217,15 @@ extern int xeDEX_log_level;
 
 #ifndef BUGMSG
 #define BUGMSG \
-	if(xeDEX_log_level>=(2))\
+	if(log_level>=(2))\
 	fprintf(stderr,LOG_PREFIX"(BUG: %s.%d.ALERT):",__FILE__,__LINE__);\
-	if(xeDEX_log_level>=(2))\
+	if(log_level>=(2))\
 	excLOG_ALERT_fprintf
 #endif/*BUGMSG*/
 #else
 #error "what Devplat?"
 #endif
-#endif/*!CONFIG_USE_EXTERNAL_excLOG*/
+#endif/*!CONFIG_USE_EXTERNAL_EXCLOG*/
 
 #ifndef BUG
 #define BUG() \

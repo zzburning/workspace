@@ -6,9 +6,7 @@
  * Version:
  *	 	 V_1.6 Jul-16-2012
  * Copyright:
- * 		 HISOME <http://www.hisome.com>
  * Author: 
- * 		 renhw <renhw@hisome.com.>
  *******************************************************************************************************************/
 #ifndef __EXCLOG_EXTERNAL_H_
 #define __EXCLOG_EXTERNAL_H_

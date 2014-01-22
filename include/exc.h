@@ -18,6 +18,12 @@
 #include "excR.h"
 #include "exclist.h"
 #include "excport.h"
+#include "excmd5.h"
+// #include "exclog.h"
+#include "exclog_x.h"
+
+#include "lpconfig.h"
+#include "glist.h"
 
 typedef struct
 {

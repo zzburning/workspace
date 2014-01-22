@@ -5,11 +5,8 @@
  * Version:
  *        V_0.1 2008.4.11
  * Copyright:
- *        HISOME <http://www.hisome.com.>
  * Author:
- *        panhaijiang <panhj@hisome.com.>
  * History:
- *        2008.4.11 panhaijiang<panhj@hisome.com>
  *                V_0.1 initial version of this code.
  */
 #ifndef MYSRC_WITHOUT_STRING

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <string.h>
-#include "mymd5.h"
+#include "excmd5.h"
 
 #define MD 5
 
@@ -516,16 +516,4 @@ char* hmac_md5(char* text, char* key)
 		output[i]=output1[i];
 	return output;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
