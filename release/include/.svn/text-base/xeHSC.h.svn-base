@@ -1,52 +1,45 @@
 /******************************************************************************
- * exc.h
+ * xeHSC.h
  *
  *  Created on: 2011-10-19
- *      Author: 
+ *      Author: wuhm<wuhm@hisome.com>
  *
  * Description:
- * 	This file is EXC Interface
+ * 	This file is Hisome C Interface
  *
  * Revision History:
  * 	V0.1 initial version code
  *****************************************************************************/
 
-#ifndef __EXC_H__
-#define __EXC_H__
+#ifndef __HISOME_XEHSC_H__
+#define __HISOME_XEHSC_H__
 
-#include "excT.h"
-#include "excR.h"
-#include "exclist.h"
-#include "excport.h"
-#include "excmd5.h"
-// #include "exclog.h"
-#include "exclog_x.h"
-
-#include "lpconfig.h"
-#include "glist.h"
-#include "memwatch.h"
+#include "xeT.h"
+#include "xeR.h"
+#include "xeL.h"
+#include "xeHSC_port.h"
 
 typedef struct
 {
 	int log_level;
-}exc_init_t;
+}xeHSC_init_t;
 
-// extern excR_t exc_init(exc_init_t *init_p);
+extern xeR_t xeHSC_init(xeHSC_init_t *init_p);
 
-// typedef struct
-// {
-// 	int major;
-// 	int minor;
-// 	int revision;
-// 	int buildID;
-// 	char vstr[256];/*extra human readable version message*/
-// }exc_version_t;
-// 
+typedef struct
+{
+	int major;
+	int minor;
+	int revision;
+	int buildID;
+	char vstr[256];/*extra human readable version message*/
+}xeHSC_version_t;
+
 /******************************************************************************
- * Function: exc_version()
+ * Function: xeHSC_version()
  *-----------------------------------------------------------------------------
  * Description:
- *	Get libexc's version info;
+ *	Get libxeHSC's version info;
  *-----------------------------------------------------------------------------
  * Reenterable: Yes
  *-----------------------------------------------------------------------------
@@ -55,6 +48,6 @@ typedef struct
  *-----------------------------------------------------------------------------
  * Return: NONE
  *****************************************************************************/
-// extern void exc_version(exc_version_t *ver_p);
+extern void xeHSC_version(xeHSC_version_t *ver_p);
 
-#endif /* __EXC_H__ */
+#endif /* __HISOME_XEHSC_H__ */

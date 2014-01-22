@@ -1,0 +1,986 @@
+
+9.一些有用的宏：
+
+9.1得到 list_entry(ptr, type, member)
+
+简单的讲，这个宏的作用是：通过结构（type）中的某个变量(member)的指针（ptr）获取结构本身的指针.
+
+也就是说，type中包含一个成员变量member.且某个结构体实体中member的指针为ptr.则list_entry（）则返回的是：这个结构体实体的指针。 至于如何做到的，请看背景知识3---container_of。
+
+ 
+
+9.2:list_first_entry(ptr, type, member)  
+得到ptr链表中下一个的struct的实体。
+
+ 
+
+9.3:  list_for_each(pos, head)
+
+#define list_for_each(pos, head) /
+ for (pos = (head)->next; prefetch(pos->next), pos != (head); /
+         pos = pos->next)
+
+它其实就是一个for循环，循环双向链表一圈。
+
+prefetch()是档案快取技术，不用深究。
+
+ 
+
+下面几个宏与之类似：
+
+__list_for_each(pos, head)  //不用档案快取技术的循环
+
+list_for_each_prev(pos, head) //向前循环
+
+ 
+
+9.4: list_for_each_entry(pos, head, member)
+
+这个宏是双向链表中最常用的，也是最有用的。表示从以head 为头的双向循环列表中，一个一个拿出包含此list项目的结构体（pos的类型），并放到pos中。
+
+#define list_for_each_entry(pos, head, member)    /
+ for (pos = list_entry((head)->next, typeof(*pos), member); /
+      prefetch(pos->member.next), &pos->member != (head);  /
+      pos = list_entry(pos->member.next, typeof(*pos), member))
+
+因为有上面list_entry()的铺垫，所以非常简单。
+
+参数一：pos就是一个结构体指针。这个结构体中会包含成员变量member.
+
+参数二：head就是一个双向链表头。
+
+参数三：pos结构体中的成员变量名。
+
+pos = list_entry((head)->next, typeof(*pos), member)：pos得到双向链表中第一个链表被包含的结构体实体。
+
+&pos->member != (head)：此结构体中的链表不是头。
+
+pos = list_entry(pos->member.next, typeof(*pos), member): pos得到双向链表中下一个结构体实体。
+
+ 
+
+ 
+
+Linux kernel 中双向循环链表的使用：
+
+在Linux内核链表中，需要用链表组织起来的数据通常会包含一个struct list_head成员，结构都通过这个list成员组织在一个链表中。
+
+例如：在hid-core.c中，要组织一个report链表。
+
+ 
+
+于是，首先使用
+
+1）
+
+INIT_LIST_HEAD（&device->report_enum[i].report_list）
+
+struct hid_report {
+ struct list_head list;
+ unsigned id;     
+ unsigned type;     
+ struct hid_field *field[HID_MAX_FIELDS]; 
+ unsigned maxfield;    
+ unsigned size;     
+ struct hid_device *device;   
+};
+
+这就是需要用链表组织起来的数据通常会包含一个struct list_head成员。
+
+ 
+
+2）。
+
+list_add_tail(&report->list, &report_enum->report_list);
+
+ 将report类型的项目添加到刚才初始化的list中。
+
+ 
+
+3).
+
+list_for_each_entry(report, &hid->report_enum[HID_INPUT_REPORT].report_list, list)
+
+遍历 hid->report_enum[HID_INPUT_REPORT].report_list，从其中一个一个得到report.放到report中。
+
+ 
+
+ 
+
+ 
+
+背景知识：
+
+背景知识一：typeof :
+
+typeof不是标准C的运算符，这是gcc的一个扩展.
+
+它与sizeof() 语义类似，sizeof(exp)代表返回exp长度。 则typeof(exp)返回的事exp类型。
+
+ 
+
+例1：
+
+int a;
+
+typeof(&a) b;
+
+因为a 为int型。所以&a为int*.
+
+也就是说b 为int* 类型。
+
+ 
+
+例2：
+
+typedef struct
+
+{
+
+int size;
+
+char t;
+
+} ngate, *pngate;
+
+ 
+
+typeof(((ngate *)0)->t) w;
+
+这其实就是表示，w 的类型为：ngate的t的类型。
+
+在这里0并不是真正的变量，可以把它理解为一个替代使用的符号。其意思更可以理解为一个被赋值了的变量，这个数可以不是0，，随便什么数字都可以。
+
+ 
+
+背景知识二： offsetof
+
+kernel中定义如下：
+
+#define offsetof(TYPE, MEMBER) ((size_t) &((TYPE *)0)->MEMBER)
+
+与上面所以类似，（TYPE *）0 表示：0是指向TYPE的指针 。
+
+则 &（TYPE *）0->MEMBER 表示：TYPE类型的实体0的变量MEMBER的地址，因为从0开始，所以它的地址就成为offset. 再用size_t强制转换，就是从struct头到成员变量MEMBER的offset.
+
+ 
+
+背景知识三：container_of(ptr, type, member)
+
+Kernel中如下定义：
+
+#define container_of(ptr, type, member) ({   /
+ const typeof( ((type *)0)->member ) *__mptr = (ptr); /
+ (type *)( (char *)__mptr - offsetof(type,member) );})
+
+（type *）0: 表明某个实体为type类型的。
+
+(（type *）0)->member表明这个实体的某个成员变量。
+
+typeof((（type *）0)->member) *__mptr 表明定了一个指向此成员变量类型 的指针。
+
+ 
+
+offsetof(type,member)表明成员变量member到结构体类型type头的offset.
+
+(type *)( (char *)__mptr - offsetof(type,member) 则表明：返回的是一个指向type的指针，此指针指向一个type类型的实体。而参数ptr则是这个实体中的某一个成员变量位置。
+
+ 
+
+ 
+
+背景知识四：RCU（Read-Copy Update）
+
+RCU是2.5/2.6内核中引入的新技术，它通过延迟写操作来提高同步性能。
+
+系统中数据读取操作远多于写操作，而rwlock机制在smp环境下随着处理机增多性能会迅速下降。针对这一应用背景，IBM Linux技术中心的Paul E. McKenney提出了"读拷贝更新"的技术，并将其应用于Linux内核中。RCU技术的核心是写操作分为写-更新两步，允许读操作在任何时候无阻访问，当系统有写操作时，更新动作一直延迟到对该数据的所有读操作完成为止。
+
+
+
+//--------------------------------------------
+如何通过list_head成员访问到宿主结构项呢？毕竟list_head不过是个连接件，而我们需要的是一个"特定"的数据结构链表。
+先介绍几个基本宏：offsetof、typeof、containerof
+-------\linux\stddef.h-----offsetof()-----------
+#define __compiler_offsetof(a,b)  __builtin_offsetof(a,b)
+而__builtin_offsetof()宏就是在编译器中已经设计好了的函数，直接调用即可。
+-------------------------------
+#undef offsetof  //取消先前的任何定义，可以保证下面的定义生效
+#ifdef __compiler_offsetof
+#define offsetof(TYPE,MEMBER)  __compiler_offsetof(TYPE,MEMBER)
+#else
+#define offsetof(TYPE, MEMBER) ((size_t) &((TYPE *)0)->MEMBER)
+#endif
+ 
+一共4步
+1. ( (TYPE *)0 ) 0地址强制 "转换" 为 TYPE结构的指针;
+2. ((TYPE *)0)->MEMBER   访问结构中的数据成员;
+3.  &( ( (TYPE *)0 )->MEMBER)取出数据成员的地址;
+4.(size_t)(&(((TYPE*)0)->MEMBER))结果转换类型.巧妙之处在于将0转换成(TYPE*)，结构以内存空间首地址0作为起始地址，则成员地址自然为偏移地址；
+举例说明：
+#include<stdio.h>
+typedef struct _test
+{
+     char i;
+     int j;
+     char k;
+}Test;
+int main()
+{
+     Test *p = 0;
+     printf("%p\n", &(p->k));
+}
+这里使用的是一个利用编译器技术的小技巧（编译器自动算出成员的偏移量），即先求得结构成员变量在结构体中的相对于结构体的首地址的偏移地址，然后根据结构体的首地址为0，从而得出该偏移地址就是该结构体变量在该结构体中的偏移，即：该结构体成员变量距离结构体首的距离。在offsetof()中，这个member成员的地址实际上就是type数据结构中member成员相对于结构变量的偏移量。对于给定一个结构，offsetof(type,member)是一个常量，list_entry()正是利用这个不变的偏移量来求得链表数据项的变量地址。
+ 
+---------------------typeof()--------------------
+unsigned int i;
+typeof(i) x;
+x=100;
+printf("x:%d\n",x);
+typeof() 是 gcc 的扩展，和 sizeof() 类似。
+ 
+------------------------
+在 container_of 宏中，它用来给 typeof() 提供参数，以获得 member 成员的数据类型；
+---------------container_of()--------------------
+container_of() 来自\linux\kernel.h
+内核中的注释：container_of - cast a member of a structure out to the containing structure。
+ ptr: the pointer to the member.
+ type:      the type of the container struct this is embedded in.
+ member:the name of the member within the struct.
+ 
+#define container_of(ptr, type, member) ({                \
+        const typeof( ((type *)0)->member ) *__mptr = (ptr);       \
+        (type *)( (char *)__mptr - offsetof(type,member) );})
+自己分析：
+1.(type *)0->member为设计一个type类型的结构体，起始地址为0，编译器将结构体的起始的地址加上此结构体成员变量的偏移得到此结构体成员变量的地址，由于结构体起始地址为0，所以此结构体成员变量的偏移地址就等于其成员变量在结构体内距离结构体开始部分的偏移量。即：&(type *)0->member就是取出其成员变量的偏移地址。而其等于其在结构体内的偏移量:即为：(size_t)(& ((type *)0)->member)经过size_t的强制类型转换后，其数值为结构体内的偏移量。该偏移量这里由offsetof()求出。
+ 
+2.typeof( ( (type *)0)->member )为取出member成员的变量类型。用其定义__mptr指针.ptr为指向该成员变量的指针。__mptr为member数据类型的常量指针，其指向ptr所指向的变量处。
+ 
+3.(char *)__mptr转换为字节型指针。(char *)__mptr - offsetof(type,member) )用来求出结构体起始地址（为char *型指针），然后(type *)( (char *)__mptr - offsetof(type,member) )在(type *)作用下进行将字节型的结构体起始指针转换为type *型的结构体起始指针。
+这就是从结构体某成员变量指针来求出该结构体的首指针。指针类型从结构体某成员变量类型转换为该结构体类型。
+ 
+介绍了上面的几种基本宏后，对list_entry的理解就容易了。
+----------------list_entry()--------------------
+list_entry()宏，获取当前list_head链表节点所在的宿主结构项。第一个参数为当前list_head节点的指针，即指向宿主结构项的list_head成员。第二个参数是宿主数据结构的定义类型。第三个参数为宿主结构类型定义中list_head成员名。
+#define list_entry(ptr, type, member) \
+       container_of(ptr, type, member)
+扩展替换即为：
+#define list_entry(ptr, type, member) \
+    ((type *)((char *)(ptr)-(unsigned long)(&((type *)0)->member)))
+例如，我们要访问foo链表（链表头为head）中首个元素，则如此调用：
+list_entry(head->next, struct foo, list);
+经过C预处理的文字替换，这一行的内容就成为：
+((struct foo *)((char *)(head->next) - (unsigned long)(&((struct foo *)0)->list)))
+ 
+获取宿主对象指针的原理如上图所示。我们考虑list_head类型成员member相对于宿主结构（类型为type）起始地址的偏移量。对于所有该类型的宿主对象，这个偏移量是固定的。并且可以在假设宿主对象地址值为0，通过返回member成员的地址获得，即等于(unsigned long)(&((type *)0)->member)。这样，将当前宿主对象的"连接件"地址（ptr）减去这个偏移量，得到宿主对象地址，再将它转换为宿主数据结构类型的指针。
+需要重申的是，链表头没有被嵌入到宿主对象中，因此对链表头执行宿主对象指针获取操作是没有意义的。
+ 
+//------------------------------------------------------------
+、如何使用Linux中的双循环链表
+本文例子来自http://isis.poly.edu/kulesh/stuff/src/klist/，只是对其中注释部分作了翻译。
+#include <stdio.h>
+#include <stdlib.h>
+#include "list.h"
+struct kool_list{
+    int from;
+    int to;
+    struct list_head list;
+};
+int main(int argc, char **argv){
+    struct kool_list *tmp;
+    struct list_head *pos, *q;
+    unsigned int i;
+    struct kool_list mylist;
+    INIT_LIST_HEAD(&mylist.list);
+    /* 您也可以使用宏LIST_HEAD(mylist.list)来声明并初始化这个链表 */
+    /*向链表中添加元素*/
+    for(i=5; i!=0; --i){
+        tmp= (struct kool_list *)malloc(sizeof(struct kool_list));
+ 
+        /*INIT_LIST_HEAD(&tmp->list); 调用这个函数将初始化一个动态分配的list_head。也可以不调用它，因为在后面调用的add_list()中将设置next和prev域。*/
+        printf("enter to and from:");
+        scanf("%d %d", &tmp->to, &tmp->from);
+        /*将tmp添加到mylist链表中*/
+        list_add(&(tmp->list), &(mylist.list));
+        /*也可以使用list_add_tail()将新元素添加到链表的尾部。*/
+    }
+    printf("\n");
+    /*现在我们得到了数据结构struct kool_list的一个循环链表，我们将遍历这个链表，并打印其中的元素。*/
+    /*list_for_each()定义了一个for循环宏，第一个参数用作for循环的计数器，换句话说，在整个循环过程中它指向了当前项的list_head。第二个参数是指向链表的指针，在宏中保持不变。*/
+    printf("traversing the list using list_for_each()\n");
+    list_for_each(pos, &mylist.list){
+        /*此刻：pos->next指向了下一项的list变量，而pos->prev指向上一项的list变量。而每项都是struct kool_list类型。但是，我们需要访问的是这些项，而不是项中的list变量。因此需要调用list_entry()宏。*/
+        tmp= list_entry(pos, struct kool_list, list);
+        /*给定指向struct list_head的指针，它所属的宿主数据结构的类型，以及它在宿主数据结构中的名称，list_entry返回指向宿主数据结构的指针。例如，在上面一行， list_entry()返回指向pos所属struct kool_list项的指针。*/
+        printf("to= %d from= %d\n", tmp->to, tmp->from);
+    }
+    printf("\n");
+    /* 因为这是一个循环链表，我们也可以向前遍历。只需要将list_for_each替换为list_for_each_prev。我们也可以使用list_for_each_entry()遍历链表，在给定类型的项间进行循环。例如：*/
+    printf("traversing the list using list_for_each_entry()\n");
+    list_for_each_entry(tmp, &mylist.list, list){
+      printf("to= %d from= %d\n", tmp->to, tmp->from);
+	}
+    printf("\n");
+ 
+    /*下面将释放这些项。因为我们调用list_del()从链表中删除各项，因此需要使用list_for_each()宏的"安全"版本，即list_for_each_safe()。务必注意，如果在循环中有删除项（或把项从一个链表移动到另一个链表）的操作，必须使用这个宏。*/
+    printf("deleting the list using list_for_each_safe()\n");
+    list_for_each_safe(pos, q, &mylist.list){
+        tmp= list_entry(pos, struct kool_list, list);
+        printf("freeing item to= %d from= %d\n", tmp->to, tmp->from);
+        list_del(pos);
+        free(tmp);
+    }
+    return 0;
+}
+注意：上述代码在使用gcc编译时需要加上__KERNEL__定义。
+
+
+******************************************************************************************************
+######################################################################################################
+******************************************************************************************************
+
+Linux内核源码分析-链表代码分析
+**************************************************
+-------------双向循环链表---------------------------
+来源于：list.h
+设计思想：尽可能的代码重用，化大堆的链表设计为单个链表。
+链表的构造：如果需要构造某类对象的特定列表，则在其结构中定义一个类型为list_head指针的成员，通过这个成员将这类对象连接起来，形成
+所需列表，并通过通用链表函数对其进行操作。其优点是只需编写通用链表函数，即可构造和操作不同对象的列表，而无需为每类对象的每种列表编写专用函数，实
+现了代码的重用。
+如果想对某种类型创建链表，就把一个list_head类型的变量嵌入到该类型中，用list_head中的成员和相对应的处理函数来对链表进行遍历。如果想得到相应的结构的指针，使用list_entry可以算出来。
+-------------防止重复包含同一个头文件---------------
+#ifndef _LINUX_LIST_H
+#define _LINUX_LIST_H
+...
+#endif
+用于防止重复包含同一个list.h头文件
+-----------struct list_head{}及初始化宏---------
+struct list_head 
+{
+        struct list_head *next, *prev;
+};
+list_head从字面上理解，好像是头结点的意思。但从这里的代码来看却是普通结点的结构体。在后面的代码中将list_head当成普通的结点来处理。
+--LIST_HEAD_INIT()--LIST_HEAD()--INIT_LIST_HEAD()------
+#define LIST_HEAD_INIT(name) { &(name), &(name) }
+#define LIST_HEAD(name) \
+        struct list_head name = LIST_HEAD_INIT(name)
+分析：name当为结构体struct list_head{}的一个结构体变量，&(name)为该结构体变量的地址。用name结构体变量的始地址将该结构体变量进行初始化。
+#define INIT_LIST_HEAD(ptr) do { \
+        (ptr)->next = (ptr); (ptr)->prev = (ptr); \
+} while (0)
+1.ptr为一个结构体的指针，而name为一个结构体变量；
+2.ptr使用时候，当用括号，(ptr);
+------------__list_add()---list_add()-------------
+static inline void __list_add(struct list_head *new, struct list_head *prev,  struct list_head *next)
+{
+        next->prev = new;
+        new->next = next;
+        new->prev = prev;
+        prev->next = new;
+}
+1.普通的在两个非空结点中插入一个结点，注意new,prev,next都不能是空值。
+2.即：适用于中间结点插入。首结点和尾结点则由于指针为空，不能用此函数。
+3.在prev指针和next指针所指向的结点之间插入new指针所指向的结点。
+static inline void list_add(struct list_head *new, struct  list_head *head)
+{
+        __list_add(new, head, head->next);
+}
+在head和head->next两指针所指向的结点之间插入new所指向的结点。
+即：在head指针后面插入new所指向的结点。此函数用于在头结点后面插入结点。
+注意：对只有一个单个结点的链表，则head->next为空，list_add（）不能用。
+-------------list_add_tail()-------------------
+static inline void list_add_tail(struct list_head *new, struct list_head *head)
+{
+        __list_add(new, head->prev, head);
+}
+在头结点指针head所指向结点的前面插入new所指向的结点。也相当于在尾结点后面增加一个new所指向的结点。（条件是：head->prev当指向尾结点）
+注意：
+1.head->prev不能为空，即若head为头结点，其head->prev当指向一个数值，一般为指向尾结点，构成循环链表。
+2.对只有单个结点的头结点调用此函数则会出错。
+-----------__list_del()---list_del()--------------
+static inline void __list_del(struct list_head * prev, struct list_head * next)
+{
+        next->prev = prev;
+        prev->next = next;
+}
+在prev和next指针所指向的结点之间，两者互相所指。在后面会看到：prev为待删除的结点的前面一个结点，next为待删除的结点的后面一个结点。
+static inline void list_del(struct list_head *entry)
+{
+        __list_del(entry->prev, entry->next);
+        entry->next = LIST_POISON1;
+        entry->prev = LIST_POISON2;
+}
+删除entry所指的结点，同时将entry所指向的结点指针域封死。
+对LIST_POISON1,LIST_POISON2的解释说明：
+Linux 内核中解释：These are non-NULL pointers that will result in page
+faults under normal circumstances, used to verify that nobody uses
+non-initialized list entries.
+#define LIST_POISON1  ((void *) 0x00100100)
+#define LIST_POISON2  ((void *) 0x00200200)
+常规思想是：entry->next = NULL; entry->prev = NULL;
+注意：Linux内核中的‘=’都与前后隔了一个空格，这样比紧靠前后要清晰。
+---------------list_del_init()--------------------
+static inline void list_del_init(struct list_head *entry)
+{
+        __list_del(entry->prev, entry->next);
+        INIT_LIST_HEAD(entry);
+}
+删除entry所指向的结点，同时将entry所指向的结点的next，prev指针域指向自身。
+-----------list_move()--list_move_tail()----------
+static inline void list_move(struct list_head *list, struct list_head *head)
+{
+        __list_del(list->prev, list->next);
+        list_add(list, head);
+}
+将list结点前后两个结点互相指向彼此，删除list指针所指向的结点，再将此结点插入head，和head->next两个指针所指向的结点之间。
+即：将list所指向的结点移动到head所指向的结点的后面。
+static inline void list_move_tail(struct list_head *list,        struct list_head *head)
+{
+        __list_del(list->prev, list->next);
+        list_add_tail(list, head);
+}
+删除了list所指向的结点，将其插入到head所指向的结点的前面，如果head->prev指向链表的尾结点的话，就是将list所指向的结点插入到链表的结尾。
+---------------------list_empty(）-------------
+static inline int list_empty(const struct list_head *head)
+{
+        return head->next == head;
+}
+注意：
+1.如果是只有一个结点，head，head->next，head->prev都指向同一个结点，则这里会返回1，但链表却不为空，仍有一个头结点
+2.return 后面不带括号，且为一个表达式。
+3.测试链表是否为空,但这个空不是没有任何结点，而是只有一个头结点。
+--------------------list_empty_careful(）---------
+static inline int list_empty_careful(const struct list_head *head)
+{
+        struct list_head *next = head->next;
+        return (next == head) && (next == head->prev);
+}
+分析：
+1.只有一个头结点head，这时head指向这个头结点，head->next,head->prev指向head，即：head==head->next==head->prev，这时候list_empty_careful（）函数返回1。
+2.有两个结点，head指向头结点，head->next,head->prev均指向后面那个结点，即：head->
+next==head->prev,而head!=head->next,head!=head->prev.所以函数将返回0
+3.有三个及三个以上的结点，这是一般的情况，自己容易分析了。
+注意：这里empty list是指只有一个空的头结点，而不是毫无任何结点。并且该头结点必须其head->next==head->prev==head
+---------------__list_splice()------------------
+static inline void __list_splice(struct list_head *list,         struct list_head *head)
+{
+        struct list_head *first = list->next;
+        struct list_head *last  = list->prev;
+        struct list_head *at    = head->next;
+        first->prev = head;
+        head->next = first;
+        last->next = at;
+        at->prev = last;
+}
+--------------------list_splice()----------------
+/**
+* list_splice - join two lists
+* @list: the new list to add.
+* @head: the place to add it in the first list.
+*/
+static inline void list_splice(struct list_head *list, struct list_head *head)
+{
+        if (!list_empty(list))
+                __list_splice(list, head);
+}
+分析：
+情况1：
+普遍的情况，每个链表都至少有3个以上的结点：
+====>此处作者画了图，可显示不出来，郁闷！！！
+========》待作者上传一个word文档，图在里面。
+-------------------------------------------------------------------------------------------
+这种情况会丢弃list所指向的结点，这是特意设计的，因为两个链表有两个头结点，要去掉一个头结点。只要一个头结点。
+---------------------------------------------------------------------------------------------------------------
+
+特殊情况1：
+初始情况：
+------------------------------------------------------------------------
+特殊情况2：
+初始情况：
+--------------------list_splice_init()-----------------------------------
+/**
+* list_splice_init - join two lists and reinitialise the emptied list.
+* @list: the new list to add.
+* @head: the place to add it in the first list.
+*
+* The list at @list is reinitialised
+*/
+static inline void list_splice_init(struct list_head *list,
+                                    struct list_head *head)
+{
+        if (!list_empty(list)) 
+        {
+                __list_splice(list, head);
+                INIT_LIST_HEAD(list);
+        }
+}
+--------------------\asm-i386\posix_types.h-------
+typedef unsigned int        __kernel_size_t;
+------\linux\types.h---------size_t---------------
+#ifndef _SIZE_T
+#define _SIZE_T
+typedef __kernel_size_t                size_t;
+#endif
+-------------\linux\compiler-gcc4.h--------------
+#define __compiler_offsetof(a,b)  __builtin_offsetof(a,b)
+分析准备：__compiler_offsetof(),为gcc编译器中的编译方面的参数，查阅gcc方面的文档:
+--->gcc.pdf.Download from 
+www.gnu.org
+。其中解释如下：
+#define offsetof(type, member) __builtin_offsetof (type, member) 
+自己分析：即：__builtin_offsetof(a,b)就是#define offsetof(TYPE, MEMBER)
+((size_t) &((TYPE
+*)0)->MEMBER)。__builtin_offsetof(a,b)和offsetof(TYPE,MEMBER)本质一样的，只是
+offsetof()宏是由程序员自己来设计(详见后面讲解)。而__builtin_offsetof()宏就是在编译器中已经设计好了的函数，直接调
+用即可。明白了这个区别后，下面的代码很好理解。 
+-------\linux\stddef.h-----offsetof()-----------
+#define __compiler_offsetof(a,b)  __builtin_offsetof(a,b)
+-------------------------------
+#undef offsetof
+#ifdef __compiler_offsetof
+#define offsetof(TYPE,MEMBER)  __compiler_offsetof(TYPE,MEMBER)
+#else
+#define offsetof(TYPE, MEMBER) ((size_t) &((TYPE *)0)->MEMBER)
+#endif
+1.对__compiler_offsetof()宏的分析：
+__compiler_offsetof来确认编译器中是否内建了功能同offsetof()宏一样的宏。若已经内建了这样的宏，则
+offsetof()就是使用这个内建宏__compiler_offsetof()即：__builtin_offsetof()宏。如果没有定义
+__compiler_offsetof()宏，则offsetof()宏就由程序员来设计之。
+2.对offsetof()宏的分析：（以下引用论坛）---曾经的腾讯QQ的笔试题。
+宿舍舍友参加qq笔试，回来讨论一道选择题，求结构中成员偏移。
+想起Linux内核链表，数据节点携带链表节点，通过链表访问数据的方法，用到offsetof宏，今天把它翻了出来:
+#define   offsetof(TYPE, MEMBER) ((size_t) & ((TYPE *)0)->MEMBER   ) 
+一共4步
+1. ( (TYPE *)0 ) 将零转型为TYPE类型指针;
+2. ((TYPE *)0)->MEMBER   访问结构中的数据成员;
+3.  &(  ( (TYPE *)0 )->MEMBER  )取出数据成员的地址;
+4.(size_t)(&(((TYPE*)0)->MEMBER))结果转换类型.巧妙之处在于将0转换成(TYPE*)，结构以内存空间首地址0作为起始地址，则成员地址自然为偏移地址；
+举例说明：
+#include 
+typedef struct _test
+{
+     char i; 
+     int j;
+     char k;
+}Test;
+int main()
+{
+     Test *p = 0;
+     printf("%p\n", &(p->k));
+}
+自己分析：这里使用的是一个利用编译器技术的小技巧，即先求得结构成员变量在结构体中的相对于结构体的首地址的偏移地址，然后根据结构体的首地址
+为0，从而得出该偏移地址就是该结构体变量在该结构体中的偏移，即：该结构体成员变量距离结构体首的距离。在offsetof()中，这个member成
+员的地址实际上就是type数据结构中member成员相对于结构变量的偏移量。对于给定一个结构，offsetof(type,member)是一个常
+量，list_entry()正是利用这个不变的偏移量来求得链表数据项的变量地址。
+---------------------typeof()--------------------
+--->我开始不懂，源代码中也查不到，网上发贴请教。由liubo1977在www.linuxforum.net上的Linux内核技术论坛上解答，QQ:84915771 
+答复：
+unsigned int i; 
+typeof(i) x; 
+x=100; 
+printf("x:%d\n",x); 
+typeof() 是 gcc 的扩展，和 sizeof() 类似。
+------------------------
+container_of()和offsetof()并不仅用于链表操作，这里最有趣的地方是 ((type
+*)0)->member，它将0地址强制 "转换" 为 type 结构的指针，再访问到 type 结构中的 member 成员。在
+container_of 宏中，它用来给 typeof() 提供参数，以获得 member 成员的数据类型； 
+---------------container_of()--------------------
+container_of() 来自\linux\kernel.h
+内核中的注释：container_of - cast a member of a tructure out to the containing structure。
+ptr:        the pointer to the member.
+type:        the type of the container struct this is embedded in.
+member:the name of the member within the truct.
+#define container_of(ptr, type, member) ({                        \
+        const typeof( ((type *)0)->member ) *__mptr = (ptr);        \
+        (type *)( (char *)__mptr - offsetof(type,member) );})
+自己分析：
+1.(type
+*)0->member为设计一个type类型的结构体，起始地址为0，编译器将结构体的起始的地址加上此结构体成员变量的偏移得到此结构体成员变
+量的偏移地址，由于结构体起始地址为0，所以此结构体成员变量的偏移地址就等于其成员变量在结构体内的距离结构体开始部分的偏移量。即：&
+(type *)0->member就是取出其成员变量的偏移地址。而其等于其在结构体内的偏移量:即为：(size_t)(&
+((type
+*)0)->member)经过size_t的强制类型转换后，其数值为结构体内的偏移量。该偏移量这里由offsetof()求出。
+2.typeof( ( (type *)0)->member )为取出member成员的变量类型。用其定义__mptr指针.ptr为指向该成员变量的指针。__mptr为member数据类型的常量指针，其指向ptr所指向的变量处。
+3.(char *)__mptr转换为字节型指针。(char *)__mptr - offsetof(type,member)
+)用来求出结构体起始地址（为char *型指针），然后(type *)( (char *)__mptr -
+offsetof(type,member) )在(type *)作用下进行将字节型的结构体起始指针转换为type *型的结构体起始指针。
+这就是从结构体某成员变量指针来求出该结构体的首指针。指针类型从结构体某成员变量类型转换为该结构体类型。
+-----------茶余饭后一点小资料----------------------
+学辛苦了，看点收集的小东东：
+以下文字摘自微软中国研究院前任院长，现微软高级副总裁李开复先生《一封写给中国学生的信》：
+“我的老板
+Rick室Rashid博士是目前微软公司主管研究的高级副总裁，他已经功成名就，却始终保持一颗学习和进取的心。现在，他每年仍然编写大约50,000
+行程序。他认为：用最新的技术编程可以使他保持对计算机最前沿技术的敏感，使自己能够不断进步。今天，有些博士生带低年级的本科生和硕士生做项目，就自满
+地认为自己已经没有必要再编程了。其实，这样的做法是很不明智的。”
+--------------arch-v32\cache.h------------------
+#ifndef _ASM_CRIS_ARCH_CACHE_H
+#define _ASM_CRIS_ARCH_CACHE_H
+/* A cache-line is 32 bytes. */
+#define L1_CACHE_BYTES 32
+#define L1_CACHE_SHIFT 5
+#define L1_CACHE_SHIFT_MAX 5
+#endif /* _ASM_CRIS_ARCH_CACHE_H */
+分析：
+也可用#define L1_CACHE_BYTES  (1UL预取读
+        prefetchw(x)        - prefetches the cacheline at "x" for write-->预取写
+        spin_lock_prefetch(x) - prefectches the spinlock *x for taking
+        
+        there is also PREFETCH_STRIDE which is the architecure-prefered 
+        "lookahead" size for prefetching streamed operations.
+        PREFETCH_STRIDE用于预取操作流。
+        These cannot be do{}while(0) macros.
+*/
+#define _LINUX_PREFETCH_H
+#ifndef ARCH_HAS_PREFETCH
+static inline void prefetch(const void *x) {;}
+#endif
+#ifndef ARCH_HAS_PREFETCHW
+static inline void prefetchw(const void *x) {;}
+#endif
+#ifndef ARCH_HAS_SPINLOCK_PREFETCH
+#define spin_lock_prefetch(x) prefetchw(x)
+#endif
+#ifndef PREFETCH_STRIDE
+#define PREFETCH_STRIDE (4*L1_CACHE_BYTES)
+#endif  //PREFETCH_STRIDE
+static inline void prefetch_range(void *addr, size_t len)
+{
+        #ifdef ARCH_HAS_PREFETCH
+                char *cp;
+                char *end = addr + len;
+                for (cp = addr; cp next; prefetch(pos->next), pos != (head); \
+                pos = pos->next)
+----------------__list_for_each()-----------------
+Linux Kernel 2.6.14中的解释中的精华部分：
+/**
+* This variant differs from list_for_each() in that it's the
+simplest possible list iteration code, no prefetching is done.Use this
+for code that knows the list to be very short (empty or 1 entry) most
+of the time.
+*/
+#define __list_for_each(pos, head) \
+        for (pos = (head)->next; pos != (head); pos = pos->next)
+list_for_each()有prefetch()用于复杂的表的遍历，而__list_for_each()无prefetch()用于简单的表的遍历.
+注意：head在宏定义中用了括号将其括起来.
+----------------list_for_each_prev()-------------
+#define list_for_each_prev(pos, head) \
+        for (pos = (head)->prev; prefetch(pos->prev), pos != (head); \
+                pos = pos->prev)
+解释类似上面的list_for_each()。
+----------------list_for_each_safe()--------------
+内核中解释的精华部分：
+/*
+* list_for_each_safe        -        iterate over a list safe against removal of list entry
+  */
+#define list_for_each_safe(pos, n, head) \
+        for (pos = (head)->next, n = pos->next; pos != (head); \
+                pos = n, n = pos->next)
+这是说你可以边遍历边删除，这就叫safe。十分精彩。刚开始时，我也一直不理解safe的意思，后来在www.linuxforum.net论坛上搜索list_for_each_safe找到了解答。
+----------------list_entry()--------------------
+#define list_entry(ptr, type, member) \
+        container_of(ptr, type, member)
+分析：
+list_entry()函数用于将指向某链表结点成员的指针调整到该链表的开始处，并指针转换为该链表结点的类型。
+-------------list_for_each_entry()---------------
+#define list_for_each_entry(pos, head, member)                                \
+        for (pos = list_entry((head)->next, t        ypeof(*pos), member);        \
+             prefetch(pos->member.next), &pos->member != (head);         \
+             pos = list_entry(pos->member.next, typeof(*pos), member))
+分析：
+1.杨沙洲--国防科技大学计算机学院--2004年8月指出： 
+大多数情况下，遍历链表的时候都需要获得链表节点数据项，也就是说list_for_each()和list_entry()总是同时使用。对此Linux给出了一个list_for_each_entry()宏。
+2.这是用于嵌套的结构体中的宏：（这个程序例子来自：《Linux内核分析及编程》作者：倪继利 电子工业出版社）
+struct example_struct
+{
+        struct list_head list;
+        int priority;
+        ... //其他结构体成员
+};
+struct example_struct *node = list_entry(ptr,struct example_struct,list);
+自己分析：对比list_entry(ptr,type,member)可知有以下结果：
+其中list相当于member成员，struct
+example_struct相当于type成员，ptr相当于ptr成员。而list{}成员嵌套于example_struct{}里面。ptr指向
+example_struct{}中的list成员变量的。在list_entry（）作用下，将ptr指针回转指向struct
+example_struct{}结构体的开始处。
+3.pos当指向外层结构体，比如指向struct
+example_struct{}的结点，最开始时候，pos当指向第一个结点。而head开始时候也是指向第一个外层结点的里面的这个内嵌的链表结构体
+struct list_head{}，(head)->next则指向后继的一个外层结点的内嵌的链表结点struct
+list_head{} list。member即是指出该list为其内嵌的结点。
+思路：用pos指向外层结构体的结点，用head指向内层嵌入的结构体的结点。用(head)->next,pos->
+member.next(即：ptr->list.next)来在内嵌的结构体结点链表中遍历。每遍历一个结点，就用list_entry()将内
+嵌的pos->member.next指针回转为指向该结点外层结构体起始处的指针，并将指针进行指针类型转换为外层结构体型pos。&
+pos->member! =
+(head)用pos外层指针引用member即：list成员，与内层嵌入的链表之头结点比较来为循环结束条件。
+-------------list_for_each_entry_reverse()-------
+#define list_for_each_entry_reverse(pos, head, member)                        \
+        for (pos = list_entry((head)->prev, typeof(*pos), m+ember);        \
+             prefetch(pos->member.prev), &pos->member != (head);         \
+             pos = list_entry(pos->member.prev, typeof(*pos), member))
+分析类似上面。
+---------------list_prepare_entry()---------------
+1.函数背景：来自杨沙洲.国防科技大学计算机学院.2004年8月.www.linuxforum.net Linux 内核技术论坛：
+杨在贴子中指出：如果遍历不是从链表头开始，而是从已知的某个pos结点开始，则可以使用
+list_for_each_entry_continue(pos,head,member)。有时还会出现这种需求，即经过一系列计算后，如果pos
+有值，则从pos开始遍历，如果没有，则从链表头开始，为此，Linux专门提供了一个list_prepare_entry(pos,head,
+member)宏，将它的返回值作为list_for_each_entry_continue()的pos参数，就可以满足这一要求。
+2.内核中的list_prepare_entry()的注释及代码：
+/**
+* list_prepare_entry - prepare a pos entry for use as a start point in
+* @pos:        the type * to use as a start point
+* @head:        the head of the list
+* @member:        the name of the list_struct within the struct.
+*/
+内核源代码:
+#define list_prepare_entry(pos, head, member) \
+        ((pos) ? : list_entry(head, typeof(*pos), member))
+分析：
+:前面是个空值，即：若pos不为空，则pos为其自身。等效于：
+(pos)? （pos）: list_entry(head,typeof(*pos),member)
+注意内核格式：:前后都加了空格。
+------------list_for_each_entry_continue()--------
+3.内核中的list_for_each_entry_continue()的注释及代码：
+/**
+* list_for_each_entry_continue -        iterate over list of given type
+*continuing after existing point
+* @pos:        the type * to use as a loop counter.
+* @head:        the head for your list.
+* @member:        the name of the list_struct within the struct.
+*/
+内核源代码：
+#define list_for_each_entry_continue(pos, head, member)                 \
+        for (pos = list_entry(pos->member.next, typeof(*pos), member);        \
+             prefetch(pos->member.next), &pos->member != (head);        \
+             pos = list_entry(pos->member.next, typeof(*pos), member))
+分析见list_prepare_entry()中的函数背景。
+-------------list_for_each_entry_safe()-----------
+1.函数背景：来自杨沙洲.国防科技大学计算机学院.2004年8月.www.linuxforum.net Linux 内核技术论坛：
+杨在贴子中指出：list_for_each_entry_safe(pos, n, head,member)，它们要求调用者另外提供一个与pos同类型的指针n，在for循环中暂存pos下一个节点的地址，避免因pos节点被释放而造成的断链。 
+2.内核中的注释与源代码：
+/**
+* list_for_each_entry_safe - iterate over list of given type safe against removal of list entry
+* @pos:        the type * to use as a loop counter.
+* @n:                another type * to use as temporary storage
+* @head:        the head for your list.
+* @member:        the name of the list_struct within the struct.
+*/
+#define list_for_each_entry_safe(pos, n, head, member)                        \
+        for (pos = list_entry((head)->next, typeof(*pos), member),        \
+                n = list_entry(pos->member.next, typeof(*pos), member);        \
+             &pos->member != (head);                                         \
+             pos = n, n = list_entry(n->member.next, typeof(*n), member))
+分析类似上面。容易明白。
+--------list_for_each_entry_safe_continue()-------
+#define list_for_each_entry_safe_continue(pos, n, head, member)                 \
+        for (pos = list_entry(pos->member.next, typeof(*pos), member),                 \
+                n = list_entry(pos->member.next, typeof(*pos), member);                \
+             &pos->member != (head);                                                \
+             pos = n, n = list_entry(n->member.next, typeof(*n), member))
+------------------------------------------------
+Linux内核中的双循环链表
+在传统的双循环链表实现中，如果创建某种数据结构的双循环链表，通常采用的办法是在这个数据结构的类型定义中加入两个（指向该类型对象的）指针next和prev。例如：
+typedef struct foo {
+    …
+    struct foo *prev;
+    struct foo *next;
+    …
+} foo_t;
+这里给出了对应的节点结构、空的双循环链表和非空的双循环链表示意图。
+Linux内核中双循环链表实现
+在 linux内核中，有大量的数据结构需要用到双循环链表，例如进程、文件、模块、页面等。若采用双循环链表的传统实现方式，需要为这些数据结构维护各自的链表，并且为每个链表都要设计插入、删除等操作函数。（由于用来维持链表的next和prev指针指向对应类型的对象，因此一种数据结构的链表操作函数不能用于操作其它数据结构的链表。）
+在Linux源代码树的include/linux/list.h文件中，采用了一种（数据结构）类型无关的双循环链表实现方式。其思想是将指针prev和next从具体的数据结构中提取处理构成一种通用的"双链表"数据结构list_head，而 list_head被作为一个成员嵌入到要拉链的数据结构（被称为宿主数据结构）中。这样，只需要一套通用的链表操作函数就可以将list_head成员作为"连接件"，把宿主数据结构链接起来。如下图所示：
+在Linux内核中的双循环链表实现方式下：
+1. 链表结构作为一个成员嵌入到宿主数据结构内； 
+2. 可以将链表结构放在宿主结构内的任何地方；
+3. 可以为链表结构取任何名字； 
+4. 宿主结构可以有多个链表结构。
+下面我们将基于Linux 2.4.21分析Linux内核双循环链表的实现及应用。
+声明和初始化
+链表结构定义如下：
+struct list_head {
+    struct list_head *next, *prev;
+};
+我们可以用struct list_head声明一个链表节点。需要注意的是，Linux 的每个双循环链表都有一个链表头，链表头也是一个节点，只不过它不嵌入到宿主数据结构中，即不能利用链表头定位到对应的宿主结构。
+我们可以调用INIT_LIST_HEAD()宏初始化链表节点，将next和prev指针都指向其自身。如果这个节点是链表头，我们就构造了一个空的双循环链表。
+#define INIT_LIST_HEAD(ptr) do { \
+    (ptr)->next = (ptr); (ptr)->prev = (ptr); \
+} while (0)
+LIST_HEAD()宏可以同时完成声明链表头，并初始化这个双循环链表为空。
+#define LIST_HEAD_INIT(name) { &(name), &(name) }
+#define LIST_HEAD(name) \
+    struct list_head name = LIST_HEAD_INIT(name)
+添加
+在上面的设计下，所有链表（包括添加、删除、移动和拼接等）操作都是针对数据结构list_head进行的。
+对链表的添加操作有两种：表头添加和表尾添加。注意到，Linux双循环链表中有一个链表头，表头添加是指添加到链表头之后，而表尾添加则是添加到链表头的prev所指链表节点（如果是空链表，这个链表节点为链表头自身）之后。Linux为此提供了两个接口： 
+static inline void list_add(struct list_head *new, struct list_head *head);
+static inline void list_add_tail(struct list_head *new, struct list_head *head);
+具体添加是调用__list_add完成的，我们不予赘述。
+static inline void __list_add(struct list_head *new, struct list_head *prev, struct list_head *next);
+删除
+如果要从链表中删除某个链表节点，则可以调用list_del或list_del_init。
+static inline void list_del(struct list_head *entry);
+static inline void list_del_init(struct list_head *entry);
+两者都调用__list_del将节点从链表中取出，之后，list_del将要删除节点的prev和next指针均设为NULL，保证不可通过该节点进行访问；而list_del则调用LIST_INIT_HEAD()把被删除节点为作为链表头构建一个新的双循环链表。
+需要注意的是，上述操作均仅仅是把节点从双循环链表中拿掉，用户需要自己负责释放该节点对应的数据结构所占用的空间，而这个空间本来就是用户分配的。
+移动
+Linux还提供了两个移动操作：list_move和list_move_tail。前者将指定节点从其所在链表中取出，添加到另一个链表的头部。而后者在取出后添加到新链表的尾部。
+static inline void list_move(struct list_head *list, struct list_head *head);
+static inline void list_move_tail(struct list_head *list, struct list_head *head);
+拼接
+Linux还支持两个链表的拼接，具体函数是list_splice和list_splice_init：
+static inline void list_splice(struct list_head *list, struct list_head *head);
+static inline void list_splice_init(struct list_head *list, struct list_head *head);
+两个函数都将一个链表的所有节点依次添加到另一个链表的头部，新链表将一原链表的第一个节点为首节点，而尾节点不变。区别在于：前者，原链表头的next和prev仍然指向原来的地方；而后者调用INIT_LIST_HEAD()为原链表头初始化一个空的双循环链表。
+获取宿主对象指针
+如果需要有某种数据结构的队列，就在这种数据结构定义内部放上一个list_head数据结构。例如，建立数据结构foo链表的方式是，在foo的定义中，嵌入了一个list_head成员list。这里foo就是所指的"宿主"。
+typedef struct foo {
+    …
+    struct list_head list;
+    …
+};
+上述的添加、删除、移动和合并都是针对list进行的，后面要讲到的遍历操作也基于list。但是，如何通过list_head成员访问到宿主结构项呢？毕竟list_head不过是个连接件，而我们需要的是一个"特定"的数据结构链表。
+Linux 为此提供了list_entry()宏，获取当前list_head链表节点所在的宿主结构项。第一个参数为当前list_head节点的指针，即指向宿主结构项的list_head成员。第二个参数是宿主数据结构的定义类型。第三个参数为宿主结构类型定义中list_head成员名。
+#define list_entry(ptr, type, member) \
+    ((type *)((char *)(ptr)-(unsigned long)(&((type *)0)->member)))
+例如，我们要访问foo链表（链表头为head）中首个元素，则如此调用：
+list_entry(head->next, struct foo, list);
+经过C预处理的文字替换，这一行的内容就成为：
+((struct foo *)((char *)(head->next) - (unsigned long)(&((struct page *)0)->list)))
+获取宿主对象指针的原理如上图所示。我们考虑list_head成员member相对于宿主结构（类型为type）起始地址的偏移量。对于所有该类型的宿主对象，这个偏移量是固定的。并且可以在假设宿主对象地址值为0，通过返回member成员的地址获得，即等于(unsigned long)(&((type *)0)->member)。这样，将当前宿主对象的"连接件"地址（ptr）减去这个偏移量，得到宿主对象地址，再将它转换为宿主数据结构类型的指针。
+需要重申的是，链表头没有被嵌入到宿主对象中，因此对链表头执行宿主对象指针获取操作是没有意义的。
+遍历
+遍历是双循环链表的基本操作，为此Linux定义了一些宏。
+list_for_each 对遍历链表中的所有list_head节点，不涉及到对宿主结构的处理。list_for_each实际是一个 for 循环，利用传入的指向list_head结构的指针作为循环变量，从链表头开始（并跳过链表头），逐项向后移动指针，直至又回到链表头。为提高遍历速度，还使用了预取。
+#define list_for_each(pos, head) \
+    for (pos = (head)->next, prefetch(pos->next); pos != (head); \
+        pos = pos->next, prefetch(pos->next))
+如果需要反向遍历list_head链表，可以使用list_for_each_prev宏。
+#define list_for_each_prev(pos, head) \
+    for (pos = (head)->prev, prefetch(pos->prev); pos != (head); \
+        pos = pos->prev, prefetch(pos->prev))
+上述两个操作都是通过移动（指向list_head结构的）指针来达到遍历的目的。但如果在遍历过程中，包含有删除或移动当前链接节点的操作，由于这些操作会修改遍历指针，这样会导致遍历的中断。这种情况下，必须使用list_for_each_safe宏，在操作之前将遍历指针缓存下来：
+#define list_for_each_safe(pos, n, head) \
+    for (pos = (head)->next, n = pos->next; pos != (head); \
+        pos = n, n = pos->next)
+如果只提供对list_head结构的遍历操作是远远不够的，我们希望实现的是对宿主结构的遍历，即在遍历时直接获得当前链表节点所在的宿主结构项，而不是每次要同时调用list_for_each和list_entry。对此，Linux提供了list_for_each_entry()宏，第一个参数为传入的遍历指针，指向宿主数据结构，第二个参数为链表头，为list_head结构，第三个参数为list_head结构在宿主结构中的成员名。
+#define list_for_each_entry(pos, head, member)    \
+    for (pos = list_entry((head)->next, typeof(*pos), member), \
+        prefetch(pos->member.next);   \
+       &pos->member != (head);      \
+       pos = list_entry(pos->member.next, typeof(*pos), member), \
+       prefetch(pos->member.next))
+如何使用Linux中的双循环链表
+本文例子来自http://isis.poly.edu/kulesh/stuff/src/klist/，只是对其中注释部分作了翻译。
+#include <stdio.h>
+#include <stdlib.h>
+#include "list.h"
+struct kool_list{
+    int to;
+    struct list_head list;
+    int from;
+};
+int main(int argc, char **argv){
+    struct kool_list *tmp;
+    struct list_head *pos, *q;
+    unsigned int i;
+    struct kool_list mylist;
+    INIT_LIST_HEAD(&mylist.list);
+    /* 您也可以使用宏LIST_HEAD(mylist)来声明并初始化这个链表 */
+    /*向链表中添加元素*/
+    for(i=5; i!=0; --i){
+        tmp= (struct kool_list *)malloc(sizeof(struct kool_list));
+  
+        /*INIT_LIST_HEAD(&tmp->list); 调用这个函数将初始化一个动态分配的list_head。也可以不调用它，因为在后面调用的add_list()中将设置next和prev域。*/
+        printf("enter to and from:");
+        scanf("%d %d", &tmp->to, &tmp->from);
+        /*将tmp添加到mylist链表中*/
+        list_add(&(tmp->list), &(mylist.list));
+        /*也可以使用list_add_tail()将新元素添加到链表的尾部。*/
+    }
+    printf("\n");
+    /*现在我们得到了数据结构struct kool_list的一个循环链表，我们将遍历这个链表，并打印其中的元素。*/
+    /*list_for_each()定义了一个for循环宏，第一个参数用作for循环的计数器，换句话说，在整个循环过程中它指向了当前项的list_head。第二个参数是指向链表的指针，在宏中保持不变。*/
+    printf("traversing the list using list_for_each()\n");
+    list_for_each(pos, &mylist.list){
+        /* 此刻：pos->next指向了下一项的list变量，而pos->prev指向上一项的list变量。而每项都是struct kool_list类型。但是，我们需要访问的是这些项，而不是项中的list变量。因此需要调用list_entry()宏。*/
+        tmp= list_entry(pos, struct kool_list, list);
+        /* 给定指向struct list_head的指针，它所属的宿主数据结构的类型，以及它在宿主数据结构中的名称，list_entry返回指向宿主数据结构的指针。例如，在上面一行， list_entry()返回指向pos所属struct kool_list项的指针。*/
+        printf("to= %d from= %d\n", tmp->to, tmp->from);
+    }
+    printf("\n");
+    /* 因为这是一个循环链表，我们也可以向前遍历。只需要将list_for_each替换为list_for_each_prev。我们也可以使用list_for_each_entry()遍历链表，在给定类型的项间进行循环。例如：*/
+    printf("traversing the list using list_for_each_entry()\n");
+    list_for_each_entry(tmp, &mylist.list, list)
+    printf("to= %d from= %d\n", tmp->to, tmp->from);
+    printf("\n");
+ 
+    /*下面将释放这些项。因为我们调用list_del()从链表中删除各项，因此需要使用list_for_each()宏的"安全"版本，即 list_for_each_safe()。务必注意，如果在循环中有删除项（或把项从一个链表移动到另一个链表）的操作，必须使用这个宏。*/
+    printf("deleting the list using list_for_each_safe()\n");
+    list_for_each_safe(pos, q, &mylist.list){
+        tmp= list_entry(pos, struct kool_list, list);
+        printf("freeing item to= %d from= %d\n", tmp->to, tmp->from);
+        list_del(pos);
+        free(tmp);
+    }
+    return 0;
+}
+注意：上述代码在使用gcc编译时需要加上__KERNEL__定义。
+hlist哈希链表 
+hlist哈希链表是内核中常用的一个数据结构，由于它不同于普通的链表，所以这里对hlist哈希链表进行一下分析，希望对大家有所帮助。
+在include/Linux/list.h中有list链表与hlist哈希链表结构的定义，下面都列出它们的定义，可以对比一下：
+struct list_head {
+struct list_head *next, *prev;
+};
+struct hlist_head {
+struct hlist_node *first;
+};
+struct hlist_node {
+struct hlist_node *next, **pprev;
+};
+双 头（next，prev）的双链表对于Hash表来说“过于浪费”，因而另行设计了一套Hash表专用的hlist数据结构——单指针表头双循环 链表，hlist的表头仅有一个指向首节点的指针，而没有指向尾节点的指针，这样在可能是海量的Hash表中存储的表头就能减少一半的空间消耗。
+pprev 因为hlist不是一个完整的循环链表而不得不使用。在list中，表头和节点是同一个数据结构，直接用prev没问题；在hlist中，表头 没有prev，也没有next，只有一个first。为了能统一地修改表头的first指针，即表头的first指针必须修改指向新插入的节点， hlist就设计了pprev。hlist节点的pprev不再是指向前一个节点的指针，而是指向前一个节点（可能是表头）中的next（对于表头则是 first）指针（struct list_head **pprev），从而在表头插入的操作可以通过一致的“*(node->pprev)”访问和修改前节点的next（或first）指针。
+注：pprev是指向前一个节点中的next指针，next是指向hlist_node的指针，所以pprev是一个指向hlist_node的指针的指针。
+
+
+
+三列表
+|-----------|		list_node
+|		   |-->	|__next__|--> 
+|-----------		|__pprev_|
+|
+|-----------
+|
+|-----------
+|
+|-----------
+|
+|-----------
+
+注意：
+pprev 可以理解成向list的prev一样，是一个指向hlist_node的指针，又由于hlist_node的第一个元素next是一个指向 hlist_node的指针，pprev也是一个指向next的指针，即pprev是一个指向hlist_node的指针的指针。
+struct hlist_node Prev;
+struct hlist_node *pprev = (struct hlist_node *) Prev = (struct hlist_node *) (struct hlist_node * next) = struct hlist_node ** next;
+下面是hlist中常用的几个宏：
+#define HLIST_HEAD_INIT { .first = NULL }
+#define HLIST_HEAD(name) struct hlist_head name = { .first = NULL }
+#define INIT_HLIST_HEAD(ptr) ((ptr)->first = NULL)
+#define INIT_HLIST_NODE(ptr) ((ptr)->next = NULL, (ptr)->pprev = NULL)
+下面只列出hlist_add_before操作函数，其他hlist链表操作函数操作方法类似。这个函数中的参数next不能为空。它在next前面加入了n节点。函数的实现与list中对应函数类似。
+static inline void __hlist_del(struct hlist_node *n)
+{
+struct hlist_node *next = n->next;
+struct hlist_node **pprev = n->pprev;
+*pprev = next;
+if (next)
+next->pprev = pprev;
+}
+static inline void hlist_add_before(struct hlist_node *n,struct hlist_node *next)
+{
+n->pprev = next->pprev;
+n->next = next;
+next->pprev = &n->next;
+*(n->pprev) = n;
+}
+#define hlist_entry(ptr, type, member) container_of(ptr,type,member)
+#define hlist_for_each(pos, head) \
+for (pos = (head)->first; pos && ({ prefetch(pos->next); 1; }); \
+pos = pos->next)
+
