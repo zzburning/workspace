@@ -128,7 +128,7 @@ void create_objects()
 }
 
 // int main (int argc, const char * argv[]) {
-int test_cjson(){
+int test_cjson_sample(){
 	/* a bunch of json: */
 	char text1[]="{\n\"name\": \"Jack (\\\"Bee\\\") Nimble\", \n\"format\": {\"type\":       \"rect\", \n\"width\":      1920, \n\"height\":     1080, \n\"interlace\":  false,\"frame rate\": 24\n}\n}";	
 	char text2[]="[\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"]";

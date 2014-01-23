@@ -2,7 +2,7 @@
 #include "myxml.h"
 #include <malloc.h>
 #include <string.h>
-#include "../mystring/mystring.h"
+#include "mystring.h"
 #include <stdio.h>
 
 myxml_head_struct* myxml_parser_head_char(const char *param_char)

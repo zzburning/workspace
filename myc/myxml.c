@@ -18,11 +18,11 @@
 
 #ifdef MYXML_NEW
 
-#include "myxml.h"
 #include <string.h>
 #include <malloc.h>
 #include <stdio.h>
-#include "../common.h"
+#include "myxml.h"
+#include "common.h"
 
 static void myxml_free_attribute(myxml_attribute_struct*param_attribute)
 {

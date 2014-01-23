@@ -19,7 +19,7 @@
 #include <malloc.h>
 #include <stdio.h>
 
-#include "../mystring/mystring.h"
+#include "mystring.h"
 
 
 myxml_node_struct* myxml_create_node(const char*param_name,const char*param_content)

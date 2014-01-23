@@ -11,12 +11,12 @@
  */
 #ifndef MYSRC_WITHOUT_STRING
 #include <string.h>
-#include "mystring.h"
+#include <stdarg.h>
 #include <ctype.h>
 #include <stdlib.h>
-#include "stdio.h"
-#include "../common.h"
-#include <stdarg.h>
+#include <stdio.h>
+#include "mystring.h"
+#include "common.h"
 
 int mystring_to_upper(const char *param_src,const int param_len,char *param_obj)
 {

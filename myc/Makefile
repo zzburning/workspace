@@ -4,7 +4,7 @@ LDFLAGS :=
 PROGRAM := xml_test.bin
 
 
-SRC_FILES := $(wildcard *.c) $(wildcard ../mystring/*.c) 
+SRC_FILES := $(wildcard *.c) #$(wildcard ../mystring/*.c) 
 OBJ_FILES := $(patsubst %.c, %.o, $(SRC_FILES))
 DEP_FILES := $(addsuffix .d, $(basename $(notdir $(OBJ_FILES))))
 
