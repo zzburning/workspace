@@ -25,6 +25,7 @@
 #include "lpconfig.h"
 #include "glist.h"
 #include "memwatch.h"
+#include "cJSON.h"
 
 typedef struct
 {

@@ -127,7 +127,8 @@ void create_objects()
 
 }
 
-int main (int argc, const char * argv[]) {
+// int main (int argc, const char * argv[]) {
+int test_cjson(){
 	/* a bunch of json: */
 	char text1[]="{\n\"name\": \"Jack (\\\"Bee\\\") Nimble\", \n\"format\": {\"type\":       \"rect\", \n\"width\":      1920, \n\"height\":     1080, \n\"interlace\":  false,\"frame rate\": 24\n}\n}";	
 	char text2[]="[\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"]";
@@ -143,11 +144,11 @@ int main (int argc, const char * argv[]) {
 	doit(text5);
 
 	/* Parse standard testfiles: */
-/*	dofile("../../tests/test1"); */
-/*	dofile("../../tests/test2"); */
-/*	dofile("../../tests/test3"); */
-/*	dofile("../../tests/test4"); */
-/*	dofile("../../tests/test5"); */
+	dofile("./jsontext/test1"); 
+	dofile("./jsontext/test2"); 
+	dofile("./jsontext/test3"); 
+	dofile("./jsontext/test4"); 
+	dofile("./jsontext/test5"); 
 
 	/* Now some samplecode for building objects concisely: */
 	create_objects();
