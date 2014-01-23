@@ -1,0 +1,30 @@
+
+
+CFLAGS += -I./include  
+
+SRC_FILES := $(wildcard *.c)
+OBJ_FILES := $(patsubst %.c, %.o, $(SRC_FILES))
+DEP_FILES := $(addsuffix .d,$(basename $(OBJ_FILES)))
+
+
+$(LIB_A): clean $(OBJ_FILES)
+	$(AR) -rsvu  $(LIB_A) $(OBJ_FILES)	
+	
+$(LIB_SO):clean $(LIB_A)
+	$(CC) -shared -o $(LIB_SO) $(OBJ_FILES)
+
+all: $(OBJ_FILES) $(LIB_A) $(LIB_SO)	
+		rm -f $(OBJ_FILES) $(DEP_FILES)	
+	
+%.o:%.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+	
+clean:
+	rm -f $(OBJ_FILES) $(DEP_FILES) $(LIB_A) $(LIB_SO)
+
+	
+ifneq ($(MAKECMDGOALS),clean)
+-include $(DEP_FILES)
+endif
+	

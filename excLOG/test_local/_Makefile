@@ -1,0 +1,32 @@
+
+
+#Build with external exclog.h
+#CFLAGS += -UCONFIG_USE_EXTERNAL_EXCLOG
+CFLAGS += -DCONFIG_USE_EXTERNAL_EXCLOG=1
+CFLAGS += -DXELOG_2_LOCAL=1 
+#CFLAGS += -DEXCLOG_PREFIX=\"tlog\"
+
+LDFLAGS += -lm -lpthread 
+
+
+exclog_local.bin:
+	$(CC) -o $@ $(CFLAGS) exclog_local_test.c  $(LIB_A) $(LDFLAGS)
+
+exclog_local_server.bin:
+	$(CC) -o $@ $(CFLAGS) exclog_local_server.c glist.c lpconfig.c $(LIB_A) $(LDFLAGS)
+
+	 
+.PHONY: all clean
+
+all: exclog_local.bin exclog_local_server.bin
+	# chmod +x $<
+	# @echo "build $< finish"
+
+clean:
+	rm -rf *.o *.bin
+
+
+
+ifneq ($(MAKECMDGOALS),clean)
+-include $(DEP_FILES)
+endif

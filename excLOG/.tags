@@ -1,0 +1,1271 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCHITECTURE_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	193;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	196;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	199;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	202;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	206;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	181;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	184;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	187;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	190;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	194;"	d	file:
+BLACK	include/exclog.h	557;"	d
+BLACK	include/exclog_x.h	44;"	d
+BLACK	release/include/exclog.h	557;"	d
+BLACK	release/include/exclog_x.h	44;"	d
+BLUE	include/exclog.h	562;"	d
+BLUE	include/exclog_x.h	49;"	d
+BLUE	release/include/exclog.h	562;"	d
+BLUE	release/include/exclog_x.h	49;"	d
+BUG	include/exclog.h	807;"	d
+BUG	include/exclog_x.h	231;"	d
+BUG	release/include/exclog.h	807;"	d
+BUG	release/include/exclog_x.h	231;"	d
+BUGMSG	include/exclog.h	815;"	d
+BUGMSG	include/exclog_x.h	150;"	d
+BUGMSG	include/exclog_x.h	219;"	d
+BUGMSG	release/include/exclog.h	815;"	d
+BUGMSG	release/include/exclog_x.h	150;"	d
+BUGMSG	release/include/exclog_x.h	219;"	d
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/root\/develop\/tao.utils\/excLOG\/build$/;"	m
+CMAKE_BINARY_DIR	build/src/Makefile	/^CMAKE_BINARY_DIR = \/root\/develop\/tao.utils\/excLOG\/build$/;"	m
+CMAKE_BINARY_DIR	build/test_local/Makefile	/^CMAKE_BINARY_DIR = \/root\/develop\/tao.utils\/excLOG\/build$/;"	m
+CMAKE_BINARY_DIR	build/test_query/Makefile	/^CMAKE_BINARY_DIR = \/root\/develop\/tao.utils\/excLOG\/build$/;"	m
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	build/src/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	build/test_local/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	build/test_query/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_EDIT_COMMAND	build/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	build/src/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	build/test_local/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
+CMAKE_EDIT_COMMAND	build/test_query/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/root\/develop\/tao.utils\/excLOG$/;"	m
+CMAKE_SOURCE_DIR	build/src/Makefile	/^CMAKE_SOURCE_DIR = \/root\/develop\/tao.utils\/excLOG$/;"	m
+CMAKE_SOURCE_DIR	build/test_local/Makefile	/^CMAKE_SOURCE_DIR = \/root\/develop\/tao.utils\/excLOG$/;"	m
+CMAKE_SOURCE_DIR	build/test_query/Makefile	/^CMAKE_SOURCE_DIR = \/root\/develop\/tao.utils\/excLOG$/;"	m
+COLOR_ALERT	include/exclog.h	573;"	d
+COLOR_ALERT	include/exclog_x.h	60;"	d
+COLOR_ALERT	release/include/exclog.h	573;"	d
+COLOR_ALERT	release/include/exclog_x.h	60;"	d
+COLOR_CRIT	include/exclog.h	574;"	d
+COLOR_CRIT	include/exclog_x.h	61;"	d
+COLOR_CRIT	release/include/exclog.h	574;"	d
+COLOR_CRIT	release/include/exclog_x.h	61;"	d
+COLOR_DEBUG	include/exclog.h	568;"	d
+COLOR_DEBUG	include/exclog_x.h	55;"	d
+COLOR_DEBUG	release/include/exclog.h	568;"	d
+COLOR_DEBUG	release/include/exclog_x.h	55;"	d
+COLOR_EMERG	include/exclog.h	575;"	d
+COLOR_EMERG	include/exclog_x.h	62;"	d
+COLOR_EMERG	release/include/exclog.h	575;"	d
+COLOR_EMERG	release/include/exclog_x.h	62;"	d
+COLOR_END	include/exclog.h	576;"	d
+COLOR_END	include/exclog_x.h	63;"	d
+COLOR_END	release/include/exclog.h	576;"	d
+COLOR_END	release/include/exclog_x.h	63;"	d
+COLOR_ERR	include/exclog.h	572;"	d
+COLOR_ERR	include/exclog_x.h	59;"	d
+COLOR_ERR	release/include/exclog.h	572;"	d
+COLOR_ERR	release/include/exclog_x.h	59;"	d
+COLOR_INFO	include/exclog.h	569;"	d
+COLOR_INFO	include/exclog_x.h	56;"	d
+COLOR_INFO	release/include/exclog.h	569;"	d
+COLOR_INFO	release/include/exclog_x.h	56;"	d
+COLOR_NOTICE	include/exclog.h	570;"	d
+COLOR_NOTICE	include/exclog_x.h	57;"	d
+COLOR_NOTICE	release/include/exclog.h	570;"	d
+COLOR_NOTICE	release/include/exclog_x.h	57;"	d
+COLOR_WARNING	include/exclog.h	571;"	d
+COLOR_WARNING	include/exclog_x.h	58;"	d
+COLOR_WARNING	release/include/exclog.h	571;"	d
+COLOR_WARNING	release/include/exclog_x.h	58;"	d
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	13;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	16;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	19;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	22;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	28;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	32;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	34;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	36;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	40;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	43;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	49;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	55;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	58;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	66;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	77;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	86;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	89;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	92;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	24;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	27;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	30;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	34;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	36;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	42;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	45;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	48;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	54;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	60;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	68;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	74;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	77;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	80;"	d	file:
+COMPILER_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	9;"	d	file:
+CYAN	include/exclog.h	564;"	d
+CYAN	include/exclog_x.h	51;"	d
+CYAN	release/include/exclog.h	564;"	d
+CYAN	release/include/exclog_x.h	51;"	d
+DBG	include/exclog.h	798;"	d
+DBG	include/exclog.h	800;"	d
+DBG	include/exclog_x.h	141;"	d
+DBG	include/exclog_x.h	143;"	d
+DBG	include/exclog_x.h	213;"	d
+DBG	include/exclog_x.h	215;"	d
+DBG	release/include/exclog.h	798;"	d
+DBG	release/include/exclog.h	800;"	d
+DBG	release/include/exclog_x.h	141;"	d
+DBG	release/include/exclog_x.h	143;"	d
+DBG	release/include/exclog_x.h	213;"	d
+DBG	release/include/exclog_x.h	215;"	d
+DBG_SELF	src/include/exclog_public.h	329;"	d
+DBG_SELF	src/include/exclog_public.h	331;"	d
+DEBUG_SELF	src/include/exclog_public.h	324;"	d
+END	include/exclog.h	566;"	d
+END	include/exclog_x.h	53;"	d
+END	release/include/exclog.h	566;"	d
+END	release/include/exclog_x.h	53;"	d
+EXCLOG_2_FILE	src/include/exclog_public.h	41;"	d
+EXCLOG_DEBUG_FUNCTION	src/exclog_public.c	/^void EXCLOG_DEBUG_FUNCTION(char *fmt, ...)$/;"	f	signature:(char *fmt, ...)
+EXCLOG_DEBUG_FUNCTION	src/include/exclog_public.h	/^void EXCLOG_DEBUG_FUNCTION(char *fmt,...);$/;"	p	signature:(char *fmt,...)
+EXCLOG_ERROR_LOG	src/include/exclog_public.h	90;"	d
+EXCLOG_FILE_NAME_LEN	src/include/exclog_public.h	66;"	d
+EXCLOG_FILE_NUM_DEFAULT	src/include/exclog_public.h	53;"	d
+EXCLOG_FILE_NUM_MAX	src/include/exclog_public.h	52;"	d
+EXCLOG_FILE_NUM_MIN	src/include/exclog_public.h	51;"	d
+EXCLOG_FILE_PATH_LEN	include/exclog.h	157;"	d
+EXCLOG_FILE_PATH_LEN	release/include/exclog.h	157;"	d
+EXCLOG_FILE_PREFIX	src/include/exclog_public.h	89;"	d
+EXCLOG_FILE_SIZE_DEFAULT	src/include/exclog_public.h	60;"	d
+EXCLOG_FILE_SIZE_MAX	src/include/exclog_public.h	59;"	d
+EXCLOG_FILE_SIZE_MIN	src/include/exclog_public.h	58;"	d
+EXCLOG_GET_DATE_TIME	include/exclog.h	/^char *EXCLOG_GET_DATE_TIME(void);$/;"	p	signature:(void)
+EXCLOG_GET_DATE_TIME	release/include/exclog.h	/^char *EXCLOG_GET_DATE_TIME(void);$/;"	p	signature:(void)
+EXCLOG_IPADDRESS_LEN	src/include/exclog_public.h	86;"	d
+EXCLOG_KLOG_LEN_MIN	src/exclog_sysklogd.c	22;"	d	file:
+EXCLOG_KLOG_PKT_NUM	src/exclog_sysklogd.c	21;"	d	file:
+EXCLOG_LEVEL_0	include/exclog.h	80;"	d
+EXCLOG_LEVEL_0	release/include/exclog.h	80;"	d
+EXCLOG_LEVEL_1	include/exclog.h	81;"	d
+EXCLOG_LEVEL_1	release/include/exclog.h	81;"	d
+EXCLOG_LEVEL_2	include/exclog.h	82;"	d
+EXCLOG_LEVEL_2	release/include/exclog.h	82;"	d
+EXCLOG_LEVEL_3	include/exclog.h	83;"	d
+EXCLOG_LEVEL_3	release/include/exclog.h	83;"	d
+EXCLOG_LEVEL_4	include/exclog.h	84;"	d
+EXCLOG_LEVEL_4	release/include/exclog.h	84;"	d
+EXCLOG_LEVEL_5	include/exclog.h	85;"	d
+EXCLOG_LEVEL_5	release/include/exclog.h	85;"	d
+EXCLOG_LEVEL_6	include/exclog.h	86;"	d
+EXCLOG_LEVEL_6	release/include/exclog.h	86;"	d
+EXCLOG_LEVEL_7	include/exclog.h	87;"	d
+EXCLOG_LEVEL_7	release/include/exclog.h	87;"	d
+EXCLOG_LEVEL_ALERT	include/exclog.h	72;"	d
+EXCLOG_LEVEL_ALERT	release/include/exclog.h	72;"	d
+EXCLOG_LEVEL_CRIT	include/exclog.h	71;"	d
+EXCLOG_LEVEL_CRIT	release/include/exclog.h	71;"	d
+EXCLOG_LEVEL_DEBUG	include/exclog.h	77;"	d
+EXCLOG_LEVEL_DEBUG	release/include/exclog.h	77;"	d
+EXCLOG_LEVEL_DEFAULT	src/include/exclog_public.h	46;"	d
+EXCLOG_LEVEL_EMERG	include/exclog.h	70;"	d
+EXCLOG_LEVEL_EMERG	release/include/exclog.h	70;"	d
+EXCLOG_LEVEL_ERR	include/exclog.h	73;"	d
+EXCLOG_LEVEL_ERR	release/include/exclog.h	73;"	d
+EXCLOG_LEVEL_INFO	include/exclog.h	76;"	d
+EXCLOG_LEVEL_INFO	release/include/exclog.h	76;"	d
+EXCLOG_LEVEL_NOTICE	include/exclog.h	75;"	d
+EXCLOG_LEVEL_NOTICE	release/include/exclog.h	75;"	d
+EXCLOG_LEVEL_WARNING	include/exclog.h	74;"	d
+EXCLOG_LEVEL_WARNING	release/include/exclog.h	74;"	d
+EXCLOG_LOG_LEN_MAX	include/exclog.h	317;"	d
+EXCLOG_LOG_LEN_MAX	release/include/exclog.h	317;"	d
+EXCLOG_MODE_DEFINED	include/exclog.h	30;"	d
+EXCLOG_MODE_DEFINED	include/exclog.h	34;"	d
+EXCLOG_MODE_DEFINED	include/exclog.h	38;"	d
+EXCLOG_MODE_DEFINED	include/exclog.h	42;"	d
+EXCLOG_MODE_DEFINED	include/exclog.h	46;"	d
+EXCLOG_MODE_DEFINED	release/include/exclog.h	30;"	d
+EXCLOG_MODE_DEFINED	release/include/exclog.h	34;"	d
+EXCLOG_MODE_DEFINED	release/include/exclog.h	38;"	d
+EXCLOG_MODE_DEFINED	release/include/exclog.h	42;"	d
+EXCLOG_MODE_DEFINED	release/include/exclog.h	46;"	d
+EXCLOG_MODULE_ALL	include/exclog.h	155;"	d
+EXCLOG_MODULE_ALL	release/include/exclog.h	155;"	d
+EXCLOG_MODULE_APP	include/exclog.h	107;"	d
+EXCLOG_MODULE_APP	release/include/exclog.h	107;"	d
+EXCLOG_MODULE_APP_HSSER	include/exclog.h	103;"	d
+EXCLOG_MODULE_APP_HSSER	release/include/exclog.h	103;"	d
+EXCLOG_MODULE_APP_HSVTDU	include/exclog.h	104;"	d
+EXCLOG_MODULE_APP_HSVTDU	release/include/exclog.h	104;"	d
+EXCLOG_MODULE_APP_HXFPG	include/exclog.h	99;"	d
+EXCLOG_MODULE_APP_HXFPG	release/include/exclog.h	99;"	d
+EXCLOG_MODULE_APP_HXGUI	include/exclog.h	105;"	d
+EXCLOG_MODULE_APP_HXGUI	release/include/exclog.h	105;"	d
+EXCLOG_MODULE_APP_HXWEB	include/exclog.h	98;"	d
+EXCLOG_MODULE_APP_HXWEB	release/include/exclog.h	98;"	d
+EXCLOG_MODULE_APP_OTHER	include/exclog.h	106;"	d
+EXCLOG_MODULE_APP_OTHER	release/include/exclog.h	106;"	d
+EXCLOG_MODULE_APP_S2506A	include/exclog.h	102;"	d
+EXCLOG_MODULE_APP_S2506A	release/include/exclog.h	102;"	d
+EXCLOG_MODULE_APP_SAC51	include/exclog.h	101;"	d
+EXCLOG_MODULE_APP_SAC51	release/include/exclog.h	101;"	d
+EXCLOG_MODULE_APP_SIPUA	include/exclog.h	100;"	d
+EXCLOG_MODULE_APP_SIPUA	release/include/exclog.h	100;"	d
+EXCLOG_MODULE_CORE	include/exclog.h	133;"	d
+EXCLOG_MODULE_CORE	release/include/exclog.h	133;"	d
+EXCLOG_MODULE_CORE_OTHER	include/exclog.h	132;"	d
+EXCLOG_MODULE_CORE_OTHER	release/include/exclog.h	132;"	d
+EXCLOG_MODULE_HXSDK	include/exclog.h	94;"	d
+EXCLOG_MODULE_HXSDK	release/include/exclog.h	94;"	d
+EXCLOG_MODULE_KERNEL	include/exclog.h	96;"	d
+EXCLOG_MODULE_KERNEL	release/include/exclog.h	96;"	d
+EXCLOG_MODULE_LIB_AA	include/exclog.h	118;"	d
+EXCLOG_MODULE_LIB_AA	release/include/exclog.h	118;"	d
+EXCLOG_MODULE_LIB_AC51	include/exclog.h	129;"	d
+EXCLOG_MODULE_LIB_AC51	release/include/exclog.h	129;"	d
+EXCLOG_MODULE_LIB_CEO	include/exclog.h	120;"	d
+EXCLOG_MODULE_LIB_CEO	release/include/exclog.h	120;"	d
+EXCLOG_MODULE_LIB_CVA	include/exclog.h	121;"	d
+EXCLOG_MODULE_LIB_CVA	release/include/exclog.h	121;"	d
+EXCLOG_MODULE_LIB_DAVINCI	include/exclog.h	131;"	d
+EXCLOG_MODULE_LIB_DAVINCI	release/include/exclog.h	131;"	d
+EXCLOG_MODULE_LIB_DEX	include/exclog.h	122;"	d
+EXCLOG_MODULE_LIB_DEX	release/include/exclog.h	122;"	d
+EXCLOG_MODULE_LIB_IPCAM	include/exclog.h	130;"	d
+EXCLOG_MODULE_LIB_IPCAM	release/include/exclog.h	130;"	d
+EXCLOG_MODULE_LIB_LOG	include/exclog.h	123;"	d
+EXCLOG_MODULE_LIB_LOG	release/include/exclog.h	123;"	d
+EXCLOG_MODULE_LIB_PM	include/exclog.h	119;"	d
+EXCLOG_MODULE_LIB_PM	release/include/exclog.h	119;"	d
+EXCLOG_MODULE_LIB_PTZ	include/exclog.h	124;"	d
+EXCLOG_MODULE_LIB_PTZ	release/include/exclog.h	124;"	d
+EXCLOG_MODULE_LIB_SAP	include/exclog.h	126;"	d
+EXCLOG_MODULE_LIB_SAP	release/include/exclog.h	126;"	d
+EXCLOG_MODULE_LIB_SIS	include/exclog.h	127;"	d
+EXCLOG_MODULE_LIB_SIS	release/include/exclog.h	127;"	d
+EXCLOG_MODULE_LIB_SOE	include/exclog.h	125;"	d
+EXCLOG_MODULE_LIB_SOE	release/include/exclog.h	125;"	d
+EXCLOG_MODULE_LIB_WDG	include/exclog.h	128;"	d
+EXCLOG_MODULE_LIB_WDG	release/include/exclog.h	128;"	d
+EXCLOG_MODULE_NONE	include/exclog.h	92;"	d
+EXCLOG_MODULE_NONE	release/include/exclog.h	92;"	d
+EXCLOG_MODULE_SYSLOG	include/exclog.h	95;"	d
+EXCLOG_MODULE_SYSLOG	release/include/exclog.h	95;"	d
+EXCLOG_MODULE_USER	include/exclog.h	150;"	d
+EXCLOG_MODULE_USER	release/include/exclog.h	150;"	d
+EXCLOG_MSG_LEN_MAX	src/include/exclog_public.h	64;"	d
+EXCLOG_PATH	src/exclog.c	/^char EXCLOG_PATH[EXCLOG_FILE_PATH_LEN]=EXCLOG_STDOUT_MAGIK_STR;$/;"	v
+EXCLOG_PATH	src/include/exclog_public.h	/^extern char EXCLOG_PATH[EXCLOG_FILE_PATH_LEN];$/;"	x
+EXCLOG_POOL_SIZE	src/include/exclog_public.h	77;"	d
+EXCLOG_PREFIX	include/exclog.h	54;"	d
+EXCLOG_PREFIX	release/include/exclog.h	54;"	d
+EXCLOG_QUERY_REQ_PORT	src/include/exclog_public.h	82;"	d
+EXCLOG_QUERY_RPS_PORT	src/include/exclog_public.h	83;"	d
+EXCLOG_QUERY_TIME_OUT	src/include/exclog_public.h	84;"	d
+EXCLOG_QUEUE_SIZE	src/include/exclog_public.h	72;"	d
+EXCLOG_QUEUE_SIZE	src/include/exclog_public.h	74;"	d
+EXCLOG_RECORD_LEN_MAX	src/include/exclog_public.h	65;"	d
+EXCLOG_RECORD_MAGIK	src/include/exclog_public.h	87;"	d
+EXCLOG_REPEAT_NUM_MAX	src/include/exclog_public.h	78;"	d
+EXCLOG_RESPONSE_NUM_MAX	src/include/exclog_public.h	79;"	d
+EXCLOG_STDOUT_MAGIK_STR	src/include/exclog_public.h	88;"	d
+EXCLOG_SUBSCRIBE_NUM_MAX	src/include/exclog_public.h	80;"	d
+EXCLOG_SYSLOG_FILE	src/exclog_sysklogd.c	13;"	d	file:
+EXCLOG_SYSLOG_HEAD_LEN	src/exclog_sysklogd.c	17;"	d	file:
+EXCLOG_SYSLOG_LEN_MIN	src/exclog_sysklogd.c	19;"	d	file:
+EXCLOG_SYSLOG_PRI_LEN_MAX	src/exclog_sysklogd.c	16;"	d	file:
+EXCLOG_SYSLOG_PRI_LEN_MIN	src/exclog_sysklogd.c	15;"	d	file:
+EXCLOG_SYSLOG_PRI_SYN_LEN	src/exclog_sysklogd.c	14;"	d	file:
+EXCLOG_SYSLOG_TAG_LEN_MAX	src/exclog_sysklogd.c	18;"	d	file:
+FALSE	test_local/glist.h	41;"	d
+GCompareDataFunc	test_local/glist.h	/^typedef gint            (*GCompareDataFunc)     (gconstpointer  a,$/;"	t
+GCompareFunc	test_local/glist.h	/^typedef gint            (*GCompareFunc)         (gconstpointer  a,$/;"	t
+GFunc	test_local/glist.h	/^typedef void            (*GFunc)                (gpointer       data,$/;"	t
+GList	test_local/glist.h	/^typedef struct _GList		GList;$/;"	t	typeref:struct:_GList
+GREEN	include/exclog.h	560;"	d
+GREEN	include/exclog_x.h	47;"	d
+GREEN	release/include/exclog.h	560;"	d
+GREEN	release/include/exclog_x.h	47;"	d
+GSList	test_local/glist.h	/^typedef GList GSList;$/;"	t
+ID_VOID_MAIN	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	6;"	d	file:
+LIGNT_RED	include/exclog.h	559;"	d
+LIGNT_RED	include/exclog_x.h	46;"	d
+LIGNT_RED	release/include/exclog.h	559;"	d
+LIGNT_RED	release/include/exclog_x.h	46;"	d
+LISTNODE	test_local/lpconfig.c	39;"	d	file:
+LIST_APPEND	test_local/lpconfig.c	77;"	d	file:
+LIST_FOREACH	test_local/lpconfig.c	81;"	d	file:
+LIST_PREPEND	test_local/lpconfig.c	76;"	d	file:
+LIST_REMOVE	test_local/lpconfig.c	78;"	d	file:
+LOG_PREFIX	include/exclog_x.h	42;"	d
+LOG_PREFIX	release/include/exclog_x.h	42;"	d
+LPCONFIG_H	test_local/lpconfig.h	26;"	d
+ListNode	test_local/lpconfig.c	/^} ListNode;$/;"	t	typeref:struct:_ListNode	file:
+ListNodeForEachFunc	test_local/lpconfig.c	/^typedef void (*ListNodeForEachFunc)(ListNode *);$/;"	t	file:
+LpConfig	test_local/lpconfig.h	/^typedef struct _LpConfig LpConfig;$/;"	t	typeref:struct:_LpConfig
+LpItem	test_local/lpconfig.c	/^} LpItem;$/;"	t	typeref:struct:_LpItem	file:
+LpSection	test_local/lpconfig.c	/^} LpSection;$/;"	t	typeref:struct:_LpSection	file:
+MAGENTA	include/exclog.h	563;"	d
+MAGENTA	include/exclog_x.h	50;"	d
+MAGENTA	release/include/exclog.h	563;"	d
+MAGENTA	release/include/exclog_x.h	50;"	d
+MAX	test_local/glist.h	74;"	d
+MAX	test_local/glist.h	75;"	d
+MAX_LEN	test_local/lpconfig.c	26;"	d	file:
+MEMERASE	src/include/exclog_public.h	218;"	d
+MEMGETINFO	src/include/exclog_public.h	217;"	d
+MEMGETREGIONCOUNT	src/include/exclog_public.h	219;"	d
+MEMGETREGIONINFO	src/include/exclog_public.h	220;"	d
+MEMLOCK	src/include/exclog_public.h	221;"	d
+MEMUNLOCK	src/include/exclog_public.h	222;"	d
+MIN	test_local/glist.h	77;"	d
+MIN	test_local/glist.h	78;"	d
+NULL	test_local/glist.h	33;"	d
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	104;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	107;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	110;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	113;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	119;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	128;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	131;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	134;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	137;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	146;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	149;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	152;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	158;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	161;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	164;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	167;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	170;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	176;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	179;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	101;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	107;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	110;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	116;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	122;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	125;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	128;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	134;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	140;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	143;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	146;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	152;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	155;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	161;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	164;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	167;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	92;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	95;"	d	file:
+PLATFORM_ID	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+RED	include/exclog.h	558;"	d
+RED	include/exclog_x.h	45;"	d
+RED	release/include/exclog.h	558;"	d
+RED	release/include/exclog_x.h	45;"	d
+RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	build/src/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	build/test_local/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	build/test_query/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+SERVER_IP	src/exclog_remote.c	/^char SERVER_IP[EXCLOG_IPADDRESS_LEN] = { '\\0' };\/*IP address of log receiver*\/$/;"	v
+SERVER_IP	src/include/exclog_public.h	/^extern char SERVER_IP[32];$/;"	x
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	build/src/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	build/test_local/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	build/test_query/Makefile	/^SHELL = \/bin\/sh$/;"	m
+START_QUERY	src/exclog.c	/^static int START_QUERY=0;$/;"	v	file:
+SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	build/src/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	build/test_local/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	build/test_query/Makefile	/^SUFFIXES =$/;"	m
+TRUE	test_local/glist.h	37;"	d
+WHITE	include/exclog.h	565;"	d
+WHITE	include/exclog_x.h	52;"	d
+WHITE	release/include/exclog.h	565;"	d
+WHITE	release/include/exclog_x.h	52;"	d
+YELLOW	include/exclog.h	561;"	d
+YELLOW	include/exclog_x.h	48;"	d
+YELLOW	release/include/exclog.h	561;"	d
+YELLOW	release/include/exclog_x.h	48;"	d
+_GList	test_local/glist.h	/^struct _GList$/;"	s
+_GList::data	test_local/glist.h	/^  void * data;$/;"	m	struct:_GList	access:public
+_GList::next	test_local/glist.h	/^  GList *next;$/;"	m	struct:_GList	access:public
+_GList::prev	test_local/glist.h	/^  GList *prev;$/;"	m	struct:_GList	access:public
+_GNU_SOURCE	src/include/exclog_sysklogd.h	17;"	d
+_ListNode	test_local/lpconfig.c	/^typedef struct _ListNode{$/;"	s	file:
+_LpConfig	test_local/lpconfig.c	/^struct _LpConfig{$/;"	s	file:
+_LpConfig::file	test_local/lpconfig.c	/^	FILE *file;$/;"	m	struct:_LpConfig	file:	access:public
+_LpConfig::filename	test_local/lpconfig.c	/^	char *filename;$/;"	m	struct:_LpConfig	file:	access:public
+_LpConfig::sections	test_local/lpconfig.c	/^	GList *sections;$/;"	m	struct:_LpConfig	file:	access:public
+_LpItem	test_local/lpconfig.c	/^typedef struct _LpItem{$/;"	s	file:
+_LpItem::key	test_local/lpconfig.c	/^	char *key;$/;"	m	struct:_LpItem	file:	access:public
+_LpItem::value	test_local/lpconfig.c	/^	char *value;$/;"	m	struct:_LpItem	file:	access:public
+_LpSection	test_local/lpconfig.c	/^typedef struct _LpSection{$/;"	s	file:
+_LpSection::items	test_local/lpconfig.c	/^	GList *items;$/;"	m	struct:_LpSection	file:	access:public
+_LpSection::name	test_local/lpconfig.c	/^	char *name;$/;"	m	struct:_LpSection	file:	access:public
+__EXCLOG_EXTERNAL_H_	include/exclog.h	12;"	d
+__EXCLOG_EXTERNAL_H_	release/include/exclog.h	12;"	d
+__EXCLOG_INTERNAL_H_	include/exclog_x.h	12;"	d
+__EXCLOG_INTERNAL_H_	release/include/exclog_x.h	12;"	d
+__EXCLOG_LOCAL_H_	src/include/exclog_local.h	14;"	d
+__EXCLOG_PUBLIC_H_	src/include/exclog_public.h	14;"	d
+__EXCLOG_QUERY_H_	src/include/exclog_query.h	14;"	d
+__EXCLOG_REMOTE_H_	src/include/exclog_remote.h	14;"	d
+__EXCLOG_STORE_H_	src/include/exclog_store.h	14;"	d
+__EXCLOG_SYSKLOGD_H_	src/include/exclog_sysklogd.h	14;"	d
+__G_LIST_H__	test_local/glist.h	28;"	d
+__anon1::region_index	src/include/exclog_query.h	/^	int region_index;$/;"	m	struct:__anon1	access:public
+__anon1::region_pos	src/include/exclog_query.h	/^	int region_pos;$/;"	m	struct:__anon1	access:public
+__anon1::req	src/include/exclog_query.h	/^	exclog_query_req_t req;$/;"	m	struct:__anon1	access:public
+__anon1::rps_num	src/include/exclog_query.h	/^	int rps_num;$/;"	m	struct:__anon1	access:public
+__exclog_datetime_2_time_t	src/exclog_query.c	/^static void __exclog_datetime_2_time_t(const exclog_datetime_t *src, time_t *dst)$/;"	f	file:	signature:(const exclog_datetime_t *src, time_t *dst)
+__exclog_datetime_2_time_t	src/exclog_query.c	/^static void __exclog_datetime_2_time_t(const exclog_datetime_t *src, time_t *dst);$/;"	p	file:	signature:(const exclog_datetime_t *src, time_t *dst)
+__exclog_klog_get_queue	src/exclog_sysklogd.c	/^static int __exclog_klog_get_queue(exclog_packet_t *pkt)$/;"	f	file:	signature:(exclog_packet_t *pkt)
+__exclog_klog_get_queue	src/exclog_sysklogd.c	/^static int __exclog_klog_get_queue(exclog_packet_t *pkt);$/;"	p	file:	signature:(exclog_packet_t *pkt)
+__exclog_klog_put_queue	src/exclog_sysklogd.c	/^static int __exclog_klog_put_queue(const char *klog, int len)$/;"	f	file:	signature:(const char *klog, int len)
+__exclog_klog_put_queue	src/exclog_sysklogd.c	/^static int __exclog_klog_put_queue(const char *klog, int len);$/;"	p	file:	signature:(const char *klog, int len)
+__exclog_klog_read	src/exclog_sysklogd.c	/^static int __exclog_klog_read(void)$/;"	f	file:	signature:(void)
+__exclog_klog_read	src/exclog_sysklogd.c	/^static int __exclog_klog_read(void);$/;"	p	file:	signature:(void)
+__exclog_local_init_region_list	src/exclog_local.c	/^static int __exclog_local_init_region_list(const char *path, int num, int size)$/;"	f	file:	signature:(const char *path, int num, int size)
+__exclog_local_init_region_list	src/exclog_local.c	/^static int __exclog_local_init_region_list(const char *path, int num, int size);$/;"	p	file:	signature:(const char *path, int num, int size)
+__exclog_local_init_remote	src/exclog_local.c	/^static int __exclog_local_init_remote(int local_port)$/;"	f	file:	signature:(int local_port)
+__exclog_local_init_remote	src/exclog_local.c	/^static int __exclog_local_init_remote(int local_port);$/;"	p	file:	signature:(int local_port)
+__exclog_local_poll_klogd	src/exclog_local.c	/^static void __exclog_local_poll_klogd(void)$/;"	f	file:	signature:(void)
+__exclog_local_poll_klogd	src/exclog_local.c	/^static void __exclog_local_poll_klogd(void);$/;"	p	file:	signature:(void)
+__exclog_local_poll_queue	src/exclog_local.c	/^static void __exclog_local_poll_queue(void)$/;"	f	file:	signature:(void)
+__exclog_local_poll_queue	src/exclog_local.c	/^static void __exclog_local_poll_queue(void);$/;"	p	file:	signature:(void)
+__exclog_local_poll_remote	src/exclog_local.c	/^static void __exclog_local_poll_remote(void)$/;"	f	file:	signature:(void)
+__exclog_local_poll_remote	src/exclog_local.c	/^static void __exclog_local_poll_remote(void);$/;"	p	file:	signature:(void)
+__exclog_local_poll_syslogd	src/exclog_local.c	/^static void __exclog_local_poll_syslogd(void)$/;"	f	file:	signature:(void)
+__exclog_local_poll_syslogd	src/exclog_local.c	/^static void __exclog_local_poll_syslogd(void);$/;"	p	file:	signature:(void)
+__exclog_local_poll_thread	src/exclog_local.c	/^static void __exclog_local_poll_thread(void)$/;"	f	file:	signature:(void)
+__exclog_local_poll_thread	src/exclog_local.c	/^static void __exclog_local_poll_thread(void);$/;"	p	file:	signature:(void)
+__exclog_local_query_init	src/exclog_local.c	/^static int __exclog_local_query_init(void)$/;"	f	file:	signature:(void)
+__exclog_local_query_init	src/exclog_local.c	/^static int __exclog_local_query_init(void);$/;"	p	file:	signature:(void)
+__exclog_local_query_req_process	src/exclog_local.c	/^static int __exclog_local_query_req_process(char *remoteIP, exclog_query_req_t *req)$/;"	f	file:	signature:(char *remoteIP, exclog_query_req_t *req)
+__exclog_local_query_req_process	src/exclog_local.c	/^static int __exclog_local_query_req_process(char *remoteIP, exclog_query_req_t *req);$/;"	p	file:	signature:(char *remoteIP, exclog_query_req_t *req)
+__exclog_local_query_req_recv	src/exclog_local.c	/^static int __exclog_local_query_req_recv(char *remoteIP, exclog_query_req_t *req)$/;"	f	file:	signature:(char *remoteIP, exclog_query_req_t *req)
+__exclog_local_query_req_recv	src/exclog_local.c	/^static int __exclog_local_query_req_recv(char *remoteIP, exclog_query_req_t *req);$/;"	p	file:	signature:(char *remoteIP, exclog_query_req_t *req)
+__exclog_local_query_thread	src/exclog_local.c	/^static void __exclog_local_query_thread(void)$/;"	f	file:	signature:(void)
+__exclog_local_query_thread	src/exclog_local.c	/^static void __exclog_local_query_thread(void);$/;"	p	file:	signature:(void)
+__exclog_local_store_pkt	src/exclog_local.c	/^static void __exclog_local_store_pkt(exclog_packet_t *pkt)$/;"	f	file:	signature:(exclog_packet_t *pkt)
+__exclog_local_store_pkt	src/exclog_local.c	/^static void __exclog_local_store_pkt(exclog_packet_t *pkt);$/;"	p	file:	signature:(exclog_packet_t *pkt)
+__exclog_query_check_flash	src/exclog_query.c	/^static int __exclog_query_check_flash(char *ip, const exclog_query_req_t *req, exclog_record_t *record,$/;"	f	file:	signature:(char *ip, const exclog_query_req_t *req, exclog_record_t *record, exclog_query_rps_t **rps)
+__exclog_query_check_flash	src/exclog_query.c	/^static int __exclog_query_check_flash(char *ip, const exclog_query_req_t *req, exclog_record_t *record,exclog_query_rps_t **rps);$/;"	p	file:	signature:(char *ip, const exclog_query_req_t *req, exclog_record_t *record,exclog_query_rps_t **rps)
+__exclog_query_check_head	src/exclog_query.c	/^static int __exclog_query_check_head(const exclog_query_req_t *req, exclog_head_t *head, char *time)$/;"	f	file:	signature:(const exclog_query_req_t *req, exclog_head_t *head, char *time)
+__exclog_query_check_head	src/exclog_query.c	/^static int __exclog_query_check_head(const exclog_query_req_t *req, exclog_head_t *head, char *time);$/;"	p	file:	signature:(const exclog_query_req_t *req, exclog_head_t *head, char *time)
+__exclog_query_check_level	src/exclog_query.c	/^static unsigned long __exclog_query_check_level(const exclog_query_req_t *req, char *level)$/;"	f	file:	signature:(const exclog_query_req_t *req, char *level)
+__exclog_query_check_level	src/exclog_query.c	/^static unsigned long __exclog_query_check_level(const exclog_query_req_t *req, char *level);$/;"	p	file:	signature:(const exclog_query_req_t *req, char *level)
+__exclog_query_check_message	src/exclog_query.c	/^static int __exclog_query_check_message(char *ip, const exclog_query_req_t *req, char *message, char *time,$/;"	f	file:	signature:(char *ip, const exclog_query_req_t *req, char *message, char *time, exclog_query_rps_t **rps)
+__exclog_query_check_message	src/exclog_query.c	/^static int __exclog_query_check_message(char *ip, const exclog_query_req_t *req, char *message, char *time,exclog_query_rps_t **rps);$/;"	p	file:	signature:(char *ip, const exclog_query_req_t *req, char *message, char *time,exclog_query_rps_t **rps)
+__exclog_query_check_module	src/exclog_query.c	/^static unsigned long __exclog_query_check_module(const exclog_query_req_t *req, char *module)$/;"	f	file:	signature:(const exclog_query_req_t *req, char *module)
+__exclog_query_check_module	src/exclog_query.c	/^static unsigned long __exclog_query_check_module(const exclog_query_req_t *req, char *module);$/;"	p	file:	signature:(const exclog_query_req_t *req, char *module)
+__exclog_query_check_record	src/exclog_query.c	/^static int __exclog_query_check_record(char *ip, const exclog_query_req_t *req, char *record, exclog_query_rps_t **rps)$/;"	f	file:	signature:(char *ip, const exclog_query_req_t *req, char *record, exclog_query_rps_t **rps)
+__exclog_query_check_record	src/exclog_query.c	/^static int __exclog_query_check_record(char *ip, const exclog_query_req_t *req, char *record, exclog_query_rps_t **rps);$/;"	p	file:	signature:(char *ip, const exclog_query_req_t *req, char *record, exclog_query_rps_t **rps)
+__exclog_query_check_time	src/exclog_query.c	/^static int __exclog_query_check_time(const exclog_query_req_t *req, const char *time)$/;"	f	file:	signature:(const exclog_query_req_t *req, const char *time)
+__exclog_query_check_time	src/exclog_query.c	/^static int __exclog_query_check_time(const exclog_query_req_t *req, const char *time);$/;"	p	file:	signature:(const exclog_query_req_t *req, const char *time)
+__exclog_query_create_rps	src/exclog_query.c	/^static int __exclog_query_create_rps(unsigned long level, unsigned long module, char *time, char *data,$/;"	f	file:	signature:(unsigned long level, unsigned long module, char *time, char *data, exclog_query_rps_t **rps)
+__exclog_query_create_rps	src/exclog_query.c	/^static int __exclog_query_create_rps(unsigned long level, unsigned long module, char *time, char *data,exclog_query_rps_t **rps);$/;"	p	file:	signature:(unsigned long level, unsigned long module, char *time, char *data,exclog_query_rps_t **rps)
+__exclog_query_file	src/exclog_query.c	/^static int __exclog_query_file(char *ip, exclog_query_rps_t **rps)$/;"	f	file:	signature:(char *ip, exclog_query_rps_t **rps)
+__exclog_query_file	src/exclog_query.c	/^static int __exclog_query_file(char *ip, exclog_query_rps_t **rps);$/;"	p	file:	signature:(char *ip, exclog_query_rps_t **rps)
+__exclog_query_flash	src/exclog_query.c	/^static int __exclog_query_flash(char *ip, const exclog_query_req_t *req, exclog_query_rps_t **rps)$/;"	f	file:	signature:(char *ip, const exclog_query_req_t *req, exclog_query_rps_t **rps)
+__exclog_query_flash	src/exclog_query.c	/^static int __exclog_query_flash(char *ip, const exclog_query_req_t *req, exclog_query_rps_t **rps);$/;"	p	file:	signature:(char *ip, const exclog_query_req_t *req, exclog_query_rps_t **rps)
+__exclog_query_req_send	src/exclog_query.c	/^static int __exclog_query_req_send(exclog_query_req_t *req)$/;"	f	file:	signature:(exclog_query_req_t *req)
+__exclog_query_req_send	src/exclog_query.c	/^static int __exclog_query_req_send(exclog_query_req_t *req);$/;"	p	file:	signature:(exclog_query_req_t *req)
+__exclog_query_rps_recv	src/exclog_query.c	/^static int __exclog_query_rps_recv(exclog_query_rps_t **req);$/;"	p	file:	signature:(exclog_query_rps_t **req)
+__exclog_query_rps_recv	src/exclog_query.c	/^static int __exclog_query_rps_recv(exclog_query_rps_t **rps)$/;"	f	file:	signature:(exclog_query_rps_t **rps)
+__exclog_remote_init_self	src/exclog_remote.c	/^static void __exclog_remote_init_self()$/;"	f	file:
+__exclog_remote_init_self	src/exclog_remote.c	/^static void __exclog_remote_init_self();$/;"	p	file:
+__exclog_remote_init_socket	src/exclog_remote.c	/^static int __exclog_remote_init_socket(char *remoteIP, int remotePort)$/;"	f	file:	signature:(char *remoteIP, int remotePort)
+__exclog_remote_init_socket	src/exclog_remote.c	/^static int __exclog_remote_init_socket(char *remoteIP, int remotePort);$/;"	p	file:	signature:(char *remoteIP, int remotePort)
+__exclog_remote_poll_klogd	src/exclog_remote.c	/^static void __exclog_remote_poll_klogd(void)$/;"	f	file:	signature:(void)
+__exclog_remote_poll_klogd	src/exclog_remote.c	/^static void __exclog_remote_poll_klogd(void);$/;"	p	file:	signature:(void)
+__exclog_remote_poll_queue	src/exclog_remote.c	/^static void __exclog_remote_poll_queue(void)$/;"	f	file:	signature:(void)
+__exclog_remote_poll_queue	src/exclog_remote.c	/^static void __exclog_remote_poll_queue(void);$/;"	p	file:	signature:(void)
+__exclog_remote_poll_syslogd	src/exclog_remote.c	/^static void __exclog_remote_poll_syslogd(void)$/;"	f	file:	signature:(void)
+__exclog_remote_poll_syslogd	src/exclog_remote.c	/^static void __exclog_remote_poll_syslogd(void);$/;"	p	file:	signature:(void)
+__exclog_remote_poll_thread	src/exclog_remote.c	/^static void __exclog_remote_poll_thread(void)$/;"	f	file:	signature:(void)
+__exclog_remote_poll_thread	src/exclog_remote.c	/^static void __exclog_remote_poll_thread(void);$/;"	p	file:	signature:(void)
+__exclog_remote_send	src/exclog_remote.c	/^static void __exclog_remote_send(exclog_packet_t *pkt)$/;"	f	file:	signature:(exclog_packet_t *pkt)
+__exclog_remote_send	src/exclog_remote.c	/^static void __exclog_remote_send(exclog_packet_t *pkt);$/;"	p	file:	signature:(exclog_packet_t *pkt)
+__exclog_remote_send_pkt	src/exclog_remote.c	/^static void __exclog_remote_send_pkt(exclog_packet_t *pkt)$/;"	f	file:	signature:(exclog_packet_t *pkt)
+__exclog_remote_send_pkt	src/exclog_remote.c	/^static void __exclog_remote_send_pkt(exclog_packet_t *pkt);$/;"	p	file:	signature:(exclog_packet_t *pkt)
+__exclog_store_2_file	src/exclog_store.c	/^static int __exclog_store_2_file(const exclog_packet_t *pkt)$/;"	f	file:	signature:(const exclog_packet_t *pkt)
+__exclog_store_2_file	src/exclog_store.c	/^static int __exclog_store_2_file(const exclog_packet_t *pkt);$/;"	p	file:	signature:(const exclog_packet_t *pkt)
+__exclog_store_2_flash	src/exclog_store.c	/^static int __exclog_store_2_flash(const exclog_packet_t *pkt)$/;"	f	file:	signature:(const exclog_packet_t *pkt)
+__exclog_store_2_flash	src/exclog_store.c	/^static int __exclog_store_2_flash(const exclog_packet_t *pkt);$/;"	p	file:	signature:(const exclog_packet_t *pkt)
+__exclog_store_file_erase	src/exclog_store.c	/^static int __exclog_store_file_erase(const int index)$/;"	f	file:	signature:(const int index)
+__exclog_store_file_erase	src/exclog_store.c	/^static int __exclog_store_file_erase(int index);$/;"	p	file:	signature:(int index)
+__exclog_store_file_get	src/exclog_store.c	/^static int __exclog_store_file_get(int len)$/;"	f	file:	signature:(int len)
+__exclog_store_file_get	src/exclog_store.c	/^static int __exclog_store_file_get(int len);$/;"	p	file:	signature:(int len)
+__exclog_store_file_write	src/exclog_store.c	/^static int __exclog_store_file_write(const char *record, int record_len)$/;"	f	file:	signature:(const char *record, int record_len)
+__exclog_store_file_write	src/exclog_store.c	/^static int __exclog_store_file_write(const char *record, int record_len);$/;"	p	file:	signature:(const char *record, int record_len)
+__exclog_store_flash_erase	src/exclog_store.c	/^static int __exclog_store_flash_erase(const int index)$/;"	f	file:	signature:(const int index)
+__exclog_store_flash_erase	src/exclog_store.c	/^static int __exclog_store_flash_erase(int index);$/;"	p	file:	signature:(int index)
+__exclog_store_flash_get	src/exclog_store.c	/^static int __exclog_store_flash_get(int len)$/;"	f	file:	signature:(int len)
+__exclog_store_flash_get	src/exclog_store.c	/^static int __exclog_store_flash_get(int len);$/;"	p	file:	signature:(int len)
+__exclog_store_flash_write	src/exclog_store.c	/^static int __exclog_store_flash_write(const exclog_record_t *record, int record_len)$/;"	f	file:	signature:(const exclog_record_t *record, int record_len)
+__exclog_store_flash_write	src/exclog_store.c	/^static int __exclog_store_flash_write(const exclog_record_t *record, int record_len);$/;"	p	file:	signature:(const exclog_record_t *record, int record_len)
+__exclog_store_message_2_string	src/exclog_store.c	/^static void __exclog_store_message_2_string(const exclog_packet_t *pkt, char *record, int max_len, int *len);$/;"	p	file:	signature:(const exclog_packet_t *pkt, char *record, int max_len, int *len)
+__exclog_store_message_2_string	src/exclog_store.c	/^static void __exclog_store_message_2_string(const exclog_packet_t *pkt, char *record, int max_len,$/;"	f	file:	signature:(const exclog_packet_t *pkt, char *record, int max_len, int *len)
+__exclog_store_message_2_struct	src/exclog_store.c	/^static void __exclog_store_message_2_struct(const exclog_packet_t *pkt, exclog_record_t *record, int *len)$/;"	f	file:	signature:(const exclog_packet_t *pkt, exclog_record_t *record, int *len)
+__exclog_store_message_2_struct	src/exclog_store.c	/^static void __exclog_store_message_2_struct(const exclog_packet_t *pkt, exclog_record_t *record, int *len);$/;"	p	file:	signature:(const exclog_packet_t *pkt, exclog_record_t *record, int *len)
+__exclog_str_2_datetime	src/exclog_query.c	/^static void __exclog_str_2_datetime(const char *src, exclog_datetime_t *dst)$/;"	f	file:	signature:(const char *src, exclog_datetime_t *dst)
+__exclog_str_2_datetime	src/exclog_query.c	/^static void __exclog_str_2_datetime(const char *src, exclog_datetime_t *dst);$/;"	p	file:	signature:(const char *src, exclog_datetime_t *dst)
+__exclog_subscribe_process	src/exclog_store.c	/^static void __exclog_subscribe_process(const char *record)$/;"	f	file:	signature:(const char *record)
+__exclog_subscribe_process	src/exclog_store.c	/^static void __exclog_subscribe_process(const char *record);$/;"	p	file:	signature:(const char *record)
+__exclog_syslog_process	src/exclog_sysklogd.c	/^static int __exclog_syslog_process(const char *syslog, int len, exclog_packet_t *pkt)$/;"	f	file:	signature:(const char *syslog, int len, exclog_packet_t *pkt)
+__exclog_syslog_process	src/exclog_sysklogd.c	/^static int __exclog_syslog_process(const char *syslog, int len, exclog_packet_t *pkt);$/;"	p	file:	signature:(const char *syslog, int len, exclog_packet_t *pkt)
+__exclog_syslog_time_2_timeval	src/exclog_sysklogd.c	/^static int __exclog_syslog_time_2_timeval(const char *datetime, struct timeval *tv)$/;"	f	file:	signature:(const char *datetime, struct timeval *tv)
+__exclog_syslog_time_2_timeval	src/exclog_sysklogd.c	/^static int __exclog_syslog_time_2_timeval(const char *datetime, struct timeval *tv);$/;"	p	file:	signature:(const char *datetime, struct timeval *tv)
+__subscribe_callback	test_local/exclog_local_test.c	/^static int __subscribe_callback(exclog_subscribe_rps_t *rps)$/;"	f	file:	signature:(exclog_subscribe_rps_t *rps)
+__subscribe_callback	test_local/exclog_local_test.c	/^static int __subscribe_callback(exclog_subscribe_rps_t *rps);$/;"	p	file:	signature:(exclog_subscribe_rps_t *rps)
+_exclog_add_ipaddr_2_pkt	src/exclog_public.c	/^void _exclog_add_ipaddr_2_pkt(exclog_packet_t *pkt, char *ip)$/;"	f	signature:(exclog_packet_t *pkt, char *ip)
+_exclog_add_ipaddr_2_pkt	src/include/exclog_public.h	/^void _exclog_add_ipaddr_2_pkt(exclog_packet_t *pkt,char *ip);$/;"	p	signature:(exclog_packet_t *pkt,char *ip)
+_exclog_check_last_message	src/exclog_public.c	/^int _exclog_check_last_message(exclog_packet_t *pkt, char *last_message)$/;"	f	signature:(exclog_packet_t *pkt, char *last_message)
+_exclog_check_last_message	src/include/exclog_public.h	/^int _exclog_check_last_message(exclog_packet_t *pkt,char *last_message);$/;"	p	signature:(exclog_packet_t *pkt,char *last_message)
+_exclog_get_last_level_module	src/exclog_public.c	/^int _exclog_get_last_level_module(char *last_message, char *level, char *module)$/;"	f	signature:(char *last_message, char *level, char *module)
+_exclog_get_last_level_module	src/include/exclog_public.h	/^int _exclog_get_last_level_module(char *last_message, char *level, char *module);$/;"	p	signature:(char *last_message, char *level, char *module)
+_exclog_get_level	test_query/exclog_query_test.c	/^static unsigned long _exclog_get_level(char *level)$/;"	f	file:	signature:(char *level)
+_exclog_get_level	test_query/exclog_query_test.c	/^static unsigned long _exclog_get_level(char *level);$/;"	p	file:	signature:(char *level)
+_exclog_get_module	test_query/exclog_query_test.c	/^static unsigned long _exclog_get_module(char *module)$/;"	f	file:	signature:(char *module)
+_exclog_get_module	test_query/exclog_query_test.c	/^static unsigned long _exclog_get_module(char *module);$/;"	p	file:	signature:(char *module)
+_exclog_klogd_deinit	src/exclog_sysklogd.c	/^void _exclog_klogd_deinit()$/;"	f
+_exclog_klogd_deinit	src/include/exclog_sysklogd.h	/^void _exclog_klogd_deinit();$/;"	p	signature:()
+_exclog_klogd_get	src/exclog_sysklogd.c	/^int _exclog_klogd_get(exclog_packet_t *pkt)$/;"	f	signature:(exclog_packet_t *pkt)
+_exclog_klogd_get	src/include/exclog_sysklogd.h	/^int _exclog_klogd_get(exclog_packet_t *pkt);$/;"	p	signature:(exclog_packet_t *pkt)
+_exclog_klogd_init	src/exclog_sysklogd.c	/^int _exclog_klogd_init(int be_klog)$/;"	f	signature:(int be_klog)
+_exclog_klogd_init	src/include/exclog_sysklogd.h	/^int _exclog_klogd_init(int be_klog);$/;"	p	signature:(int be_klog)
+_exclog_level_str_2_hex	src/exclog_public.c	/^unsigned long _exclog_level_str_2_hex(char *level)$/;"	f	signature:(char *level)
+_exclog_level_str_2_hex	src/include/exclog_public.h	/^unsigned long _exclog_level_str_2_hex(char *level);$/;"	p	signature:(char *level)
+_exclog_local_deinit	src/exclog_local.c	/^void _exclog_local_deinit(void)$/;"	f	signature:(void)
+_exclog_local_deinit	src/include/exclog_local.h	/^void _exclog_local_deinit(void);$/;"	p	signature:(void)
+_exclog_local_init	src/exclog_local.c	/^int _exclog_local_init(const init_exclog_local_t *ix_p)$/;"	f	signature:(const init_exclog_local_t *ix_p)
+_exclog_local_init	src/include/exclog_local.h	/^int _exclog_local_init(const init_exclog_local_t *ix_p);$/;"	p	signature:(const init_exclog_local_t *ix_p)
+_exclog_local_put_queue	src/exclog_local.c	/^int _exclog_local_put_queue(char *sbuf, int slen)$/;"	f	signature:(char *sbuf, int slen)
+_exclog_local_put_queue	src/include/exclog_local.h	/^int _exclog_local_put_queue(char *sbuf,int slen);$/;"	p	signature:(char *sbuf,int slen)
+_exclog_local_startup	src/exclog_local.c	/^int _exclog_local_startup(void)$/;"	f	signature:(void)
+_exclog_local_startup	src/include/exclog_local.h	/^int _exclog_local_startup(void);$/;"	p	signature:(void)
+_exclog_module_str_2_hex	src/exclog_public.c	/^unsigned long _exclog_module_str_2_hex(char *module)$/;"	f	signature:(char *module)
+_exclog_module_str_2_hex	src/include/exclog_public.h	/^unsigned long _exclog_module_str_2_hex(char *module);$/;"	p	signature:(char *module)
+_exclog_public_get_ipaddr	src/exclog_public.c	/^int _exclog_public_get_ipaddr(char *ip)$/;"	f	signature:(char *ip)
+_exclog_public_get_ipaddr	src/include/exclog_public.h	/^int _exclog_public_get_ipaddr(char *ip);$/;"	p	signature:(char *ip)
+_exclog_query_check_req	src/exclog_query.c	/^int _exclog_query_check_req(const exclog_query_req_t *req)$/;"	f	signature:(const exclog_query_req_t *req)
+_exclog_query_check_req	src/include/exclog_query.h	/^int _exclog_query_check_req(const exclog_query_req_t *req);$/;"	p	signature:(const exclog_query_req_t *req)
+_exclog_query_free	src/exclog_query.c	/^void _exclog_query_free(exclog_query_rps_t *rps)$/;"	f	signature:(exclog_query_rps_t *rps)
+_exclog_query_free	src/include/exclog_query.h	/^void _exclog_query_free(exclog_query_rps_t *rps);$/;"	p	signature:(exclog_query_rps_t *rps)
+_exclog_query_from_remote	src/exclog_query.c	/^int _exclog_query_from_remote(exclog_query_req_t *req, exclog_query_rps_t **rps)$/;"	f	signature:(exclog_query_req_t *req, exclog_query_rps_t **rps)
+_exclog_query_from_remote	src/include/exclog_query.h	/^int _exclog_query_from_remote(exclog_query_req_t *req, exclog_query_rps_t **rps);$/;"	p	signature:(exclog_query_req_t *req, exclog_query_rps_t **rps)
+_exclog_query_startup	src/exclog_query.c	/^int _exclog_query_startup(char *ip, exclog_query_rps_t **rps)$/;"	f	signature:(char *ip, exclog_query_rps_t **rps)
+_exclog_query_startup	src/include/exclog_query.h	/^int _exclog_query_startup(char *ip, exclog_query_rps_t **rps);$/;"	p	signature:(char *ip, exclog_query_rps_t **rps)
+_exclog_query_stop	src/exclog_query.c	/^void _exclog_query_stop(void)$/;"	f	signature:(void)
+_exclog_query_stop	src/include/exclog_query.h	/^void _exclog_query_stop(void);$/;"	p	signature:(void)
+_exclog_remote_deinit	src/exclog_remote.c	/^void _exclog_remote_deinit(void)$/;"	f	signature:(void)
+_exclog_remote_deinit	src/include/exclog_remote.h	/^void _exclog_remote_deinit(void);$/;"	p	signature:(void)
+_exclog_remote_init	src/exclog_remote.c	/^int _exclog_remote_init(const init_exclog_remote_t *ix_p)$/;"	f	signature:(const init_exclog_remote_t *ix_p)
+_exclog_remote_init	src/include/exclog_remote.h	/^int _exclog_remote_init(const init_exclog_remote_t *ix_p);$/;"	p	signature:(const init_exclog_remote_t *ix_p)
+_exclog_remote_put_queue	src/exclog_remote.c	/^int _exclog_remote_put_queue(char *sbuf, int slen)$/;"	f	signature:(char *sbuf, int slen)
+_exclog_remote_put_queue	src/include/exclog_remote.h	/^int _exclog_remote_put_queue(char *sbuf,int slen);$/;"	p	signature:(char *sbuf,int slen)
+_exclog_remote_startup	src/exclog_remote.c	/^int _exclog_remote_startup(void)$/;"	f	signature:(void)
+_exclog_remote_startup	src/include/exclog_remote.h	/^int _exclog_remote_startup(void);$/;"	p	signature:(void)
+_exclog_store	src/exclog_store.c	/^int _exclog_store(const exclog_packet_t *pkt)$/;"	f	signature:(const exclog_packet_t *pkt)
+_exclog_store	src/include/exclog_store.h	/^int _exclog_store(const exclog_packet_t *pkt);$/;"	p	signature:(const exclog_packet_t *pkt)
+_exclog_syslogd_deinit	src/exclog_sysklogd.c	/^void _exclog_syslogd_deinit()$/;"	f
+_exclog_syslogd_deinit	src/include/exclog_sysklogd.h	/^void _exclog_syslogd_deinit();$/;"	p	signature:()
+_exclog_syslogd_get	src/exclog_sysklogd.c	/^int _exclog_syslogd_get(exclog_packet_t *pkt)$/;"	f	signature:(exclog_packet_t *pkt)
+_exclog_syslogd_get	src/include/exclog_sysklogd.h	/^int _exclog_syslogd_get(exclog_packet_t *pkt);$/;"	p	signature:(exclog_packet_t *pkt)
+_exclog_syslogd_init	src/exclog_sysklogd.c	/^int _exclog_syslogd_init(int be_syslog)$/;"	f	signature:(int be_syslog)
+_exclog_syslogd_init	src/include/exclog_sysklogd.h	/^int _exclog_syslogd_init(int be_syslog);$/;"	p	signature:(int be_syslog)
+_g_list_alloc	test_local/glist.c	37;"	d	file:
+_g_list_free_1	test_local/glist.c	60;"	d	file:
+_g_list_remove_link	test_local/glist.c	/^_g_list_remove_link (GList *list,$/;"	f	file:	signature:(GList *list, GList *link)
+_signal_user	test_local/exclog_local_test.c	/^static void _signal_user(int signum)$/;"	f	file:	signature:(int signum)
+_signal_user	test_query/exclog_query_test.c	/^static void _signal_user(int signum)$/;"	f	file:	signature:(int signum)
+_signal_user	test_remote/exclog_remote_test.c	/^static void _signal_user(int signum)$/;"	f	file:	signature:(int signum)
+be_klog	include/exclog.h	/^	int be_klog;$/;"	m	struct:init_exclog_local	access:public
+be_klog	include/exclog.h	/^	int be_klog;$/;"	m	struct:init_exclog_remote	access:public
+be_klog	release/include/exclog.h	/^	int be_klog;$/;"	m	struct:init_exclog_local	access:public
+be_klog	release/include/exclog.h	/^	int be_klog;$/;"	m	struct:init_exclog_remote	access:public
+be_syslog	include/exclog.h	/^	int be_syslog;$/;"	m	struct:init_exclog_local	access:public
+be_syslog	include/exclog.h	/^	int be_syslog;$/;"	m	struct:init_exclog_remote	access:public
+be_syslog	release/include/exclog.h	/^	int be_syslog;$/;"	m	struct:init_exclog_local	access:public
+be_syslog	release/include/exclog.h	/^	int be_syslog;$/;"	m	struct:init_exclog_remote	access:public
+data	include/exclog.h	/^	char data[EXCLOG_LOG_LEN_MAX];$/;"	m	struct:exclog_query_response	access:public
+data	release/include/exclog.h	/^	char data[EXCLOG_LOG_LEN_MAX];$/;"	m	struct:exclog_query_response	access:public
+data	src/include/exclog_public.h	/^	char data[EXCLOG_LOG_LEN_MAX];$/;"	m	struct:exclog_query_remote_response	access:public
+data	test_local/glist.h	/^  void * data;$/;"	m	struct:_GList	access:public
+day	include/exclog.h	/^	int day;$/;"	m	struct:exclog_datetime	access:public
+day	release/include/exclog.h	/^	int day;$/;"	m	struct:exclog_datetime	access:public
+deinit_exclog_local	include/exclog.h	/^int deinit_exclog_local(void);$/;"	p	signature:(void)
+deinit_exclog_local	release/include/exclog.h	/^int deinit_exclog_local(void);$/;"	p	signature:(void)
+deinit_exclog_local	src/exclog.c	/^int deinit_exclog_local(void)$/;"	f	signature:(void)
+deinit_exclog_network	include/exclog.h	/^int deinit_exclog_network(void);$/;"	p	signature:(void)
+deinit_exclog_network	release/include/exclog.h	/^int deinit_exclog_network(void);$/;"	p	signature:(void)
+deinit_exclog_network	src/exclog.c	/^int deinit_exclog_network(void)$/;"	f	signature:(void)
+dprintf	include/exclog.h	792;"	d
+dprintf	include/exclog_x.h	135;"	d
+dprintf	include/exclog_x.h	209;"	d
+dprintf	release/include/exclog.h	792;"	d
+dprintf	release/include/exclog_x.h	135;"	d
+dprintf	release/include/exclog_x.h	209;"	d
+eccsize	src/include/exclog_public.h	/^	uint32_t eccsize;$/;"	m	struct:mtd_info_user	access:public
+ecctype	src/include/exclog_public.h	/^	uint32_t ecctype;$/;"	m	struct:mtd_info_user	access:public
+eprintf	include/exclog.h	787;"	d
+eprintf	include/exclog_x.h	130;"	d
+eprintf	include/exclog_x.h	205;"	d
+eprintf	release/include/exclog.h	787;"	d
+eprintf	release/include/exclog_x.h	130;"	d
+eprintf	release/include/exclog_x.h	205;"	d
+erase_info_user	src/include/exclog_public.h	/^struct erase_info_user {$/;"	s
+erase_info_user::length	src/include/exclog_public.h	/^	uint32_t length;$/;"	m	struct:erase_info_user	access:public
+erase_info_user::start	src/include/exclog_public.h	/^	uint32_t start;$/;"	m	struct:erase_info_user	access:public
+erasesize	src/include/exclog_public.h	/^	uint32_t erasesize;		\/* For this region *\/$/;"	m	struct:region_info_user	access:public
+erasesize	src/include/exclog_public.h	/^	uint32_t erasesize;$/;"	m	struct:mtd_info_user	access:public
+etime	include/exclog.h	/^	exclog_datetime_t etime;$/;"	m	struct:exclog_query_request	access:public
+etime	release/include/exclog.h	/^	exclog_datetime_t etime;$/;"	m	struct:exclog_query_request	access:public
+excLOG_ALERT	include/exclog.h	488;"	d
+excLOG_ALERT	include/exclog.h	512;"	d
+excLOG_ALERT	include/exclog.h	596;"	d
+excLOG_ALERT	include/exclog.h	673;"	d
+excLOG_ALERT	include/exclog.h	744;"	d
+excLOG_ALERT	include/exclog_x.h	168;"	d
+excLOG_ALERT	include/exclog_x.h	82;"	d
+excLOG_ALERT	release/include/exclog.h	488;"	d
+excLOG_ALERT	release/include/exclog.h	512;"	d
+excLOG_ALERT	release/include/exclog.h	596;"	d
+excLOG_ALERT	release/include/exclog.h	673;"	d
+excLOG_ALERT	release/include/exclog.h	744;"	d
+excLOG_ALERT	release/include/exclog_x.h	168;"	d
+excLOG_ALERT	release/include/exclog_x.h	82;"	d
+excLOG_COMMOM	include/exclog.h	649;"	d
+excLOG_COMMOM	include/exclog.h	720;"	d
+excLOG_COMMOM	release/include/exclog.h	649;"	d
+excLOG_COMMOM	release/include/exclog.h	720;"	d
+excLOG_CRIT	include/exclog.h	487;"	d
+excLOG_CRIT	include/exclog.h	505;"	d
+excLOG_CRIT	include/exclog.h	588;"	d
+excLOG_CRIT	include/exclog.h	666;"	d
+excLOG_CRIT	include/exclog.h	737;"	d
+excLOG_CRIT	include/exclog_x.h	162;"	d
+excLOG_CRIT	include/exclog_x.h	74;"	d
+excLOG_CRIT	release/include/exclog.h	487;"	d
+excLOG_CRIT	release/include/exclog.h	505;"	d
+excLOG_CRIT	release/include/exclog.h	588;"	d
+excLOG_CRIT	release/include/exclog.h	666;"	d
+excLOG_CRIT	release/include/exclog.h	737;"	d
+excLOG_CRIT	release/include/exclog_x.h	162;"	d
+excLOG_CRIT	release/include/exclog_x.h	74;"	d
+excLOG_DEBUG	include/exclog.h	493;"	d
+excLOG_DEBUG	include/exclog.h	547;"	d
+excLOG_DEBUG	include/exclog.h	636;"	d
+excLOG_DEBUG	include/exclog.h	708;"	d
+excLOG_DEBUG	include/exclog.h	779;"	d
+excLOG_DEBUG	include/exclog_x.h	122;"	d
+excLOG_DEBUG	include/exclog_x.h	198;"	d
+excLOG_DEBUG	release/include/exclog.h	493;"	d
+excLOG_DEBUG	release/include/exclog.h	547;"	d
+excLOG_DEBUG	release/include/exclog.h	636;"	d
+excLOG_DEBUG	release/include/exclog.h	708;"	d
+excLOG_DEBUG	release/include/exclog.h	779;"	d
+excLOG_DEBUG	release/include/exclog_x.h	122;"	d
+excLOG_DEBUG	release/include/exclog_x.h	198;"	d
+excLOG_EMERG	include/exclog.h	486;"	d
+excLOG_EMERG	include/exclog.h	498;"	d
+excLOG_EMERG	include/exclog.h	580;"	d
+excLOG_EMERG	include/exclog.h	659;"	d
+excLOG_EMERG	include/exclog.h	730;"	d
+excLOG_EMERG	include/exclog_x.h	156;"	d
+excLOG_EMERG	include/exclog_x.h	66;"	d
+excLOG_EMERG	release/include/exclog.h	486;"	d
+excLOG_EMERG	release/include/exclog.h	498;"	d
+excLOG_EMERG	release/include/exclog.h	580;"	d
+excLOG_EMERG	release/include/exclog.h	659;"	d
+excLOG_EMERG	release/include/exclog.h	730;"	d
+excLOG_EMERG	release/include/exclog_x.h	156;"	d
+excLOG_EMERG	release/include/exclog_x.h	66;"	d
+excLOG_ERR	include/exclog.h	489;"	d
+excLOG_ERR	include/exclog.h	519;"	d
+excLOG_ERR	include/exclog.h	604;"	d
+excLOG_ERR	include/exclog.h	680;"	d
+excLOG_ERR	include/exclog.h	751;"	d
+excLOG_ERR	include/exclog_x.h	174;"	d
+excLOG_ERR	include/exclog_x.h	90;"	d
+excLOG_ERR	release/include/exclog.h	489;"	d
+excLOG_ERR	release/include/exclog.h	519;"	d
+excLOG_ERR	release/include/exclog.h	604;"	d
+excLOG_ERR	release/include/exclog.h	680;"	d
+excLOG_ERR	release/include/exclog.h	751;"	d
+excLOG_ERR	release/include/exclog_x.h	174;"	d
+excLOG_ERR	release/include/exclog_x.h	90;"	d
+excLOG_INFO	include/exclog.h	492;"	d
+excLOG_INFO	include/exclog.h	540;"	d
+excLOG_INFO	include/exclog.h	628;"	d
+excLOG_INFO	include/exclog.h	701;"	d
+excLOG_INFO	include/exclog.h	772;"	d
+excLOG_INFO	include/exclog_x.h	114;"	d
+excLOG_INFO	include/exclog_x.h	192;"	d
+excLOG_INFO	release/include/exclog.h	492;"	d
+excLOG_INFO	release/include/exclog.h	540;"	d
+excLOG_INFO	release/include/exclog.h	628;"	d
+excLOG_INFO	release/include/exclog.h	701;"	d
+excLOG_INFO	release/include/exclog.h	772;"	d
+excLOG_INFO	release/include/exclog_x.h	114;"	d
+excLOG_INFO	release/include/exclog_x.h	192;"	d
+excLOG_NOTICE	include/exclog.h	491;"	d
+excLOG_NOTICE	include/exclog.h	533;"	d
+excLOG_NOTICE	include/exclog.h	620;"	d
+excLOG_NOTICE	include/exclog.h	694;"	d
+excLOG_NOTICE	include/exclog.h	765;"	d
+excLOG_NOTICE	include/exclog_x.h	106;"	d
+excLOG_NOTICE	include/exclog_x.h	186;"	d
+excLOG_NOTICE	release/include/exclog.h	491;"	d
+excLOG_NOTICE	release/include/exclog.h	533;"	d
+excLOG_NOTICE	release/include/exclog.h	620;"	d
+excLOG_NOTICE	release/include/exclog.h	694;"	d
+excLOG_NOTICE	release/include/exclog.h	765;"	d
+excLOG_NOTICE	release/include/exclog_x.h	106;"	d
+excLOG_NOTICE	release/include/exclog_x.h	186;"	d
+excLOG_PUSH	include/exclog.h	/^int excLOG_PUSH(char *sbuf, int slen);$/;"	p	signature:(char *sbuf, int slen)
+excLOG_PUSH	release/include/exclog.h	/^int excLOG_PUSH(char *sbuf, int slen);$/;"	p	signature:(char *sbuf, int slen)
+excLOG_PUSH	src/exclog.c	/^int excLOG_PUSH(char *sbuf, int slen)$/;"	f	signature:(char *sbuf, int slen)
+excLOG_WARNING	include/exclog.h	490;"	d
+excLOG_WARNING	include/exclog.h	526;"	d
+excLOG_WARNING	include/exclog.h	612;"	d
+excLOG_WARNING	include/exclog.h	687;"	d
+excLOG_WARNING	include/exclog.h	758;"	d
+excLOG_WARNING	include/exclog_x.h	180;"	d
+excLOG_WARNING	include/exclog_x.h	98;"	d
+excLOG_WARNING	release/include/exclog.h	490;"	d
+excLOG_WARNING	release/include/exclog.h	526;"	d
+excLOG_WARNING	release/include/exclog.h	612;"	d
+excLOG_WARNING	release/include/exclog.h	687;"	d
+excLOG_WARNING	release/include/exclog.h	758;"	d
+excLOG_WARNING	release/include/exclog_x.h	180;"	d
+excLOG_WARNING	release/include/exclog_x.h	98;"	d
+excLOG_close	include/exclog.h	/^void excLOG_close();$/;"	p	signature:()
+excLOG_close	release/include/exclog.h	/^void excLOG_close();$/;"	p	signature:()
+excLOG_close	src/exclog.c	/^void excLOG_close()$/;"	f
+excLOG_dump_backstrace	include/exclog.h	/^void excLOG_dump_backstrace(int max_num) __attribute__((noinline));$/;"	p	signature:(int max_num)
+excLOG_dump_backstrace	release/include/exclog.h	/^void excLOG_dump_backstrace(int max_num) __attribute__((noinline));$/;"	p	signature:(int max_num)
+excLOG_level_get	include/exclog.h	/^int excLOG_level_get(void);$/;"	p	signature:(void)
+excLOG_level_get	release/include/exclog.h	/^int excLOG_level_get(void);$/;"	p	signature:(void)
+excLOG_level_get	src/exclog.c	/^int  excLOG_level_get(void)$/;"	f	signature:(void)
+excLOG_level_set	include/exclog.h	/^int excLOG_level_set(int new_level);$/;"	p	signature:(int new_level)
+excLOG_level_set	release/include/exclog.h	/^int excLOG_level_set(int new_level);$/;"	p	signature:(int new_level)
+excLOG_level_set	src/exclog.c	/^int excLOG_level_set(int new_level)$/;"	f	signature:(int new_level)
+excLOG_local	include/exclog.h	/^int excLOG_local(char *sbuf, int slen);$/;"	p	signature:(char *sbuf, int slen)
+excLOG_local	release/include/exclog.h	/^int excLOG_local(char *sbuf, int slen);$/;"	p	signature:(char *sbuf, int slen)
+excLOG_local	src/exclog.c	/^int excLOG_local(char *sbuf, int slen)$/;"	f	signature:(char *sbuf, int slen)
+excLOG_msg2stdout_set	include/exclog.h	/^int excLOG_msg2stdout_set(int new_value);$/;"	p	signature:(int new_value)
+excLOG_msg2stdout_set	release/include/exclog.h	/^int excLOG_msg2stdout_set(int new_value);$/;"	p	signature:(int new_value)
+excLOG_query	include/exclog.h	/^int excLOG_query(const exclog_query_req_t *req);$/;"	p	signature:(const exclog_query_req_t *req)
+excLOG_query	release/include/exclog.h	/^int excLOG_query(const exclog_query_req_t *req);$/;"	p	signature:(const exclog_query_req_t *req)
+excLOG_query	src/exclog.c	/^int excLOG_query(const exclog_query_req_t *req)$/;"	f	signature:(const exclog_query_req_t *req)
+excLOG_read	include/exclog.h	/^int excLOG_read(exclog_query_rps_t **rps);$/;"	p	signature:(exclog_query_rps_t **rps)
+excLOG_read	release/include/exclog.h	/^int excLOG_read(exclog_query_rps_t **rps);$/;"	p	signature:(exclog_query_rps_t **rps)
+excLOG_read	src/exclog.c	/^int excLOG_read(exclog_query_rps_t **rps)$/;"	f	signature:(exclog_query_rps_t **rps)
+excLOG_subscribe	include/exclog.h	/^int excLOG_subscribe(exclog_subscribe_req_t *ereq);$/;"	p	signature:(exclog_subscribe_req_t *ereq)
+excLOG_subscribe	release/include/exclog.h	/^int excLOG_subscribe(exclog_subscribe_req_t *ereq);$/;"	p	signature:(exclog_subscribe_req_t *ereq)
+excLOG_subscribe	src/exclog.c	/^int excLOG_subscribe(exclog_subscribe_req_t *ereq)$/;"	f	signature:(exclog_subscribe_req_t *ereq)
+exclog_datetime	include/exclog.h	/^typedef struct exclog_datetime$/;"	s
+exclog_datetime	release/include/exclog.h	/^typedef struct exclog_datetime$/;"	s
+exclog_datetime::day	include/exclog.h	/^	int day;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime::day	release/include/exclog.h	/^	int day;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime::hour	include/exclog.h	/^	int hour;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime::hour	release/include/exclog.h	/^	int hour;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime::minute	include/exclog.h	/^	int minute;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime::minute	release/include/exclog.h	/^	int minute;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime::month	include/exclog.h	/^	int month;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime::month	release/include/exclog.h	/^	int month;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime::second	include/exclog.h	/^	int second;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime::second	release/include/exclog.h	/^	int second;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime::year	include/exclog.h	/^	int year;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime::year	release/include/exclog.h	/^	int year;$/;"	m	struct:exclog_datetime	access:public
+exclog_datetime_t	include/exclog.h	/^} exclog_datetime_t;$/;"	t	typeref:struct:exclog_datetime
+exclog_datetime_t	release/include/exclog.h	/^} exclog_datetime_t;$/;"	t	typeref:struct:exclog_datetime
+exclog_flash_info	src/include/exclog_store.h	/^typedef struct exclog_flash_info$/;"	s
+exclog_flash_info::left	src/include/exclog_store.h	/^	int left;$/;"	m	struct:exclog_flash_info	access:public
+exclog_flash_info::offset	src/include/exclog_store.h	/^	int offset;$/;"	m	struct:exclog_flash_info	access:public
+exclog_flash_info::pos	src/include/exclog_store.h	/^	int pos;$/;"	m	struct:exclog_flash_info	access:public
+exclog_flash_info::size	src/include/exclog_store.h	/^	int size;$/;"	m	struct:exclog_flash_info	access:public
+exclog_flash_info::status	src/include/exclog_store.h	/^	int status ;$/;"	m	struct:exclog_flash_info	access:public
+exclog_flash_info_t	src/include/exclog_store.h	/^}exclog_flash_info_t;$/;"	t	typeref:struct:exclog_flash_info
+exclog_head	src/include/exclog_public.h	/^typedef struct exclog_head$/;"	s
+exclog_head::len	src/include/exclog_public.h	/^	int len;$/;"	m	struct:exclog_head	access:public
+exclog_head::magik	src/include/exclog_public.h	/^	int magik;$/;"	m	struct:exclog_head	access:public
+exclog_head::time	src/include/exclog_public.h	/^	time_t time;$/;"	m	struct:exclog_head	access:public
+exclog_head_t	src/include/exclog_public.h	/^} exclog_head_t;$/;"	t	typeref:struct:exclog_head
+exclog_packet	src/include/exclog_public.h	/^typedef struct exclog_packet$/;"	s
+exclog_packet::len	src/include/exclog_public.h	/^	int len;$/;"	m	struct:exclog_packet	access:public
+exclog_packet::message	src/include/exclog_public.h	/^	char message[EXCLOG_MSG_LEN_MAX];$/;"	m	struct:exclog_packet	access:public
+exclog_packet::next	src/include/exclog_public.h	/^	struct exclog_packet *next;$/;"	m	struct:exclog_packet	typeref:struct:exclog_packet::exclog_packet	access:public
+exclog_packet::status	src/include/exclog_public.h	/^	int status;$/;"	m	struct:exclog_packet	access:public
+exclog_packet::tv	src/include/exclog_public.h	/^	struct timeval tv;$/;"	m	struct:exclog_packet	typeref:struct:exclog_packet::timeval	access:public
+exclog_packet_t	src/include/exclog_public.h	/^}exclog_packet_t;$/;"	t	typeref:struct:exclog_packet
+exclog_query_info_t	src/include/exclog_query.h	/^} exclog_query_info_t;$/;"	t	typeref:struct:__anon1
+exclog_query_remote_response	src/include/exclog_public.h	/^typedef struct exclog_query_remote_response$/;"	s
+exclog_query_remote_response::data	src/include/exclog_public.h	/^	char data[EXCLOG_LOG_LEN_MAX];$/;"	m	struct:exclog_query_remote_response	access:public
+exclog_query_remote_response::level	src/include/exclog_public.h	/^	unsigned long level;$/;"	m	struct:exclog_query_remote_response	access:public
+exclog_query_remote_response::module	src/include/exclog_public.h	/^	unsigned long module;$/;"	m	struct:exclog_query_remote_response	access:public
+exclog_query_remote_response::tick	src/include/exclog_public.h	/^	exclog_datetime_t tick;$/;"	m	struct:exclog_query_remote_response	access:public
+exclog_query_remote_rps_t	src/include/exclog_public.h	/^} exclog_query_remote_rps_t;$/;"	t	typeref:struct:exclog_query_remote_response
+exclog_query_req_t	include/exclog.h	/^} exclog_query_req_t;$/;"	t	typeref:struct:exclog_query_request
+exclog_query_req_t	release/include/exclog.h	/^} exclog_query_req_t;$/;"	t	typeref:struct:exclog_query_request
+exclog_query_request	include/exclog.h	/^typedef struct exclog_query_request$/;"	s
+exclog_query_request	release/include/exclog.h	/^typedef struct exclog_query_request$/;"	s
+exclog_query_request::etime	include/exclog.h	/^	exclog_datetime_t etime;$/;"	m	struct:exclog_query_request	access:public
+exclog_query_request::etime	release/include/exclog.h	/^	exclog_datetime_t etime;$/;"	m	struct:exclog_query_request	access:public
+exclog_query_request::level	include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_query_request	access:public
+exclog_query_request::level	release/include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_query_request	access:public
+exclog_query_request::module	include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_query_request	access:public
+exclog_query_request::module	release/include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_query_request	access:public
+exclog_query_request::stime	include/exclog.h	/^	exclog_datetime_t stime;$/;"	m	struct:exclog_query_request	access:public
+exclog_query_request::stime	release/include/exclog.h	/^	exclog_datetime_t stime;$/;"	m	struct:exclog_query_request	access:public
+exclog_query_response	include/exclog.h	/^typedef struct exclog_query_response$/;"	s
+exclog_query_response	release/include/exclog.h	/^typedef struct exclog_query_response$/;"	s
+exclog_query_response::data	include/exclog.h	/^	char data[EXCLOG_LOG_LEN_MAX];$/;"	m	struct:exclog_query_response	access:public
+exclog_query_response::data	release/include/exclog.h	/^	char data[EXCLOG_LOG_LEN_MAX];$/;"	m	struct:exclog_query_response	access:public
+exclog_query_response::level	include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_query_response	access:public
+exclog_query_response::level	release/include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_query_response	access:public
+exclog_query_response::module	include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_query_response	access:public
+exclog_query_response::module	release/include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_query_response	access:public
+exclog_query_response::next	include/exclog.h	/^	struct exclog_query_response *next;$/;"	m	struct:exclog_query_response	typeref:struct:exclog_query_response::exclog_query_response	access:public
+exclog_query_response::next	release/include/exclog.h	/^	struct exclog_query_response *next;$/;"	m	struct:exclog_query_response	typeref:struct:exclog_query_response::exclog_query_response	access:public
+exclog_query_response::tick	include/exclog.h	/^	exclog_datetime_t tick;$/;"	m	struct:exclog_query_response	access:public
+exclog_query_response::tick	release/include/exclog.h	/^	exclog_datetime_t tick;$/;"	m	struct:exclog_query_response	access:public
+exclog_query_rps_t	include/exclog.h	/^} exclog_query_rps_t;$/;"	t	typeref:struct:exclog_query_response
+exclog_query_rps_t	release/include/exclog.h	/^} exclog_query_rps_t;$/;"	t	typeref:struct:exclog_query_response
+exclog_query_state	src/exclog_query.c	/^static int exclog_query_state=0;$/;"	v	file:
+exclog_query_switch	src/exclog_query.c	/^static int exclog_query_switch=0;$/;"	v	file:
+exclog_record	src/include/exclog_public.h	/^typedef struct exclog_record$/;"	s
+exclog_record::head	src/include/exclog_public.h	/^	exclog_head_t head;$/;"	m	struct:exclog_record	access:public
+exclog_record::message	src/include/exclog_public.h	/^	char message[EXCLOG_MSG_LEN_MAX];$/;"	m	struct:exclog_record	access:public
+exclog_record_t	src/include/exclog_public.h	/^}exclog_record_t;$/;"	t	typeref:struct:exclog_record
+exclog_server	src/exclog_remote.c	/^static struct sockaddr_in exclog_server;$/;"	v	typeref:struct:sockaddr_in	file:
+exclog_subscribe_f	include/exclog.h	/^typedef int (*exclog_subscribe_f)(exclog_subscribe_rps_t *erps);$/;"	t
+exclog_subscribe_f	release/include/exclog.h	/^typedef int (*exclog_subscribe_f)(exclog_subscribe_rps_t *erps);$/;"	t
+exclog_subscribe_req_t	include/exclog.h	/^} exclog_subscribe_req_t;$/;"	t	typeref:struct:exclog_subscribe_request
+exclog_subscribe_req_t	release/include/exclog.h	/^} exclog_subscribe_req_t;$/;"	t	typeref:struct:exclog_subscribe_request
+exclog_subscribe_request	include/exclog.h	/^typedef struct exclog_subscribe_request$/;"	s
+exclog_subscribe_request	release/include/exclog.h	/^typedef struct exclog_subscribe_request$/;"	s
+exclog_subscribe_request::level	include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_subscribe_request	access:public
+exclog_subscribe_request::level	release/include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_subscribe_request	access:public
+exclog_subscribe_request::module	include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_subscribe_request	access:public
+exclog_subscribe_request::module	release/include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_subscribe_request	access:public
+exclog_subscribe_request::sub_f	include/exclog.h	/^	exclog_subscribe_f sub_f;$/;"	m	struct:exclog_subscribe_request	access:public
+exclog_subscribe_request::sub_f	release/include/exclog.h	/^	exclog_subscribe_f sub_f;$/;"	m	struct:exclog_subscribe_request	access:public
+exclog_subscribe_response	include/exclog.h	/^typedef struct exclog_subscribe_response$/;"	s
+exclog_subscribe_response	release/include/exclog.h	/^typedef struct exclog_subscribe_response$/;"	s
+exclog_subscribe_response::level	include/exclog.h	/^	int level;$/;"	m	struct:exclog_subscribe_response	access:public
+exclog_subscribe_response::level	release/include/exclog.h	/^	int level;$/;"	m	struct:exclog_subscribe_response	access:public
+exclog_subscribe_response::message	include/exclog.h	/^	char message[EXCLOG_LOG_LEN_MAX];$/;"	m	struct:exclog_subscribe_response	access:public
+exclog_subscribe_response::message	release/include/exclog.h	/^	char message[EXCLOG_LOG_LEN_MAX];$/;"	m	struct:exclog_subscribe_response	access:public
+exclog_subscribe_response::module	include/exclog.h	/^	char module[16];$/;"	m	struct:exclog_subscribe_response	access:public
+exclog_subscribe_response::module	release/include/exclog.h	/^	char module[16];$/;"	m	struct:exclog_subscribe_response	access:public
+exclog_subscribe_rps_t	include/exclog.h	/^} exclog_subscribe_rps_t;$/;"	t	typeref:struct:exclog_subscribe_response
+exclog_subscribe_rps_t	release/include/exclog.h	/^} exclog_subscribe_rps_t;$/;"	t	typeref:struct:exclog_subscribe_response
+exclog_thread_num	src/exclog_local.c	/^static int exclog_thread_num = 0;$/;"	v	file:
+exclog_thread_num	src/exclog_remote.c	/^static int exclog_thread_num = 0;$/;"	v	file:
+exclog_thread_switch	src/exclog_local.c	/^static int exclog_thread_switch = 0;$/;"	v	file:
+exclog_thread_switch	src/exclog_remote.c	/^static int exclog_thread_switch = 0;$/;"	v	file:
+exit_ok	test_local/exclog_local_test.c	/^static int exit_ok=1;$/;"	v	file:
+exit_ok	test_query/exclog_query_test.c	/^static int exit_ok=1;$/;"	v	file:
+exit_ok	test_remote/exclog_remote_test.c	/^static int exit_ok=1;$/;"	v	file:
+file	test_local/lpconfig.c	/^	FILE *file;$/;"	m	struct:_LpConfig	file:	access:public
+filename	test_local/lpconfig.c	/^	char *filename;$/;"	m	struct:_LpConfig	file:	access:public
+flags	src/include/exclog_public.h	/^	uint32_t flags;$/;"	m	struct:mtd_info_user	access:public
+g_free	test_local/glist.c	35;"	d	file:
+g_list_alloc	test_local/glist.c	/^GList* g_list_alloc (void)$/;"	f	signature:(void)
+g_list_alloc	test_local/glist.h	/^GList*   g_list_alloc          (void);$/;"	p	signature:(void)
+g_list_append	test_local/glist.c	/^g_list_append (GList    *list,$/;"	f	signature:(GList *list, void * data)
+g_list_append	test_local/glist.h	/^GList*   g_list_append         (GList            *list,$/;"	p	signature:(GList *list, void * data)
+g_list_concat	test_local/glist.c	/^g_list_concat (GList *list1, GList *list2)$/;"	f	signature:(GList *list1, GList *list2)
+g_list_concat	test_local/glist.h	/^GList*   g_list_concat         (GList            *list1,$/;"	p	signature:(GList *list1, GList *list2)
+g_list_copy	test_local/glist.c	/^g_list_copy (GList *list)$/;"	f	signature:(GList *list)
+g_list_copy	test_local/glist.h	/^GList*   g_list_copy           (GList            *list);$/;"	p	signature:(GList *list)
+g_list_delete_link	test_local/glist.c	/^g_list_delete_link (GList *list,$/;"	f	signature:(GList *list, GList *link)
+g_list_delete_link	test_local/glist.h	/^GList*   g_list_delete_link    (GList            *list,$/;"	p	signature:(GList *list, GList *link_)
+g_list_find	test_local/glist.c	/^g_list_find (GList         *list,$/;"	f	signature:(GList *list, gconstpointer data)
+g_list_find	test_local/glist.h	/^GList*   g_list_find           (GList            *list,$/;"	p	signature:(GList *list, gconstpointer data)
+g_list_find_custom	test_local/glist.c	/^g_list_find_custom (GList         *list,$/;"	f	signature:(GList *list, gconstpointer data, GCompareFunc func)
+g_list_find_custom	test_local/glist.h	/^GList*   g_list_find_custom    (GList            *list,$/;"	p	signature:(GList *list, gconstpointer data, GCompareFunc func)
+g_list_first	test_local/glist.c	/^g_list_first (GList *list)$/;"	f	signature:(GList *list)
+g_list_first	test_local/glist.h	/^GList*   g_list_first          (GList            *list);$/;"	p	signature:(GList *list)
+g_list_foreach	test_local/glist.c	/^g_list_foreach (GList    *list,$/;"	f	signature:(GList *list, GFunc func, void * user_data)
+g_list_foreach	test_local/glist.h	/^void     g_list_foreach        (GList            *list,$/;"	p	signature:(GList *list, GFunc func, void * user_data)
+g_list_free	test_local/glist.c	/^g_list_free (GList *list)$/;"	f	signature:(GList *list)
+g_list_free	test_local/glist.h	/^void     g_list_free           (GList            *list);$/;"	p	signature:(GList *list)
+g_list_free_1	test_local/glist.c	/^g_list_free_1 (GList *list)$/;"	f	signature:(GList *list)
+g_list_free_1	test_local/glist.h	/^void     g_list_free_1         (GList            *list);$/;"	p	signature:(GList *list)
+g_list_index	test_local/glist.c	/^g_list_index (GList         *list,$/;"	f	signature:(GList *list, gconstpointer data)
+g_list_index	test_local/glist.h	/^gint     g_list_index          (GList            *list,$/;"	p	signature:(GList *list, gconstpointer data)
+g_list_insert	test_local/glist.c	/^g_list_insert (GList    *list,$/;"	f	signature:(GList *list, void * data, gint position)
+g_list_insert	test_local/glist.h	/^GList*   g_list_insert         (GList            *list,$/;"	p	signature:(GList *list, void * data, gint position)
+g_list_insert_before	test_local/glist.c	/^g_list_insert_before (GList   *list,$/;"	f	signature:(GList *list, GList *sibling, void * data)
+g_list_insert_before	test_local/glist.h	/^GList*   g_list_insert_before  (GList            *list,$/;"	p	signature:(GList *list, GList *sibling, void * data)
+g_list_insert_sorted	test_local/glist.c	/^g_list_insert_sorted (GList        *list,$/;"	f	signature:(GList *list, void * data, GCompareFunc func)
+g_list_insert_sorted	test_local/glist.h	/^GList*   g_list_insert_sorted  (GList            *list,$/;"	p	signature:(GList *list, void * data, GCompareFunc func)
+g_list_last	test_local/glist.c	/^g_list_last (GList *list)$/;"	f	signature:(GList *list)
+g_list_last	test_local/glist.h	/^GList*   g_list_last           (GList            *list);$/;"	p	signature:(GList *list)
+g_list_length	test_local/glist.c	/^g_list_length (GList *list)$/;"	f	signature:(GList *list)
+g_list_length	test_local/glist.h	/^guint    g_list_length         (GList            *list);$/;"	p	signature:(GList *list)
+g_list_next	test_local/glist.h	170;"	d
+g_list_nth	test_local/glist.c	/^g_list_nth (GList *list,$/;"	f	signature:(GList *list, guint n)
+g_list_nth	test_local/glist.h	/^GList*   g_list_nth            (GList            *list,$/;"	p	signature:(GList *list, guint n)
+g_list_nth_data	test_local/glist.c	/^g_list_nth_data (GList     *list,$/;"	f	signature:(GList *list, guint n)
+g_list_nth_data	test_local/glist.h	/^void    *g_list_nth_data       (GList            *list,$/;"	p	signature:(GList *list, guint n)
+g_list_nth_prev	test_local/glist.c	/^g_list_nth_prev (GList *list,$/;"	f	signature:(GList *list, guint n)
+g_list_nth_prev	test_local/glist.h	/^GList*   g_list_nth_prev       (GList            *list,$/;"	p	signature:(GList *list, guint n)
+g_list_position	test_local/glist.c	/^g_list_position (GList *list,$/;"	f	signature:(GList *list, GList *link)
+g_list_position	test_local/glist.h	/^gint     g_list_position       (GList            *list,$/;"	p	signature:(GList *list, GList *llink)
+g_list_prepend	test_local/glist.c	/^g_list_prepend (GList    *list,$/;"	f	signature:(GList *list, void * data)
+g_list_prepend	test_local/glist.h	/^GList*   g_list_prepend        (GList            *list,$/;"	p	signature:(GList *list, void * data)
+g_list_previous	test_local/glist.h	169;"	d
+g_list_remove	test_local/glist.c	/^g_list_remove (GList         *list,$/;"	f	signature:(GList *list, gconstpointer data)
+g_list_remove	test_local/glist.h	/^GList*   g_list_remove         (GList            *list,$/;"	p	signature:(GList *list, gconstpointer data)
+g_list_remove_all	test_local/glist.c	/^g_list_remove_all (GList    *list,$/;"	f	signature:(GList *list, gconstpointer data)
+g_list_remove_all	test_local/glist.h	/^GList*   g_list_remove_all     (GList            *list,$/;"	p	signature:(GList *list, gconstpointer data)
+g_list_remove_link	test_local/glist.c	/^g_list_remove_link (GList *list,$/;"	f	signature:(GList *list, GList *link)
+g_list_remove_link	test_local/glist.h	/^GList*   g_list_remove_link    (GList            *list,$/;"	p	signature:(GList *list, GList *llink)
+g_list_reverse	test_local/glist.c	/^g_list_reverse (GList *list)$/;"	f	signature:(GList *list)
+g_list_reverse	test_local/glist.h	/^GList*   g_list_reverse        (GList            *list);$/;"	p	signature:(GList *list)
+g_list_sort	test_local/glist.c	/^g_list_sort (GList        *list,$/;"	f	signature:(GList *list, GCompareFunc compare_func)
+g_list_sort	test_local/glist.h	/^GList*   g_list_sort           (GList            *list,$/;"	p	signature:(GList *list, GCompareFunc compare_func)
+g_list_sort_merge	test_local/glist.c	/^g_list_sort_merge (GList     *l1, $/;"	f	file:	signature:(GList *l1, GList *l2, GFunc compare_func, gboolean use_data, void * user_data)
+g_list_sort_real	test_local/glist.c	/^g_list_sort_real (GList    *list,$/;"	f	file:	signature:(GList *list, GFunc compare_func, gboolean use_data, void * user_data)
+g_list_sort_with_data	test_local/glist.c	/^g_list_sort_with_data (GList            *list,$/;"	f	signature:(GList *list, GCompareDataFunc compare_func, void * user_data)
+g_list_sort_with_data	test_local/glist.h	/^GList*   g_list_sort_with_data (GList            *list,$/;"	p	signature:(GList *list, GCompareDataFunc compare_func, void * user_data)
+g_new0	test_local/glist.c	34;"	d	file:
+g_slist_foreach	test_local/glist.h	179;"	d
+g_slist_free	test_local/glist.h	175;"	d
+g_slist_free_1	test_local/glist.h	176;"	d
+g_slist_length	test_local/glist.h	180;"	d
+g_slist_next	test_local/glist.h	178;"	d
+g_slist_prepend	test_local/glist.h	174;"	d
+g_slist_reverse	test_local/glist.h	177;"	d
+gboolean	test_local/glist.h	/^typedef int gboolean;$/;"	t
+gchar	test_local/glist.h	/^typedef  char gchar;$/;"	t
+gconstpointer	test_local/glist.h	/^typedef const void *gconstpointer;$/;"	t
+gdouble	test_local/glist.h	/^typedef double gdouble;$/;"	t
+gint	test_local/glist.h	/^typedef  int gint;$/;"	t
+gint16	test_local/glist.h	/^typedef  signed short gint16;$/;"	t
+gint32	test_local/glist.h	/^typedef  int32_t gint32;$/;"	t
+gint64	test_local/glist.h	/^typedef  int64_t gint64;$/;"	t
+gpointer	test_local/glist.h	/^typedef  void* gpointer;$/;"	t
+gsize	test_local/glist.h	/^typedef int gsize;$/;"	t
+gssize	test_local/glist.h	/^typedef ssize_t gssize;$/;"	t
+guchar	test_local/glist.h	/^typedef  unsigned char guchar;$/;"	t
+guint	test_local/glist.h	/^typedef  unsigned int guint;$/;"	t
+guint16	test_local/glist.h	/^typedef  uint16_t guint16;$/;"	t
+guint32	test_local/glist.h	/^typedef  uint32_t guint32;$/;"	t
+guint64	test_local/glist.h	/^typedef  uint64_t guint64;$/;"	t
+guint8	test_local/glist.h	/^typedef  unsigned char guint8;$/;"	t
+gulong	test_local/glist.h	/^typedef  unsigned long gulong;$/;"	t
+head	src/exclog_local.c	/^static int head = 0;\/*head of pkt_queue*\/$/;"	v	file:
+head	src/exclog_remote.c	/^static int head = 0;$/;"	v	file:
+head	src/include/exclog_public.h	/^	exclog_head_t head;$/;"	m	struct:exclog_record	access:public
+host_ip	src/exclog_remote.c	/^static char host_ip[EXCLOG_IPADDRESS_LEN] = { '\\0' };\/*host IP address*\/$/;"	v	file:
+hour	include/exclog.h	/^	int hour;$/;"	m	struct:exclog_datetime	access:public
+hour	release/include/exclog.h	/^	int hour;$/;"	m	struct:exclog_datetime	access:public
+info_arch	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_platform	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+init_exclog_local	include/exclog.h	/^int init_exclog_local(const init_exclog_local_t *ix_p);$/;"	p	signature:(const init_exclog_local_t *ix_p)
+init_exclog_local	include/exclog.h	/^typedef struct init_exclog_local$/;"	s
+init_exclog_local	release/include/exclog.h	/^int init_exclog_local(const init_exclog_local_t *ix_p);$/;"	p	signature:(const init_exclog_local_t *ix_p)
+init_exclog_local	release/include/exclog.h	/^typedef struct init_exclog_local$/;"	s
+init_exclog_local	src/exclog.c	/^int init_exclog_local(const init_exclog_local_t *ix_p)$/;"	f	signature:(const init_exclog_local_t *ix_p)
+init_exclog_local::be_klog	include/exclog.h	/^	int be_klog;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::be_klog	release/include/exclog.h	/^	int be_klog;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::be_syslog	include/exclog.h	/^	int be_syslog;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::be_syslog	release/include/exclog.h	/^	int be_syslog;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::local_port	include/exclog.h	/^	int local_port;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::local_port	release/include/exclog.h	/^	int local_port;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::log_level	include/exclog.h	/^	int log_level;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::log_level	release/include/exclog.h	/^	int log_level;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::msg2stderr	include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::msg2stderr	release/include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::msg2stdout	include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::msg2stdout	release/include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::num	include/exclog.h	/^	int num;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::num	release/include/exclog.h	/^	int num;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::path	include/exclog.h	/^	char path[EXCLOG_FILE_PATH_LEN];$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::path	release/include/exclog.h	/^	char path[EXCLOG_FILE_PATH_LEN];$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::size	include/exclog.h	/^	int size;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local::size	release/include/exclog.h	/^	int size;$/;"	m	struct:init_exclog_local	access:public
+init_exclog_local_t	include/exclog.h	/^} init_exclog_local_t;$/;"	t	typeref:struct:init_exclog_local
+init_exclog_local_t	release/include/exclog.h	/^} init_exclog_local_t;$/;"	t	typeref:struct:init_exclog_local
+init_exclog_network	include/exclog.h	/^int init_exclog_network(const init_exclog_remote_t *ix_p);$/;"	p	signature:(const init_exclog_remote_t *ix_p)
+init_exclog_network	release/include/exclog.h	/^int init_exclog_network(const init_exclog_remote_t *ix_p);$/;"	p	signature:(const init_exclog_remote_t *ix_p)
+init_exclog_network	src/exclog.c	/^int init_exclog_network(const init_exclog_remote_t *ix_p)$/;"	f	signature:(const init_exclog_remote_t *ix_p)
+init_exclog_remote	include/exclog.h	/^typedef struct init_exclog_remote$/;"	s
+init_exclog_remote	release/include/exclog.h	/^typedef struct init_exclog_remote$/;"	s
+init_exclog_remote::be_klog	include/exclog.h	/^	int be_klog;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::be_klog	release/include/exclog.h	/^	int be_klog;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::be_syslog	include/exclog.h	/^	int be_syslog;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::be_syslog	release/include/exclog.h	/^	int be_syslog;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::log_level	include/exclog.h	/^	int log_level;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::log_level	release/include/exclog.h	/^	int log_level;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::msg2stderr	include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::msg2stderr	release/include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::msg2stdout	include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::msg2stdout	release/include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::remoteIP	include/exclog.h	/^	char remoteIP[32];$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::remoteIP	release/include/exclog.h	/^	char remoteIP[32];$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::remotePort	include/exclog.h	/^	int remotePort;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote::remotePort	release/include/exclog.h	/^	int remotePort;$/;"	m	struct:init_exclog_remote	access:public
+init_exclog_remote_t	include/exclog.h	/^} init_exclog_remote_t;$/;"	t	typeref:struct:init_exclog_remote
+init_exclog_remote_t	release/include/exclog.h	/^} init_exclog_remote_t;$/;"	t	typeref:struct:init_exclog_remote
+int64_t	test_local/glist.h	/^typedef long long int64_t;$/;"	t
+isInit	src/exclog_remote.c	/^static int isInit = 0;$/;"	v	file:
+isInitSelf	src/exclog_remote.c	/^static int isInitSelf = 0;$/;"	v	file:
+is_first_char	test_local/lpconfig.c	/^static gboolean is_first_char(const char *start, const char *pos){$/;"	f	file:	signature:(const char *start, const char *pos)
+items	test_local/lpconfig.c	/^	GList *items;$/;"	m	struct:_LpSection	file:	access:public
+key	test_local/lpconfig.c	/^	char *key;$/;"	m	struct:_LpItem	file:	access:public
+klog_buf	src/exclog_sysklogd.c	/^static char klog_buf[EXCLOG_LOG_LEN_MAX] = { '\\0' };$/;"	v	file:
+klog_buf_used	src/exclog_sysklogd.c	/^static int 	klog_buf_used = 0;$/;"	v	file:
+klog_head	src/exclog_sysklogd.c	/^static int klog_head = 0;$/;"	v	file:
+klog_num	src/exclog_sysklogd.c	/^static int klog_num = 0;$/;"	v	file:
+klog_pkt	src/exclog_sysklogd.c	/^static exclog_packet_t klog_pkt[EXCLOG_KLOG_PKT_NUM];$/;"	v	file:
+klog_tail	src/exclog_sysklogd.c	/^static int klog_tail = 0;$/;"	v	file:
+klogd_switch	src/exclog_sysklogd.c	/^int klogd_switch = 0;\/*receive klog or not*\/$/;"	v
+klogd_switch	src/include/exclog_sysklogd.h	/^extern int klogd_switch;$/;"	x
+left	src/include/exclog_store.h	/^	int left;$/;"	m	struct:exclog_flash_info	access:public
+len	src/include/exclog_public.h	/^	int len;$/;"	m	struct:exclog_head	access:public
+len	src/include/exclog_public.h	/^	int len;$/;"	m	struct:exclog_packet	access:public
+length	src/include/exclog_public.h	/^	uint32_t length;$/;"	m	struct:erase_info_user	access:public
+level	include/exclog.h	/^	int level;$/;"	m	struct:exclog_subscribe_response	access:public
+level	include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_query_request	access:public
+level	include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_query_response	access:public
+level	include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_subscribe_request	access:public
+level	release/include/exclog.h	/^	int level;$/;"	m	struct:exclog_subscribe_response	access:public
+level	release/include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_query_request	access:public
+level	release/include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_query_response	access:public
+level	release/include/exclog.h	/^	unsigned long level;$/;"	m	struct:exclog_subscribe_request	access:public
+level	src/include/exclog_public.h	/^	unsigned long level;$/;"	m	struct:exclog_query_remote_response	access:public
+list_node_append	test_local/lpconfig.c	/^ListNode * list_node_append(ListNode *head,ListNode *elem){$/;"	f	signature:(ListNode *head,ListNode *elem)
+list_node_foreach	test_local/lpconfig.c	/^void list_node_foreach(ListNode *head, ListNodeForEachFunc func){$/;"	f	signature:(ListNode *head, ListNodeForEachFunc func)
+list_node_remove	test_local/lpconfig.c	/^ListNode * list_node_remove(ListNode *head, ListNode *elem){$/;"	f	signature:(ListNode *head, ListNode *elem)
+local_port	include/exclog.h	/^	int local_port;$/;"	m	struct:init_exclog_local	access:public
+local_port	release/include/exclog.h	/^	int local_port;$/;"	m	struct:init_exclog_local	access:public
+log_level	include/exclog.h	/^	int log_level;$/;"	m	struct:init_exclog_local	access:public
+log_level	include/exclog.h	/^	int log_level;$/;"	m	struct:init_exclog_remote	access:public
+log_level	include/exclog.h	/^extern int log_level;$/;"	x
+log_level	include/exclog_x.h	/^extern int log_level;$/;"	x
+log_level	release/include/exclog.h	/^	int log_level;$/;"	m	struct:init_exclog_local	access:public
+log_level	release/include/exclog.h	/^	int log_level;$/;"	m	struct:init_exclog_remote	access:public
+log_level	release/include/exclog.h	/^extern int log_level;$/;"	x
+log_level	release/include/exclog_x.h	/^extern int log_level;$/;"	x
+log_level	src/exclog.c	/^int log_level=EXCLOG_LEVEL_DEFAULT;$/;"	v
+lp_config_add_section	test_local/lpconfig.c	/^void lp_config_add_section(LpConfig *lpconfig, LpSection *section){$/;"	f	signature:(LpConfig *lpconfig, LpSection *section)
+lp_config_clean_section	test_local/lpconfig.c	/^void lp_config_clean_section(LpConfig *lpconfig, const char *section){$/;"	f	signature:(LpConfig *lpconfig, const char *section)
+lp_config_clean_section	test_local/lpconfig.h	/^void lp_config_clean_section(LpConfig *lpconfig, const char *section);$/;"	p	signature:(LpConfig *lpconfig, const char *section)
+lp_config_destroy	test_local/lpconfig.c	/^void lp_config_destroy(LpConfig *lpconfig){$/;"	f	signature:(LpConfig *lpconfig)
+lp_config_destroy	test_local/lpconfig.h	/^void lp_config_destroy(LpConfig *cfg);$/;"	p	signature:(LpConfig *cfg)
+lp_config_find_section	test_local/lpconfig.c	/^LpSection *lp_config_find_section(LpConfig *lpconfig, const char *name){$/;"	f	signature:(LpConfig *lpconfig, const char *name)
+lp_config_get_int	test_local/lpconfig.c	/^int lp_config_get_int(LpConfig *lpconfig,const char *section, const char *key, int default_value){$/;"	f	signature:(LpConfig *lpconfig,const char *section, const char *key, int default_value)
+lp_config_get_int	test_local/lpconfig.h	/^int lp_config_get_int(LpConfig *lpconfig,const char *section, const char *key, int default_value);$/;"	p	signature:(LpConfig *lpconfig,const char *section, const char *key, int default_value)
+lp_config_get_string	test_local/lpconfig.c	/^const char *lp_config_get_string(LpConfig *lpconfig, const char *section, const char *key, const char *default_string){$/;"	f	signature:(LpConfig *lpconfig, const char *section, const char *key, const char *default_string)
+lp_config_get_string	test_local/lpconfig.h	/^const char *lp_config_get_string(LpConfig *lpconfig, const char *section, const char *key, const char *default_string);$/;"	p	signature:(LpConfig *lpconfig, const char *section, const char *key, const char *default_string)
+lp_config_get_string_eX	test_local/lpconfig.c	/^const char *lp_config_get_string_eX(LpConfig *lpconfig, const char *section, const char *key,char **pp_buf,size_t *size, const char *default_string){$/;"	f	signature:(LpConfig *lpconfig, const char *section, const char *key,char **pp_buf,size_t *size, const char *default_string)
+lp_config_get_string_eX	test_local/lpconfig.h	/^const char *lp_config_get_string_eX(LpConfig *lpconfig, const char *section, const char *key,char **pp_buf,size_t *size, const char *default_string);$/;"	p	signature:(LpConfig *lpconfig, const char *section, const char *key,char **pp_buf,size_t *size, const char *default_string)
+lp_config_has_section	test_local/lpconfig.c	/^int lp_config_has_section(LpConfig *lpconfig, const char *section){$/;"	f	signature:(LpConfig *lpconfig, const char *section)
+lp_config_has_section	test_local/lpconfig.h	/^int lp_config_has_section(LpConfig *lpconfig, const char *section);$/;"	p	signature:(LpConfig *lpconfig, const char *section)
+lp_config_new	test_local/lpconfig.c	/^LpConfig * lp_config_new(const char *filename){$/;"	f	signature:(const char *filename)
+lp_config_new	test_local/lpconfig.h	/^LpConfig * lp_config_new(const char *filename);$/;"	p	signature:(const char *filename)
+lp_config_parse	test_local/lpconfig.c	/^void lp_config_parse(LpConfig *lpconfig){$/;"	f	signature:(LpConfig *lpconfig)
+lp_config_remove_section	test_local/lpconfig.c	/^void lp_config_remove_section(LpConfig *lpconfig, LpSection *section){$/;"	f	signature:(LpConfig *lpconfig, LpSection *section)
+lp_config_set_int	test_local/lpconfig.c	/^void lp_config_set_int(LpConfig *lpconfig,const char *section, const char *key, int value){$/;"	f	signature:(LpConfig *lpconfig,const char *section, const char *key, int value)
+lp_config_set_int	test_local/lpconfig.h	/^void lp_config_set_int(LpConfig *lpconfig,const char *section, const char *key, int value);$/;"	p	signature:(LpConfig *lpconfig,const char *section, const char *key, int value)
+lp_config_set_string	test_local/lpconfig.c	/^void lp_config_set_string(LpConfig *lpconfig,const char *section, const char *key, const char *value){$/;"	f	signature:(LpConfig *lpconfig,const char *section, const char *key, const char *value)
+lp_config_set_string	test_local/lpconfig.h	/^void lp_config_set_string(LpConfig *lpconfig,const char *section, const char *key, const char *value);$/;"	p	signature:(LpConfig *lpconfig,const char *section, const char *key, const char *value)
+lp_config_sync	test_local/lpconfig.c	/^int lp_config_sync(LpConfig *lpconfig){$/;"	f	signature:(LpConfig *lpconfig)
+lp_config_sync	test_local/lpconfig.h	/^int lp_config_sync(LpConfig *lpconfig);$/;"	p	signature:(LpConfig *lpconfig)
+lp_item_destroy	test_local/lpconfig.c	/^void lp_item_destroy(LpItem *item){$/;"	f	signature:(LpItem *item)
+lp_item_new	test_local/lpconfig.c	/^LpItem * lp_item_new(const char *key, const char *value){$/;"	f	signature:(const char *key, const char *value)
+lp_item_set_value	test_local/lpconfig.c	/^void lp_item_set_value(LpItem *item, const char *value){$/;"	f	signature:(LpItem *item, const char *value)
+lp_item_write	test_local/lpconfig.c	/^void lp_item_write(LpItem *item, FILE *file){$/;"	f	signature:(LpItem *item, FILE *file)
+lp_new0	test_local/lpconfig.c	35;"	d	file:
+lp_section_add_item	test_local/lpconfig.c	/^void lp_section_add_item(LpSection *sec,LpItem *item){$/;"	f	signature:(LpSection *sec,LpItem *item)
+lp_section_destroy	test_local/lpconfig.c	/^void lp_section_destroy(LpSection *sec){$/;"	f	signature:(LpSection *sec)
+lp_section_find_item	test_local/lpconfig.c	/^LpItem *lp_section_find_item(LpSection *sec, const char *name){$/;"	f	signature:(LpSection *sec, const char *name)
+lp_section_new	test_local/lpconfig.c	/^LpSection *lp_section_new(const char *name){$/;"	f	signature:(const char *name)
+lp_section_remove_item	test_local/lpconfig.c	/^void lp_section_remove_item(LpSection *sec, LpItem *item){$/;"	f	signature:(LpSection *sec, LpItem *item)
+lp_section_write	test_local/lpconfig.c	/^void lp_section_write(LpSection *sec, FILE *file){$/;"	f	signature:(LpSection *sec, FILE *file)
+magik	src/include/exclog_public.h	/^	int magik;$/;"	m	struct:exclog_head	access:public
+main	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	test_local/exclog_local_server.c	/^int main(void)$/;"	f	signature:(void)
+main	test_local/exclog_local_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	test_query/exclog_query_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	test_remote/exclog_remote_test.c	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+message	include/exclog.h	/^	char message[EXCLOG_LOG_LEN_MAX];$/;"	m	struct:exclog_subscribe_response	access:public
+message	release/include/exclog.h	/^	char message[EXCLOG_LOG_LEN_MAX];$/;"	m	struct:exclog_subscribe_response	access:public
+message	src/include/exclog_public.h	/^	char message[EXCLOG_MSG_LEN_MAX];$/;"	m	struct:exclog_packet	access:public
+message	src/include/exclog_public.h	/^	char message[EXCLOG_MSG_LEN_MAX];$/;"	m	struct:exclog_record	access:public
+minute	include/exclog.h	/^	int minute;$/;"	m	struct:exclog_datetime	access:public
+minute	release/include/exclog.h	/^	int minute;$/;"	m	struct:exclog_datetime	access:public
+module	include/exclog.h	/^	char module[16];$/;"	m	struct:exclog_subscribe_response	access:public
+module	include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_query_request	access:public
+module	include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_query_response	access:public
+module	include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_subscribe_request	access:public
+module	release/include/exclog.h	/^	char module[16];$/;"	m	struct:exclog_subscribe_response	access:public
+module	release/include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_query_request	access:public
+module	release/include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_query_response	access:public
+module	release/include/exclog.h	/^	unsigned long module;$/;"	m	struct:exclog_subscribe_request	access:public
+module	src/include/exclog_public.h	/^	unsigned long module;$/;"	m	struct:exclog_query_remote_response	access:public
+month	include/exclog.h	/^	int month;$/;"	m	struct:exclog_datetime	access:public
+month	release/include/exclog.h	/^	int month;$/;"	m	struct:exclog_datetime	access:public
+msg2stderr	include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_local	access:public
+msg2stderr	include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_remote	access:public
+msg2stderr	release/include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_local	access:public
+msg2stderr	release/include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_remote	access:public
+msg2stderr	src/exclog.c	/^static int msg2stdout = 0,msg2stderr = 0;$/;"	v	file:
+msg2stdout	include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_local	access:public
+msg2stdout	include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_remote	access:public
+msg2stdout	release/include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_local	access:public
+msg2stdout	release/include/exclog.h	/^	int msg2stdout,msg2stderr;$/;"	m	struct:init_exclog_remote	access:public
+msg2stdout	src/exclog.c	/^static int msg2stdout = 0,msg2stderr = 0;$/;"	v	file:
+mtd_info_user	src/include/exclog_public.h	/^struct mtd_info_user {$/;"	s
+mtd_info_user::eccsize	src/include/exclog_public.h	/^	uint32_t eccsize;$/;"	m	struct:mtd_info_user	access:public
+mtd_info_user::ecctype	src/include/exclog_public.h	/^	uint32_t ecctype;$/;"	m	struct:mtd_info_user	access:public
+mtd_info_user::erasesize	src/include/exclog_public.h	/^	uint32_t erasesize;$/;"	m	struct:mtd_info_user	access:public
+mtd_info_user::flags	src/include/exclog_public.h	/^	uint32_t flags;$/;"	m	struct:mtd_info_user	access:public
+mtd_info_user::oobsize	src/include/exclog_public.h	/^	uint32_t oobsize;   \/\/ Amount of OOB data per block (e.g. 16)$/;"	m	struct:mtd_info_user	access:public
+mtd_info_user::size	src/include/exclog_public.h	/^	uint32_t size;	 \/\/ Total size of the MTD$/;"	m	struct:mtd_info_user	access:public
+mtd_info_user::type	src/include/exclog_public.h	/^	uint8_t type;$/;"	m	struct:mtd_info_user	access:public
+mtd_info_user::writesize	src/include/exclog_public.h	/^	uint32_t writesize;$/;"	m	struct:mtd_info_user	access:public
+name	test_local/lpconfig.c	/^	char *name;$/;"	m	struct:_LpSection	file:	access:public
+next	include/exclog.h	/^	struct exclog_query_response *next;$/;"	m	struct:exclog_query_response	typeref:struct:exclog_query_response::exclog_query_response	access:public
+next	release/include/exclog.h	/^	struct exclog_query_response *next;$/;"	m	struct:exclog_query_response	typeref:struct:exclog_query_response::exclog_query_response	access:public
+next	src/include/exclog_public.h	/^	struct exclog_packet *next;$/;"	m	struct:exclog_packet	typeref:struct:exclog_packet::exclog_packet	access:public
+next	test_local/glist.h	/^  GList *next;$/;"	m	struct:_GList	access:public
+num	include/exclog.h	/^	int num;$/;"	m	struct:init_exclog_local	access:public
+num	release/include/exclog.h	/^	int num;$/;"	m	struct:init_exclog_local	access:public
+numblocks	src/include/exclog_public.h	/^	uint32_t numblocks;		\/* Number of blocks in this region *\/$/;"	m	struct:region_info_user	access:public
+offset	src/include/exclog_public.h	/^	uint32_t offset;		\/* At which this region starts,$/;"	m	struct:region_info_user	access:public
+offset	src/include/exclog_store.h	/^	int offset;$/;"	m	struct:exclog_flash_info	access:public
+oobsize	src/include/exclog_public.h	/^	uint32_t oobsize;   \/\/ Amount of OOB data per block (e.g. 16)$/;"	m	struct:mtd_info_user	access:public
+path	include/exclog.h	/^	char path[EXCLOG_FILE_PATH_LEN];$/;"	m	struct:init_exclog_local	access:public
+path	release/include/exclog.h	/^	char path[EXCLOG_FILE_PATH_LEN];$/;"	m	struct:init_exclog_local	access:public
+pkt_queue	src/exclog_local.c	/^static exclog_packet_t pkt_queue[EXCLOG_QUEUE_SIZE];\/*buffer to store local log*\/$/;"	v	file:
+pkt_queue	src/exclog_remote.c	/^static exclog_packet_t pkt_queue[EXCLOG_QUEUE_SIZE];$/;"	v	file:
+pos	src/include/exclog_store.h	/^	int pos;$/;"	m	struct:exclog_flash_info	access:public
+prev	test_local/glist.h	/^  GList *prev;$/;"	m	struct:_GList	access:public
+query_info	src/exclog.c	/^exclog_query_info_t query_info;$/;"	v
+query_info	src/include/exclog_public.h	/^extern exclog_query_info_t query_info;$/;"	x
+query_sockfd	src/exclog_local.c	/^static int query_sockfd = -1; \/*socket for receive query request*\/$/;"	v	file:
+region_cur	src/exclog_store.c	/^int region_cur = 0;\/*current working region*\/$/;"	v
+region_cur	src/include/exclog_store.h	/^extern int region_cur;\/*current working region*\/$/;"	x
+region_index	src/include/exclog_query.h	/^	int region_index;$/;"	m	struct:__anon1	access:public
+region_info_user	src/include/exclog_public.h	/^struct region_info_user {$/;"	s
+region_info_user::erasesize	src/include/exclog_public.h	/^	uint32_t erasesize;		\/* For this region *\/$/;"	m	struct:region_info_user	access:public
+region_info_user::numblocks	src/include/exclog_public.h	/^	uint32_t numblocks;		\/* Number of blocks in this region *\/$/;"	m	struct:region_info_user	access:public
+region_info_user::offset	src/include/exclog_public.h	/^	uint32_t offset;		\/* At which this region starts,$/;"	m	struct:region_info_user	access:public
+region_info_user::regionindex	src/include/exclog_public.h	/^	uint32_t regionindex;$/;"	m	struct:region_info_user	access:public
+region_list	src/exclog_store.c	/^exclog_flash_info_t region_list[EXCLOG_FILE_NUM_MAX] = { };\/*memory region info array*\/$/;"	v
+region_list	src/include/exclog_store.h	/^extern exclog_flash_info_t region_list[EXCLOG_FILE_NUM_MAX];\/*memory region info array*\/$/;"	x
+region_num	src/exclog_store.c	/^int region_num = 0;\/*current total region num*\/$/;"	v
+region_num	src/include/exclog_store.h	/^extern int region_num;\/*total region num*\/$/;"	x
+region_pos	src/include/exclog_query.h	/^	int region_pos;$/;"	m	struct:__anon1	access:public
+regionindex	src/include/exclog_public.h	/^	uint32_t regionindex;$/;"	m	struct:region_info_user	access:public
+remoteIP	include/exclog.h	/^	char remoteIP[32];$/;"	m	struct:init_exclog_remote	access:public
+remoteIP	release/include/exclog.h	/^	char remoteIP[32];$/;"	m	struct:init_exclog_remote	access:public
+remotePort	include/exclog.h	/^	int remotePort;$/;"	m	struct:init_exclog_remote	access:public
+remotePort	release/include/exclog.h	/^	int remotePort;$/;"	m	struct:init_exclog_remote	access:public
+remote_sockfd	src/exclog_local.c	/^static int remote_sockfd = -1;\/*socket for receive remote log*\/$/;"	v	file:
+remote_switch	src/exclog_local.c	/^static int remote_switch = 0; \/*enable or disable receive remote log*\/$/;"	v	file:
+req	src/include/exclog_query.h	/^	exclog_query_req_t req;$/;"	m	struct:__anon1	access:public
+rps_head	src/exclog_query.c	/^static exclog_query_rps_t *rps_head=NULL;$/;"	v	file:
+rps_num	src/include/exclog_query.h	/^	int rps_num;$/;"	m	struct:__anon1	access:public
+rps_tail	src/exclog_query.c	/^static exclog_query_rps_t *rps_tail=NULL;$/;"	v	file:
+second	include/exclog.h	/^	int second;$/;"	m	struct:exclog_datetime	access:public
+second	release/include/exclog.h	/^	int second;$/;"	m	struct:exclog_datetime	access:public
+sections	test_local/lpconfig.c	/^	GList *sections;$/;"	m	struct:_LpConfig	file:	access:public
+size	include/exclog.h	/^	int size;$/;"	m	struct:init_exclog_local	access:public
+size	release/include/exclog.h	/^	int size;$/;"	m	struct:init_exclog_local	access:public
+size	src/include/exclog_public.h	/^	uint32_t size;	 \/\/ Total size of the MTD$/;"	m	struct:mtd_info_user	access:public
+size	src/include/exclog_store.h	/^	int size;$/;"	m	struct:exclog_flash_info	access:public
+slist	src/exclog.c	/^exclog_subscribe_req_t slist[EXCLOG_SUBSCRIBE_NUM_MAX]= { };$/;"	v
+slist	src/include/exclog_public.h	/^extern exclog_subscribe_req_t slist[EXCLOG_SUBSCRIBE_NUM_MAX];$/;"	x
+slist_num	src/exclog.c	/^int slist_num=0;$/;"	v
+slist_num	src/include/exclog_public.h	/^extern int slist_num;$/;"	x
+sockfd	src/exclog_remote.c	/^static int sockfd = -1;\/*socket for send log in EXCLOG_2_REMOTE model*\/$/;"	v	file:
+ssize_t	test_local/glist.h	/^    typedef size_t ssize_t;$/;"	t
+start	src/include/exclog_public.h	/^	uint32_t start;$/;"	m	struct:erase_info_user	access:public
+status	src/include/exclog_public.h	/^	int status;$/;"	m	struct:exclog_packet	access:public
+status	src/include/exclog_store.h	/^	int status ;$/;"	m	struct:exclog_flash_info	access:public
+stime	include/exclog.h	/^	exclog_datetime_t stime;$/;"	m	struct:exclog_query_request	access:public
+stime	release/include/exclog.h	/^	exclog_datetime_t stime;$/;"	m	struct:exclog_query_request	access:public
+store_total_local	src/exclog_local.c	/^static int store_total_local = 0;$/;"	v	file:
+store_total_remote	src/exclog_local.c	/^static int store_total_remote = 0;$/;"	v	file:
+sub_f	include/exclog.h	/^	exclog_subscribe_f sub_f;$/;"	m	struct:exclog_subscribe_request	access:public
+sub_f	release/include/exclog.h	/^	exclog_subscribe_f sub_f;$/;"	m	struct:exclog_subscribe_request	access:public
+syslog_sockfd	src/exclog_sysklogd.c	/^static int syslog_sockfd = -1;$/;"	v	file:
+syslogd_switch	src/exclog_sysklogd.c	/^int syslogd_switch = 0;\/*receive syslog or not*\/$/;"	v
+syslogd_switch	src/include/exclog_sysklogd.h	/^extern int syslogd_switch;$/;"	x
+tail	src/exclog_local.c	/^static int tail = 0;\/*tail of pkt_queue*\/$/;"	v	file:
+tail	src/exclog_remote.c	/^static int tail = 0;$/;"	v	file:
+tick	include/exclog.h	/^	exclog_datetime_t tick;$/;"	m	struct:exclog_query_response	access:public
+tick	release/include/exclog.h	/^	exclog_datetime_t tick;$/;"	m	struct:exclog_query_response	access:public
+tick	src/include/exclog_public.h	/^	exclog_datetime_t tick;$/;"	m	struct:exclog_query_remote_response	access:public
+time	src/include/exclog_public.h	/^	time_t time;$/;"	m	struct:exclog_head	access:public
+tv	src/include/exclog_public.h	/^	struct timeval tv;$/;"	m	struct:exclog_packet	typeref:struct:exclog_packet::timeval	access:public
+type	src/include/exclog_public.h	/^	uint8_t type;$/;"	m	struct:mtd_info_user	access:public
+uint16_t	test_local/glist.h	/^typedef unsigned short uint16_t;$/;"	t
+uint32_t	test_local/glist.h	/^typedef unsigned int uint32_t;$/;"	t
+uint64_t	test_local/glist.h	/^typedef unsigned long long uint64_t;$/;"	t
+usage	test_local/exclog_local_test.c	/^static void usage(const char *pname)$/;"	f	file:	signature:(const char *pname)
+usage	test_query/exclog_query_test.c	/^static void usage(const char *pname)$/;"	f	file:	signature:(const char *pname)
+usage	test_remote/exclog_remote_test.c	/^static void usage(const char *pname)$/;"	f	file:	signature:(const char *pname)
+value	test_local/lpconfig.c	/^	char *value;$/;"	m	struct:_LpItem	file:	access:public
+writesize	src/include/exclog_public.h	/^	uint32_t writesize;$/;"	m	struct:mtd_info_user	access:public
+year	include/exclog.h	/^	int year;$/;"	m	struct:exclog_datetime	access:public
+year	release/include/exclog.h	/^	int year;$/;"	m	struct:exclog_datetime	access:public

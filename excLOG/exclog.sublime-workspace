@@ -1,0 +1,1520 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"buil",
+				"BUILD_TARGET"
+			],
+			[
+				"exc",
+				"exclog_local"
+			],
+			[
+				"xelog",
+				"xeLOG_INFO"
+			],
+			[
+				"def",
+				"default_scene"
+			],
+			[
+				"ti",
+				"time_switch"
+			],
+			[
+				"time_",
+				"time_titles2student"
+			],
+			[
+				"time_ti",
+				"time_titles"
+			],
+			[
+				"thd_st",
+				"thd_start"
+			],
+			[
+				"pic",
+				"pic_length"
+			],
+			[
+				"pi",
+				"pic_width"
+			],
+			[
+				"THD_S",
+				"THD_START"
+			],
+			[
+				"TH",
+				"THD_MOVE"
+			],
+			[
+				"PIC",
+				"PIC_LENGTH"
+			],
+			[
+				"thd",
+				"thd_move"
+			],
+			[
+				"ST",
+				"START_X"
+			],
+			[
+				"START",
+				"start_x"
+			],
+			[
+				"lc",
+				"lct_s_number"
+			],
+			[
+				"LC",
+				"LCT_S_ANGLE"
+			],
+			[
+				"l1",
+				"l1_y"
+			],
+			[
+				"L1",
+				"L1_Y"
+			],
+			[
+				"LO",
+				"locater_t"
+			],
+			[
+				"DI",
+				"dis"
+			],
+			[
+				"ca",
+				"camera_t"
+			],
+			[
+				"RE",
+				"REGION_OVERLAP"
+			],
+			[
+				"SUB",
+				"subregions"
+			],
+			[
+				"va",
+				"vangle"
+			],
+			[
+				"ha",
+				"hangle"
+			],
+			[
+				"han",
+				"hangle_init"
+			],
+			[
+				"Z",
+				"ZOOM"
+			],
+			[
+				"HA",
+				"HANGLE"
+			],
+			[
+				"V",
+				"VANGLE_INIT"
+			],
+			[
+				"HAN",
+				"HANGLE_INIT"
+			],
+			[
+				"lct",
+				"lct_y"
+			],
+			[
+				"L",
+				"LCT_Y"
+			],
+			[
+				"TYPE",
+				"TYPE_INT"
+			],
+			[
+				"RB_I",
+				"RB_I1000"
+			],
+			[
+				"CONFIG_PRODUCT_MODEL_RB",
+				"CONFIG_PRODUCT_MODEL_RB_S2012"
+			],
+			[
+				"inser",
+				"insert_data"
+			],
+			[
+				"Rb",
+				"RB-S2012"
+			],
+			[
+				"xe",
+				"xeLOG_DEBUG"
+			],
+			[
+				"live",
+				"live_case_conf"
+			],
+			[
+				"install",
+				"install_conf"
+			],
+			[
+				"clean",
+				"clean_install_modules"
+			],
+			[
+				"cl",
+				"clean_install_conf"
+			],
+			[
+				"clea",
+				"clean_install"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "test_local/exclog_local_test.c",
+			"settings":
+			{
+				"buffer_size": 3094,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/exclog_local.c",
+			"settings":
+			{
+				"buffer_size": 28630,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 41 files for \"MEMWATCH\" (case sensitive)\n\n0 matches across 0 files\n",
+			"settings":
+			{
+				"buffer_size": 77,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/exclog.c",
+			"settings":
+			{
+				"buffer_size": 15067,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/exclog.h",
+			"settings":
+			{
+				"buffer_size": 24284,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/exclog_x.h",
+			"settings":
+			{
+				"buffer_size": 5848,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"fc",
+				"File: Close All"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"fcl",
+				"File: Close All"
+			],
+			[
+				"setm",
+				"Set Syntax: Makefile"
+			],
+			[
+				"fa",
+				"File: Save All"
+			],
+			[
+				"FSA",
+				"File: Save All"
+			],
+			[
+				"set ma",
+				"Set Syntax: Makefile"
+			],
+			[
+				"fs",
+				"File: Save All"
+			],
+			[
+				"setma",
+				"Set Syntax: Makefile"
+			],
+			[
+				"sema",
+				"Set Syntax: Makefile"
+			],
+			[
+				"cas",
+				"Convert Case: Swap Case"
+			],
+			[
+				"ca",
+				"Convert Case: Swap Case"
+			],
+			[
+				"FA",
+				"File: Save All"
+			],
+			[
+				"FI",
+				"File: Save All"
+			],
+			[
+				"FIL",
+				"File: Close All"
+			],
+			[
+				"swa",
+				"Convert Case: Swap Case"
+			],
+			[
+				"find",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"findk",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"ta",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"tag",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"set",
+				"Set Syntax: C++"
+			],
+			[
+				"setc+",
+				"Set Syntax: C++"
+			],
+			[
+				"previ",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"setc",
+				"Set Syntax: C"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pup",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"mdp",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"f",
+				"File: Close All"
+			],
+			[
+				"mar",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"fi",
+				"File: Close All"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				"m",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"palist",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"fsa",
+				"File: Save All"
+			],
+			[
+				"fica",
+				"File: Close All"
+			],
+			[
+				"inta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 633.0
+	},
+	"console":
+	{
+		"height": 155.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/root/develop/tao.utils/excLOG/test_local/exclog_local_test.c",
+		"/root/develop/tao.utils/excLOG/test_local/exclog_local_server.c",
+		"/root/develop/tao.utils/excLOG/CMakeLists.txt",
+		"/root/develop/tao.utils/excLOG/include/exclog.h",
+		"/root/develop/tao.utils/excLOG/src/exclog_local.c",
+		"/root/develop/tao.utils/excLOG/src/exclog.c",
+		"/root/develop/tao.utils/excLOG/src/exclog_store.c",
+		"/root/develop/tao.utils/excLOG/src/include/exclog_public.h",
+		"/root/develop/tao.utils/excLOG/_Makefile",
+		"/root/develop/tao.utils/excLOG/src/exclog_public.c",
+		"/root/develop/tao.utils/excLOG/src/_Makefile",
+		"/root/develop/tao.utils/excLOG/test_local/_Makefile",
+		"/root/develop/tao.utils/excLOG/test_remote/_Makefile",
+		"/root/develop/tao.utils/excLOG/src/CMakeLists.txt",
+		"/root/develop/tao.utils/excLOG/test_remote/CMakeLists.txt",
+		"/root/develop/tao.utils/excLOG/test_local/CMakeLists.txt",
+		"/root/develop/tao.utils/excLOG/test_query/CMakeLists.txt",
+		"/root/develop/tao.utils/excLOG/exclog.sublime-workspace",
+		"/root/develop/tao.utils/excLOG/include/exclog_x.h",
+		"/root/develop/tao.utils/excLOG/src/exclog_remote.c",
+		"/root/develop/tao.utils/excLOG/test_local/exclog_local_server.bin",
+		"/root/develop/dev-notes/Makefile.multi",
+		"/root/develop/dev-notes/Makefile.single",
+		"/root/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/root/develop/tao.utils/excLOG/test_local_s/lpconfig.h",
+		"/root/develop/tao.utils/excLOG/test_local_s/exclog_local_server.c",
+		"/root/develop/tao.utils/excLOG/test_local_s/CMakeLists.txt",
+		"/root/develop/tao.utils/excLOG/test_local_s/_Makefile",
+		"/root/develop/tao.utils/excLOG/test_local_s/Makefile",
+		"/root/develop/tao.utils/excLOG/test_local_s/lpconfig.c",
+		"/root/develop/tao.utils/excLOG/test_query/exclog_query_test.c",
+		"/root/develop/tao.utils/excLOG/src/include/exclog_local.h",
+		"/root/develop/tao.utils/excLOG/test_remote/exclog_remote_test.c",
+		"/root/develop/tao.utils/excLOG/src/include/exclog_sysklogd.h",
+		"/root/develop/tao.utils/excLOG/src/exclog_query.c",
+		"/root/develop/tao.utils/excLOG/src/include/exclog_remote.h",
+		"/root/develop/tao.utils/excLOG/src/include/exclog_store.h",
+		"/root/develop/tao.utils/excLOG/src/include/xelog_query.h",
+		"/root/develop/tao.utils/excLOG/src/exclog_sysklogd.c",
+		"/root/develop/tao.utils/excLOG/include/excLOG.h",
+		"/root/develop/dev-notes/include/xelog.h",
+		"/root/develop/dev-notes/include/xeLOG_internal.h",
+		"/root/develop/tao.utils/excLOG/include/xeLOG.h",
+		"/root/develop/tao.utils/excLOG/release/include/xeLOG.h",
+		"/root/develop/tao.utils/excLOG/test_local_s/test_build.sh",
+		"/root/develop/tao.utils/excLOG/test_local_s/xelog_server_local.c",
+		"/root/develop/tao.utils/excLOG/test_query/_Makefile",
+		"/root/develop/tao.utils/excLOG/include/xelog.h",
+		"/root/develop/tao.utils/excLOG/release/include/xelog.h",
+		"/root/develop/tao.utils/excLOG/test_local_s/xelog.h",
+		"/root/develop/dvrapp/MAKEFILE_L.MK",
+		"/root/develop/dvrapp/demos/MAKEFILE.MK",
+		"/work/hxGUI.QT/hxGUI.MiniGUI/trunk/includes/include/xelog.h",
+		"/work/hxGUI.QT/trunk/src_hxgui/main.cpp",
+		"/work/hxGUI.QT/trunk/src_hxgui/hxgui_main.cpp",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE_log.c",
+		"/work/hxSDK.NG/trunk/src/hxSDK_port.c",
+		"/work/hxSDK.NG/trunk/src/linE/HiBUS_srv.c",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE_alarm.c",
+		"/work/hxSDK.NG/trunk/src/hxSDK-log.c",
+		"/work/hxSDK.NG/trunk/src/hxSDK-core.c",
+		"/work/hxSDK.NG/trunk/src/hxSDK-core.h",
+		"/work/hxSDK.NG/trunk/src/hxSDK-log.h",
+		"/work/hxSDK.NG/trunk/utils/linE/src/xeutil_commit.c",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE_ioctl_EN.c",
+		"/work/hxSDK.NG/trunk/ext/include/xelog.h",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE.c",
+		"/work/hxSDK.NG/trunk/utils/linE/Makefile",
+		"/work/hxSDK.NG/trunk/TARGET.mk",
+		"/work/hxSDK.NG/trunk/include/hxSDK_defines.h",
+		"/work/hxSDK.NG/trunk/utils/linE/src/xeutil_PReE_addr.c",
+		"/work/hxSDK.NG/trunk/include/hxSDK_ioctl_EN.h",
+		"/work/hxSDK.NG/trunk/utils/linE/src/xeutil_ENname.c",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE_ioctl_EQ.c",
+		"/work/hxSDK.NG/trunk/Makefile.linE",
+		"/work/hxSDK.NG/trunk/src/linE/hecp.c",
+		"/work/hxSDK.NG/trunk/TARGET.mk_K3.DM_16CHD1.S2500-16SD",
+		"/work/hxSDK.NG/trunk/TARGET.mk_K3.DM_16CHD1.S2500-16SD_OEM",
+		"/work/hxSDK.NG/trunk/test/linE/src/i1000/test/test.c",
+		"/work/hxSDK.NG/trunk/include/hxSDK_ioctl_I1000.h",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE_ioctl_I1000.c",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE.h",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE_ioctl_DE.c",
+		"/root/.config/sublime-text-2/Packages/FindKeyConflicts/README.md",
+		"/root/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/root/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/work/hxSDK.NG/trunk/Makefile",
+		"/root/.config/sublime-text-2/Packages/User/CTags.sublime-settings",
+		"/root/.config/sublime-text-2/Packages/CTags/Default.sublime-keymap",
+		"/root/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/root/.config/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/root/.config/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/work/hxSDK.NG/trunk/src/linE/hecp.h",
+		"/home/work/helloworld/pipe.c",
+		"/home/work/helloworld/nc.sh",
+		"/work/hxSDK.NG/trunk/include/hxSDK_types.h",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE_stat_DE.c",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE_stat_EN.c",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE_stat_EQ.c",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE_rcp_RECTASK.c",
+		"/work/hxSDK.NG/trunk/test/linE/include/hxSDK_types.h",
+		"/work/hxSDK.NG/trunk/hxSDK_java/src/com/hisome/hxsdk/types/hxsdk_arg.java",
+		"/work/hxSDK.NG/trunk/include/hxSDK_ioctl_EQ.h",
+		"/work/hxSDK.NG/trunk/include/hxSDK_ioctl_RECTASK.h",
+		"/work/hxSDK.NG/trunk/include/hxSDK_ioctl_DE.h",
+		"/work/hxSDK.NG/trunk/src/linE/hxSDK_linE_ioctl_RECTASK.c",
+		"/work/hxSDK.NG/trunk/include/hxSDK_ioctl_RW.h",
+		"/root/.ssh/id_rsa.taoeal.pub",
+		"/root/.ssh/id_rsa.pub",
+		"/work/hxSDK.NG/trunk/src/lin-GB28181/hx_lin.h",
+		"/work/hxSDK.NG/trunk/include/hxSDK_port.h",
+		"/work/hxSDK.NG/trunk/src/lin-GB28181/hx_lin.c",
+		"/work/hxSDK.NG/trunk/include/hxSDK_ioctl.h",
+		"/work/hxSDK.NG/trunk/include/hxSDK_ioctl_CT.h",
+		"/work/hxSDK.NG/trunk/include/hxSDK_ioctl_HELM.h",
+		"/home/work/blog@github.git/_posts/2013-12-22-svn-notes.md",
+		"/root/svn.html",
+		"/work/hxSDK.NG/trunk/include/hxSDK.h",
+		"/work/hxSDK.NG/trunk/include/hxSDK_eID.h",
+		"/work/hxSDK.NG/trunk/include/hxSDK_errno.h",
+		"/work/hxSDK.NG/trunk/include/hxSDK_log.h",
+		"/work/hxSDK.NG/trunk/test/linE/src/record/rectask_osd/test.c",
+		"/work/hxSDK.NG/trunk/utils/linE/src/xeutil_DCIP_Aew.c",
+		"/root/doc/x.txt",
+		"/work/hxSDK.NG/trunk/utils/linE/src/xeutil_rectask_osd_cfg.c",
+		"/work/hxSDK.NG/trunk/test/linE/src/record/rectask_vtype/test.c",
+		"/work/hxSDK.NG/trunk/utils/linE/src/xeutil_rectask_videotype_cfg.c",
+		"/work/hxSDK.NG/trunk/utils/linE/src/xeutil_rectask_pptindex.c"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 103.0,
+		"where_history":
+		[
+			"",
+			"/work/hxSDK.NG/trunk/src/linE,<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"MEMWATCH",
+			"NDEBUG",
+			"BUILD_TARGET",
+			"LIB_SHARED",
+			"LIB_STATIC",
+			"EXCLOG_GET_DATE_TIME",
+			"xeDEX_log_level",
+			"xeLOG",
+			"XELOG",
+			"xelog",
+			"init",
+			"XELOG",
+			"xeLOG",
+			"xelog",
+			"xeLOG",
+			"XELOG",
+			"xeLOG",
+			"xelog",
+			"xeLOG",
+			"XELOG",
+			"xeLOG",
+			"xelog",
+			"xeLOG",
+			"XELOG",
+			"xeLOG",
+			"xelog",
+			"XELOG",
+			"xeLOG",
+			"XELOG",
+			"xelog",
+			"XELOG",
+			"xeLOG",
+			"XELOG",
+			"xelog",
+			"XELOG",
+			"xeLOG",
+			"XELOG",
+			"xelog",
+			"XELOG",
+			"xeLOG",
+			"XELOG",
+			"xelog",
+			"xeLOG",
+			"XELOG",
+			"xelog",
+			"xeLOG",
+			"XELOG",
+			"ignore",
+			"XELOG",
+			"libxeLOG",
+			"libtlog",
+			"LIBTLOG_REMOT",
+			"LIBTLOG_LOCAL",
+			"CONFIG_USE_EXTERNAL_XELOG",
+			"XELOG_PREFIX",
+			"init_xelog_networ",
+			"init",
+			"hxSDK_thread_create",
+			"\n",
+			"xeLOG_ERR",
+			"pthread_create",
+			"X_IOCG_I1000_CLASSROOM_PARAM",
+			"[ CTRL T ][ CTRL B ]",
+			"ctrl+t",
+			"HX_IOCG_I1000_CLASSROOM_PARAM",
+			"__ioctl_i1000",
+			"HX_IOCG_I1000_GENERAL_PARAM",
+			"__linE_ioctl_S_I1000_ADJUST_AP",
+			"hx_target_linE_all",
+			"float",
+			"[25]",
+			"[26]",
+			"my_target_p",
+			"RB_S2012",
+			"__linE_ioctl_G_RECTASK_TASKINFO",
+			"__ioctl_rectask",
+			"tm_name",
+			"tout",
+			"cfg",
+			"dev",
+			"struct hx_target_object",
+			"devip",
+			"_linE_setsockopt_TCP",
+			"init",
+			"hx_target_t",
+			"hx_target_object",
+			"struct hx_target_object",
+			"alt+shift+l",
+			"ctrl+shift+a",
+			"ctrl+shift+l",
+			"FBDEV_NAME_0",
+			"grpx_fb_draw_singleBufNonTied",
+			"draw_img",
+			"draw_ima",
+			"grpx",
+			"mmap",
+			"NUM_GRPX_DISPLAYS",
+			"init",
+			"erro",
+			"ld",
+			"open",
+			"me_should_exit",
+			"MSG_ASYN",
+			"g_total_time",
+			"timer",
+			"init",
+			"g_total_time",
+			"fram",
+			"IDC_TRACKBAR_POS",
+			"g_fileinfo",
+			"fname",
+			"g_sd",
+			"creatPathLogoff",
+			"creatPathTimeout",
+			"downloadFilepath",
+			"start",
+			"disk",
+			"StartNextTask",
+			"g_fileinfo",
+			"g_file_info",
+			"work",
+			"GetCurWin",
+			"winsystime",
+			"g_ime_wnd",
+			"OnTextEditSetFocus",
+			"format",
+			"modi",
+			"init"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"LIB_REMOTE",
+			"LIB_LOCAL",
+			"log_level",
+			"excLOG",
+			"EXCLOG",
+			"exclog",
+			"EXCLOG",
+			"excLOG",
+			"exclog",
+			"excLOG",
+			"EXCLOG",
+			"excLOG",
+			"exclog",
+			"excLOG",
+			"EXCLOG",
+			"excLOG",
+			"exclog",
+			"excLOG",
+			"EXCLOG",
+			"excLOG",
+			"exclog",
+			"EXCLOG",
+			"excLOG",
+			"EXCLOG",
+			"exclog",
+			"EXCLOG",
+			"excLOG",
+			"EXCLOG",
+			"exclog",
+			"EXCLOG",
+			"excLOG",
+			"EXCLOG",
+			"exclog",
+			"EXCLOG",
+			"excLOG",
+			"EXCLOG",
+			"exclog",
+			"excLOG",
+			"EXCLOG",
+			"exclog",
+			"excLOG",
+			"EXCLOG",
+			"excLOG",
+			"libexcLOG",
+			"libexclog",
+			"LIB_SHARED",
+			"LIB_STATIC",
+			"CONFIG_USE_EXTERNAL_EXCLOG",
+			"EXCLOG_PREFIX",
+			"test_cfg",
+			"identity",
+			"hIPaddr",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "test_local/exclog_local_test.c",
+					"settings":
+					{
+						"buffer_size": 3094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2914,
+								2914
+							]
+						],
+						"settings":
+						{
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1881.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/exclog_local.c",
+					"settings":
+					{
+						"buffer_size": 28630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21932,
+								21932
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13377.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 77,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/exclog.c",
+					"settings":
+					{
+						"buffer_size": 15067,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4255,
+								4255
+							]
+						],
+						"settings":
+						{
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2167.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "include/exclog.h",
+					"settings":
+					{
+						"buffer_size": 24284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "include/exclog_x.h",
+					"settings":
+					{
+						"buffer_size": 5848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								626,
+								626
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1140.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pu",
+				"src/include/exclog_public.h"
+			],
+			[
+				"pul",
+				"src/exclog_public.c"
+			],
+			[
+				"xe",
+				"includes/include/xelog.h"
+			],
+			[
+				"",
+				"src/linE/hxSDK_linE.c"
+			],
+			[
+				"line",
+				"src/linE/hxSDK_linE.c"
+			],
+			[
+				"core",
+				"src/hxSDK-core.c"
+			],
+			[
+				"rectask.",
+				"src/linE/hxSDK_linE_ioctl_RECTASK.c"
+			],
+			[
+				"i100",
+				"include/hxSDK_ioctl_I1000.h"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"i1",
+				"include/hxSDK_ioctl_I1000.h"
+			],
+			[
+				"tar",
+				"TARGET.mk"
+			],
+			[
+				"def",
+				"include/hxSDK_defines.h"
+			],
+			[
+				"defi",
+				"include/hxSDK_defines.h"
+			],
+			[
+				"define",
+				"include/hxSDK_defines.h"
+			],
+			[
+				"hxsdk.",
+				"include/hxSDK.h"
+			],
+			[
+				"hxsdkpo",
+				"src/hxSDK_port.c"
+			],
+			[
+				"sdklog",
+				"src/hxSDK-log.h"
+			],
+			[
+				"log",
+				"include/hxSDK_log.h"
+			],
+			[
+				"test",
+				"test/linE/src/record/rectask_control/test.c"
+			],
+			[
+				"xeutirec",
+				"utils/linE/src/xeutil_rectask_control.c"
+			],
+			[
+				"type",
+				"include/hxSDK_types.h"
+			],
+			[
+				"hxsd",
+				"include/hxSDK.h"
+			],
+			[
+				"upda",
+				"test/linE/scripts/update_lib_and_include.sh"
+			],
+			[
+				"line.c",
+				"src/linE/hxSDK_linE.c"
+			],
+			[
+				"config",
+				"myblog/_config.yml"
+			],
+			[
+				"main",
+				"myblog/asset/css/main.css"
+			],
+			[
+				"inde",
+				"myblog/index.html"
+			],
+			[
+				"ind",
+				"zzburning.github.io.jekyll-bootstrap/index.md"
+			],
+			[
+				"in",
+				"zzburning.github.io/index.html"
+			],
+			[
+				"ikn",
+				"zzburning.github.io.iknowlege/_site/resource/style/iKnowledge.css"
+			],
+			[
+				"con",
+				"_config.yml"
+			],
+			[
+				"lib",
+				"app/src/lib_dvr_app.c"
+			],
+			[
+				"hosta",
+				"PBPSPs/NETRA.DM8168_DVR.DVR/src/xeCVA_PBPSP_HostA8.c"
+			],
+			[
+				"pl",
+				"xeutils_src/xeutil_playbackfile.c"
+			],
+			[
+				"play",
+				"src/dlg_playback.c"
+			],
+			[
+				"ba",
+				"src/dlg_backup.c"
+			],
+			[
+				"dof",
+				"src/do_file_backup_task.c"
+			],
+			[
+				"enco",
+				"src/dlg_encode_param_cfg.c"
+			],
+			[
+				"rec",
+				"src/dlg_record_cfg.h"
+			],
+			[
+				"egl",
+				"src/EGL_msg.c"
+			],
+			[
+				"task",
+				"src/file_backup_tasks.c"
+			],
+			[
+				"bac",
+				"src/dlg_backup.c"
+			],
+			[
+				"query",
+				"src/dlg_query.c"
+			],
+			[
+				"ptz",
+				"src/dlg_ptz.c"
+			],
+			[
+				"lc",
+				"src/LCM.c"
+			],
+			[
+				"glo",
+				"src/globals.c"
+			],
+			[
+				"sdk_c",
+				"src/hxsdk_c.c"
+			],
+			[
+				"load",
+				"src/dlg_cfg_save_load.c"
+			],
+			[
+				"osd",
+				"src/dlg_osd.c"
+			],
+			[
+				"disk",
+				"src/dlg_disk_man.c"
+			],
+			[
+				"grou",
+				"src/dlg_group_cfg.c"
+			],
+			[
+				"user",
+				"src/dlg_user_cfg.c"
+			],
+			[
+				"login",
+				"src/dlg_login.c"
+			],
+			[
+				"log.c",
+				"src/dlg_syslog.c"
+			],
+			[
+				"save",
+				"src/dlg_cfg_save_load.c"
+			],
+			[
+				"status",
+				"src/dlg_status_video_channel.c"
+			],
+			[
+				"sysl",
+				"src/dlg_syslog.c"
+			],
+			[
+				"alarmc",
+				"src/dlg_alarm_cfg.c"
+			],
+			[
+				"hos",
+				"src/dlg_hosts_cfg.c"
+			],
+			[
+				"common",
+				"src/z_common.c"
+			],
+			[
+				"z",
+				"src/z_common.h"
+			],
+			[
+				"21",
+				"at_suite_K3_RB-S2012.sublime-project"
+			],
+			[
+				"conffun",
+				"modules/config/src/config_func.c"
+			],
+			[
+				"fun",
+				"modules/alarm_config/src/alarm_fun.c"
+			],
+			[
+				"config.",
+				"build/wdir/modules/config.conf"
+			],
+			[
+				"confg_m",
+				"modules/config/src/config_main.c"
+			],
+			[
+				"atsline",
+				"build/wdir/conf/ats_linE.conf"
+			],
+			[
+				"eq",
+				"build/wdir/modules/config_case_conf/EQ_G.conf"
+			],
+			[
+				"mo",
+				"src/ats_module.c"
+			],
+			[
+				"core.",
+				"src/ats_core.h"
+			],
+			[
+				"conf.c",
+				"modules/history_stream/src/history_stream_conf.c"
+			],
+			[
+				"confmain",
+				"modules/config/src/config_main.c"
+			],
+			[
+				"atsconf",
+				"modules/config/src/ats_config.h"
+			],
+			[
+				"lives.h",
+				"modules/live_stream/src/ats_live_stream.h"
+			],
+			[
+				"atslive",
+				"modules/live_stream/src/ats_live_stream.h"
+			],
+			[
+				"case4",
+				"build/wdir/modules/live_case_conf/live_stream_case_04.conf"
+			],
+			[
+				"case3",
+				"build/wdir/modules/live_case_conf/live_stream_case_03.conf"
+			],
+			[
+				"case2",
+				"build/wdir/modules/live_case_conf/live_stream_case_02.conf"
+			],
+			[
+				"case1",
+				"build/wdir/modules/live_case_conf/live_stream_case_01.conf"
+			],
+			[
+				"lica",
+				"build/wdir/modules/live_case_conf/live_stream_case.conf"
+			],
+			[
+				"liv",
+				"build/wdir/modules/live_stream.conf"
+			],
+			[
+				"live",
+				"build/wdir/modules/live_stream.conf"
+			],
+			[
+				"case7",
+				"build/wdir/modules/live_case_conf/live_stream_case_07.conf"
+			],
+			[
+				"case6",
+				"build/wdir/modules/live_case_conf/live_stream_case_06.conf"
+			],
+			[
+				"case5",
+				"build/wdir/modules/live_case_conf/live_stream_case_05.conf"
+			],
+			[
+				"liveca4",
+				"build/wdir/modules/live_case_conf/live_stream_case_04.conf"
+			],
+			[
+				"liscase",
+				"build/wdir/modules/live_case_conf/live_stream_case_03.conf"
+			],
+			[
+				"livescase",
+				"build/wdir/modules/live_case_conf/live_stream_case_02.conf"
+			],
+			[
+				"liscas",
+				"build/wdir/modules/live_case_conf/live_stream_case_02.conf"
+			],
+			[
+				"w",
+				"src/wlog.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/work/sublime/dvrapp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true
+}

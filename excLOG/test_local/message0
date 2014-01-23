@@ -1,0 +1,1465 @@
+2014-01-20 17:23:46;<7>tlog(exclog_local_server.c.70):init_exclog local success.
+
+2014-01-21 12:36:30;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_server.c.70):init_exclog local success.
+
+2014-01-21 12:37:02;<3>hxGUI(src/dlg_main.c.2529):get eq users failed. hx_error: 0, Success
+2014-01-21 12:42:56;<3>hxGUI(src/dlg_main.c.2529):get eq users failed. hx_error: 0, Success
+2014-01-21 12:44:34;<3>hxGUI(src/dlg_main.c.2529):get eq users failed. hx_error: 0, Success
+2014-01-21 12:44:49;<3>hxGUI(src/dlg_login.c.76):user:
+2014-01-21 12:47:42;<3>hxGUI(src/dlg_login.c.76):user:user007
+2014-01-21 12:47:42;<3>hxGUI(src/dlg_login.c.76):user:admin
+2014-01-21 13:06:15;<3>hxGUI(src/dlg_main.c.2540):have user:user007 pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 13:06:15;<3>hxGUI(src/dlg_main.c.2540):have user:admin pwd:adminpwd
+2014-01-21 13:10:02;<3>hxGUI(src/dlg_main.c.2540):have user:user007 pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 13:10:02;<3>hxGUI(src/dlg_main.c.2540):have user:admin pwd:adminpwd
+2014-01-21 13:10:31;<3>hxGUI(src/dlg_login.c.357):pwd:adminpwd
+2014-01-21 13:10:31;<3>hxGUI(src/dlg_login.c.358):ret:-1
+2014-01-21 13:13:29;<3>hxGUI(src/dlg_main.c.2540):have user:user007 pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 13:13:29;<3>hxGUI(src/dlg_main.c.2540):have user:admin pwd:adminpwd
+2014-01-21 13:13:39;<3>hxGUI(src/dlg_login.c.358):pwd_sz:adminpwd
+2014-01-21 13:13:39;<3>hxGUI(src/dlg_login.c.359):pwd:adminpwd
+2014-01-21 13:13:39;<3>hxGUI(src/dlg_login.c.302):tmp:0a14de5a76e5e14758b04c209f266726
+2014-01-21 13:13:39;<3>hxGUI(src/dlg_login.c.360):ret:-1
+2014-01-21 13:13:39;<3>hxGUI(src/dlg_login.c.302):tmp:0a14de5a76e5e14758b04c209f266726
+2014-01-21 13:15:24;<3>hxGUI(src/dlg_main.c.2540):have user:user007 pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 13:15:24;<3>hxGUI(src/dlg_main.c.2540):have user:admin pwd:adminpwd
+2014-01-21 13:15:33;<3>hxGUI(src/dlg_login.c.358):pwd_sz:adminpwd
+2014-01-21 13:15:33;<3>hxGUI(src/dlg_login.c.359):pwd:adminpwd
+2014-01-21 13:15:33;<3>hxGUI(src/dlg_login.c.360):ret:0
+2014-01-21 13:15:33;<5>hxGUI(src/dlg_login.c.471):downloadfilepath = 192.168.9.224_20140121_131533
+2014-01-21 13:15:33;<4>hxGUI(src/dlg_login.c.474):admin@192.168.9.224 login success with sessionID(780020117).
+2014-01-21 13:16:05;<4>hxGUI(src/dlg_main.c.646):admin@192.168.9.224 logout success with sessionID(780020117).
+2014-01-21 13:16:20;<3>hxGUI(src/dlg_login.c.358):pwd_sz:007
+2014-01-21 13:16:20;<3>hxGUI(src/dlg_login.c.359):pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 13:16:20;<3>hxGUI(src/dlg_login.c.360):ret:1
+2014-01-21 13:18:37;<3>hxGUI(src/dlg_main.c.2540):have user:user007 pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 13:18:37;<3>hxGUI(src/dlg_main.c.2540):have user:admin pwd:adminpwd
+2014-01-21 13:18:50;<3>hxGUI(src/dlg_main.c.2540):have user:user007 pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 13:18:50;<3>hxGUI(src/dlg_main.c.2540):have user:admin pwd:adminpwd
+2014-01-21 13:18:59;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_131859
+2014-01-21 13:18:59;<4>hxGUI(src/dlg_login.c.472):user007@192.168.9.224 login success with sessionID(1776334600).
+2014-01-21 13:19:14;<4>hxGUI(src/dlg_main.c.646):user007@192.168.9.224 logout success with sessionID(1776334600).
+2014-01-21 13:19:24;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_131924
+2014-01-21 13:19:24;<4>hxGUI(src/dlg_login.c.472):admin@192.168.9.224 login success with sessionID(1776334601).
+2014-01-21 13:23:27;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_132327
+2014-01-21 13:23:27;<4>hxGUI(src/dlg_login.c.472):admin@192.168.9.224 login success with sessionID(2067848773).
+2014-01-21 13:24:17;<5>hxGUI(src/dlg_fault_cfg.c.97):admin set alarm config DISKSTAT beep off
+2014-01-21 13:24:17;<5>hxGUI(src/dlg_fault_cfg.c.142):admin set alarm config DISKSTAT beep on
+2014-01-21 13:24:17;<5>hxGUI(src/dlg_fault_cfg.c.155):admin set alarm config DISKSTAT AOUT on
+2014-01-21 13:28:57;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 13:28:57;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 13:45:56;<6>hxGUI(src/dlg_main.c.2611):Version 0.2.1.ff3 compiled Jan 15 2014 16:17:07
+
+2014-01-21 13:45:56;<7>hxGUI(src/dlg_main.c.2648):cfg_file = hxGUI.ini, word_dir = /work/hxGUI.QT/hxGUI.MiniGUI/trunk/hxGUI
+
+2014-01-21 13:45:56;<6>hxGUI(src/dlg_main.c.2375):read laguage from <>...
+2014-01-21 13:45:56;<6>hxGUI(src/dlg_main.c.2701):level = 15 proto = 0
+
+2014-01-21 13:45:56;<6>libhxSDK(src/hxSDK-core.c.223):target[0] registered hecp
+2014-01-21 13:45:56;<7>hxGUI(src/dlg_main.c.2539):have user:user007 pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 13:45:56;<7>hxGUI(src/dlg_main.c.2539):have user:admin pwd:adminpwd
+2014-01-21 13:46:01;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 13:46:01;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 13:46:06;<7>hxGUI(src/dlg_login.c.358):pwd_sz:007 pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 13:46:06;<7>hxGUI(src/dlg_login.c.299):tmp:9e94b15ed312fa42232fd87a55db0d39 std:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 13:46:06;<7>hxGUI(src/dlg_login.c.359):ret:0
+2014-01-21 13:46:06;<7>hxGUI(src/dlg_login.c.299):tmp:9e94b15ed312fa42232fd87a55db0d39 std:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 13:46:06;<7>hxGUI(src/hxsdk_c.c.170):tm: 4194304
+2014-01-21 13:46:06;<7>hxGUI(src/hxsdk_c.c.171):tm_name: S2500
+2014-01-21 13:46:06;<7>hxGUI(src/hxsdk_c.c.172):tm_identity: hecp:192.168.9.34
+2014-01-21 13:46:06;<7>hxGUI(src/hxsdk_c.c.173):num_enc: 16
+2014-01-21 13:46:06;<7>hxGUI(src/hxsdk_c.c.174):num_dec: 1
+2014-01-21 13:46:06;<7>hxGUI(src/hxsdk_c.c.175):num_rwc: 0
+2014-01-21 13:46:06;<7>hxGUI(src/hxsdk_c.c.185):hecp:192.168.9.34's tid is 1
+2014-01-21 13:46:06;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_134606
+2014-01-21 13:46:06;<4>hxGUI(src/dlg_login.c.472):user007@192.168.9.224 login success with sessionID(1962906188).
+2014-01-21 13:46:12;<4>hxGUI(src/dlg_main.c.646):user007@192.168.9.224 logout success with sessionID(1962906188).
+2014-01-21 13:46:13;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 13:46:13;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 13:46:23;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_134623
+2014-01-21 13:46:23;<4>hxGUI(src/dlg_login.c.472):admin@192.168.9.224 login success with sessionID(1962906189).
+2014-01-21 13:57:58;<4>hxGUI(src/dlg_main.c.646):admin@192.168.9.224 logout success with sessionID(1962906189).
+2014-01-21 13:57:58;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 13:57:58;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 13:58:02;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_135802
+2014-01-21 13:58:02;<4>hxGUI(src/dlg_login.c.472):user007@192.168.9.224 login success with sessionID(1962906190).
+2014-01-21 13:58:09;<4>hxGUI(src/dlg_main.c.646):user007@192.168.9.224 logout success with sessionID(1962906190).
+2014-01-21 13:58:10;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 13:58:10;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 13:58:18;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_135818
+2014-01-21 13:58:18;<4>hxGUI(src/dlg_login.c.472):admin@192.168.9.224 login success with sessionID(1962906191).
+2014-01-21 14:07:26;<6>hxGUI(src/dlg_main.c.2611):Version 0.2.1.ff3 compiled Jan 15 2014 16:17:07
+
+2014-01-21 14:07:26;<7>hxGUI(src/dlg_main.c.2648):cfg_file = hxGUI.ini, word_dir = /work/hxGUI.QT/hxGUI.MiniGUI/trunk/hxGUI
+
+2014-01-21 14:07:26;<6>hxGUI(src/dlg_main.c.2375):read laguage from <>...
+2014-01-21 14:07:26;<6>hxGUI(src/dlg_main.c.2701):level = 15 proto = 0
+
+2014-01-21 14:07:26;<6>libhxSDK(src/hxSDK-core.c.223):target[0] registered hecp
+2014-01-21 14:07:26;<7>hxGUI(src/dlg_main.c.2539):have user:user007 pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 14:07:26;<7>hxGUI(src/dlg_main.c.2539):have user:admin pwd:adminpwd
+2014-01-21 14:07:27;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 14:07:27;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 14:16:26;<7>hxGUI(src/dlg_login.c.358):pwd_sz:adminpwd pwd:adminpwd
+2014-01-21 14:16:26;<7>hxGUI(src/dlg_login.c.359):ret:0
+2014-01-21 14:16:26;<7>hxGUI(src/hxsdk_c.c.170):tm: 4194304
+2014-01-21 14:16:26;<7>hxGUI(src/hxsdk_c.c.171):tm_name: S2500
+2014-01-21 14:16:26;<7>hxGUI(src/hxsdk_c.c.172):tm_identity: hecp:192.168.9.34
+2014-01-21 14:16:26;<7>hxGUI(src/hxsdk_c.c.173):num_enc: 16
+2014-01-21 14:16:26;<7>hxGUI(src/hxsdk_c.c.174):num_dec: 1
+2014-01-21 14:16:26;<7>hxGUI(src/hxsdk_c.c.175):num_rwc: 0
+2014-01-21 14:16:26;<7>hxGUI(src/hxsdk_c.c.185):hecp:192.168.9.34's tid is 1
+2014-01-21 14:16:26;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_141626
+2014-01-21 14:16:26;<4>hxGUI(src/dlg_login.c.472):admin@192.168.9.224 login success with sessionID(483809026).
+2014-01-21 14:17:05;<4>hxGUI(src/dlg_main.c.646):admin@192.168.9.224 logout success with sessionID(483809026).
+2014-01-21 14:17:06;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 14:17:06;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 14:17:24;<6>hxGUI(src/dlg_main.c.2611):Version 0.2.1.ff3 compiled Jan 15 2014 16:17:07
+
+2014-01-21 14:17:24;<7>hxGUI(src/dlg_main.c.2648):cfg_file = hxGUI.ini, word_dir = /work/hxGUI.QT/hxGUI.MiniGUI/trunk/hxGUI
+
+2014-01-21 14:17:24;<6>hxGUI(src/dlg_main.c.2375):read laguage from <>...
+2014-01-21 14:17:24;<6>hxGUI(src/dlg_main.c.2701):level = 15 proto = 0
+
+2014-01-21 14:17:24;<6>libhxSDK(src/hxSDK-core.c.223):target[0] registered hecp
+2014-01-21 14:17:24;<7>hxGUI(src/dlg_main.c.2539):have user:user004 pwd:MD5:11364907cf269dd2183b64287156072a
+2014-01-21 14:17:24;<7>hxGUI(src/dlg_main.c.2539):have user:admin pwd:adminpwd
+2014-01-21 14:17:24;<7>hxGUI(src/dlg_main.c.2539):have user:user007 pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 14:17:25;<5>hxGUI(src/dlg_login.c.76):have user:user004
+2014-01-21 14:17:25;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 14:17:25;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 14:17:36;<7>hxGUI(src/dlg_login.c.358):pwd_sz:004 pwd:MD5:11364907cf269dd2183b64287156072a
+2014-01-21 14:17:36;<7>hxGUI(src/dlg_login.c.299):tmp:11364907cf269dd2183b64287156072a std:MD5:11364907cf269dd2183b64287156072a
+2014-01-21 14:17:36;<7>hxGUI(src/dlg_login.c.359):ret:0
+2014-01-21 14:17:36;<7>hxGUI(src/dlg_login.c.299):tmp:11364907cf269dd2183b64287156072a std:MD5:11364907cf269dd2183b64287156072a
+2014-01-21 14:17:36;<7>hxGUI(src/hxsdk_c.c.170):tm: 4194304
+2014-01-21 14:17:36;<7>hxGUI(src/hxsdk_c.c.171):tm_name: S2500
+2014-01-21 14:17:36;<7>hxGUI(src/hxsdk_c.c.172):tm_identity: hecp:192.168.9.34
+2014-01-21 14:17:36;<7>hxGUI(src/hxsdk_c.c.173):num_enc: 16
+2014-01-21 14:17:36;<7>hxGUI(src/hxsdk_c.c.174):num_dec: 1
+2014-01-21 14:17:36;<7>hxGUI(src/hxsdk_c.c.175):num_rwc: 0
+2014-01-21 14:17:36;<7>hxGUI(src/hxsdk_c.c.185):hecp:192.168.9.34's tid is 1
+2014-01-21 14:17:36;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_141736
+2014-01-21 14:17:36;<4>hxGUI(src/dlg_login.c.472):user004@192.168.9.224 login success with sessionID(70013128).
+2014-01-21 14:31:13;<4>hxGUI(src/dlg_main.c.646):user004@192.168.9.224 logout success with sessionID(70013128).
+2014-01-21 14:31:14;<5>hxGUI(src/dlg_login.c.76):have user:user004
+2014-01-21 14:31:14;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 14:31:14;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 14:32:30;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_143230
+2014-01-21 14:32:30;<4>hxGUI(src/dlg_login.c.472):user004@192.168.9.224 login success with sessionID(70013129).
+2014-01-21 14:32:57;<4>hxGUI(src/dlg_main.c.646):user004@192.168.9.224 logout success with sessionID(70013129).
+2014-01-21 14:32:58;<5>hxGUI(src/dlg_login.c.76):have user:user004
+2014-01-21 14:32:58;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 14:32:58;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 14:33:26;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_143326
+2014-01-21 14:33:26;<4>hxGUI(src/dlg_login.c.472):admin@192.168.9.224 login success with sessionID(70013130).
+2014-01-21 14:37:23;<4>hxGUI(src/dlg_main.c.646):admin@192.168.9.224 logout success with sessionID(70013130).
+2014-01-21 14:37:23;<5>hxGUI(src/dlg_login.c.76):have user:user004
+2014-01-21 14:37:23;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 14:37:23;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 14:37:28;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_143728
+2014-01-21 14:37:28;<4>hxGUI(src/dlg_login.c.472):user004@192.168.9.224 login success with sessionID(70013131).
+2014-01-21 14:49:35;<4>hxGUI(src/dlg_main.c.646):user004@192.168.9.224 logout success with sessionID(70013131).
+2014-01-21 14:49:36;<5>hxGUI(src/dlg_login.c.76):have user:user004
+2014-01-21 14:49:36;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 14:49:36;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 14:49:46;<5>hxGUI(src/dlg_login.c.469):downloadfilepath = 192.168.9.224_20140121_144946
+2014-01-21 14:49:46;<4>hxGUI(src/dlg_login.c.472):admin@192.168.9.224 login success with sessionID(70013132).
+2014-01-21 14:58:43;<6>hxGUI(src/dlg_main.c.2615):Version 0.2.1.ff3 compiled Jan 15 2014 16:17:07
+
+2014-01-21 14:58:43;<7>hxGUI(src/dlg_main.c.2652):cfg_file = hxGUI.ini, word_dir = /work/hxGUI.QT/hxGUI.MiniGUI/trunk/hxGUI
+
+2014-01-21 14:58:43;<6>hxGUI(src/dlg_main.c.2379):read laguage from <>...
+2014-01-21 14:58:43;<6>hxGUI(src/dlg_main.c.2705):level = 15 proto = 0
+
+2014-01-21 14:58:43;<6>libhxSDK(src/hxSDK-core.c.223):target[0] registered hecp
+2014-01-21 14:58:43;<7>hxGUI(src/dlg_main.c.2543):have user:user004 pwd:MD5:11364907cf269dd2183b64287156072a
+2014-01-21 14:58:43;<7>hxGUI(src/dlg_main.c.2543):have user:admin pwd:adminpwd
+2014-01-21 14:58:43;<7>hxGUI(src/dlg_main.c.2543):have user:user007 pwd:MD5:9e94b15ed312fa42232fd87a55db0d39
+2014-01-21 14:58:45;<5>hxGUI(src/dlg_login.c.76):have user:user004
+2014-01-21 14:58:45;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 14:58:45;<5>hxGUI(src/dlg_login.c.76):have user:user007
+2014-01-21 14:58:55;<7>hxGUI(src/dlg_login.c.358):pwd_sz:adminpwd pwd:adminpwd
+2014-01-21 14:58:55;<7>hxGUI(src/dlg_login.c.359):ret:0
+2014-01-21 14:58:55;<7>hxGUI(src/hxsdk_c.c.170):tm: 4194304
+2014-01-21 14:58:55;<7>hxGUI(src/hxsdk_c.c.171):tm_name: S2500
+2014-01-21 14:58:55;<7>hxGUI(src/hxsdk_c.c.172):tm_identity: hecp:192.168.9.34
+2014-01-21 14:58:55;<7>hxGUI(src/hxsdk_c.c.173):num_enc: 16
+2014-01-21 14:58:55;<7>hxGUI(src/hxsdk_c.c.174):num_dec: 1
+2014-01-21 14:58:55;<7>hxGUI(src/hxsdk_c.c.175):num_rwc: 0
+2014-01-21 14:58:55;<7>hxGUI(src/hxsdk_c.c.185):hecp:192.168.9.34's tid is 1
+2014-01-21 14:58:55;<5>hxGUI(src/dlg_login.c.470):downloadfilepath = 192.168.9.224_20140121_145855
+2014-01-21 14:58:55;<4>hxGUI(src/dlg_login.c.473):admin@192.168.9.224 login success with sessionID(979760539).
+2014-01-21 14:59:58;<4>hxGUI(src/dlg_main.c.650):admin@192.168.9.224 logout success with sessionID(979760539).
+2014-01-21 14:59:59;<5>hxGUI(src/dlg_login.c.76):have user:user004
+2014-01-21 14:59:59;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 14:59:59;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:03:27;<5>hxGUI(src/dlg_login.c.470):downloadfilepath = 192.168.9.224_20140121_150327
+2014-01-21 15:03:27;<4>hxGUI(src/dlg_login.c.473):admin@192.168.9.224 login success with sessionID(979760540).
+2014-01-21 15:04:17;<4>hxGUI(src/dlg_main.c.650):admin@192.168.9.224 logout success with sessionID(979760540).
+2014-01-21 15:04:18;<5>hxGUI(src/dlg_login.c.76):have user:user004
+2014-01-21 15:04:18;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 15:04:18;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:04:25;<5>hxGUI(src/dlg_login.c.470):downloadfilepath = 192.168.9.224_20140121_150425
+2014-01-21 15:04:25;<4>hxGUI(src/dlg_login.c.473):user004@192.168.9.224 login success with sessionID(979760541).
+2014-01-21 15:06:54;<4>hxGUI(src/dlg_main.c.650):user004@192.168.9.224 logout success with sessionID(979760541).
+2014-01-21 15:06:55;<5>hxGUI(src/dlg_login.c.76):have user:user004
+2014-01-21 15:06:55;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 15:06:55;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:07:06;<5>hxGUI(src/dlg_login.c.470):downloadfilepath = 192.168.9.224_20140121_150706
+2014-01-21 15:07:06;<4>hxGUI(src/dlg_login.c.473):admin@192.168.9.224 login success with sessionID(979760542).
+2014-01-21 15:10:46;<4>hxGUI(src/dlg_main.c.650):admin@192.168.9.224 logout success with sessionID(979760542).
+2014-01-21 15:10:47;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:10:47;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 15:14:26;<5>hxGUI(src/dlg_login.c.470):downloadfilepath = 192.168.9.224_20140121_151426
+2014-01-21 15:14:26;<4>hxGUI(src/dlg_login.c.473):user001@192.168.9.224 login success with sessionID(979760543).
+2014-01-21 15:35:09;<4>hxGUI(src/dlg_main.c.650):user001@192.168.9.224 logout success with sessionID(979760543).
+2014-01-21 15:35:10;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:35:10;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 15:35:15;<5>hxGUI(src/dlg_login.c.470):downloadfilepath = 192.168.9.224_20140121_153515
+2014-01-21 15:35:15;<4>hxGUI(src/dlg_login.c.473):user001@192.168.9.224 login success with sessionID(979760544).
+2014-01-21 15:44:32;<6>hxGUI(src/dlg_main.c.2615):Version 0.2.1.ff3 compiled Jan 15 2014 16:17:07
+
+2014-01-21 15:44:32;<7>hxGUI(src/dlg_main.c.2652):cfg_file = hxGUI.ini, word_dir = /work/hxGUI.QT/hxGUI.MiniGUI/trunk/hxGUI
+
+2014-01-21 15:44:32;<6>hxGUI(src/dlg_main.c.2379):read laguage from <>...
+2014-01-21 15:44:32;<6>hxGUI(src/dlg_main.c.2705):level = 15 proto = 0
+
+2014-01-21 15:44:32;<6>libhxSDK(src/hxSDK-core.c.223):target[0] registered hecp
+2014-01-21 15:44:32;<7>hxGUI(src/dlg_main.c.2543):have user:user001 pwd:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:44:32;<7>hxGUI(src/dlg_main.c.2543):have user:admin pwd:adminpwd
+2014-01-21 15:45:27;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:45:27;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 15:45:40;<7>hxGUI(src/dlg_login.c.358):pwd_sz:001 pwd:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:45:40;<7>hxGUI(src/dlg_login.c.299):tmp:dc5c7986daef50c1e02ab09b442ee34f std:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:45:40;<7>hxGUI(src/dlg_login.c.359):ret:0
+2014-01-21 15:45:40;<7>hxGUI(src/dlg_login.c.299):tmp:dc5c7986daef50c1e02ab09b442ee34f std:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:45:40;<7>hxGUI(src/hxsdk_c.c.170):tm: 4194304
+2014-01-21 15:45:40;<7>hxGUI(src/hxsdk_c.c.171):tm_name: S2500
+2014-01-21 15:45:40;<7>hxGUI(src/hxsdk_c.c.172):tm_identity: hecp:192.168.9.34
+2014-01-21 15:45:40;<7>hxGUI(src/hxsdk_c.c.173):num_enc: 16
+2014-01-21 15:45:40;<7>hxGUI(src/hxsdk_c.c.174):num_dec: 1
+2014-01-21 15:45:40;<7>hxGUI(src/hxsdk_c.c.175):num_rwc: 0
+2014-01-21 15:45:40;<7>hxGUI(src/hxsdk_c.c.185):hecp:192.168.9.34's tid is 1
+2014-01-21 15:45:40;<5>hxGUI(src/dlg_login.c.471):downloadfilepath = 192.168.9.224_20140121_154540
+2014-01-21 15:45:40;<4>hxGUI(src/dlg_login.c.474):user001@192.168.9.224 login success with sessionID(1380169811).
+2014-01-21 15:45:54;<5>hxGUI(src/dlg_mod_password.c.64):have user:user001
+2014-01-21 15:46:16;<5>hxGUI(src/dlg_mod_password.c.221):user001 set hxGUI password success
+2014-01-21 15:46:24;<4>hxGUI(src/dlg_main.c.650):user001@192.168.9.224 logout success with sessionID(1380169811).
+2014-01-21 15:46:25;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:46:25;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 15:46:34;<5>hxGUI(src/dlg_login.c.471):downloadfilepath = 192.168.9.224_20140121_154634
+2014-01-21 15:46:34;<4>hxGUI(src/dlg_login.c.474):admin@192.168.9.224 login success with sessionID(1380169812).
+2014-01-21 15:46:57;<5>hxGUI(src/dlg_mod_password.c.56):have user:user001
+2014-01-21 15:46:57;<5>hxGUI(src/dlg_mod_password.c.56):have user:admin
+2014-01-21 15:47:27;<5>hxGUI(src/dlg_mod_password.c.221):admin set hxGUI password success
+2014-01-21 15:48:07;<5>hxGUI(xelog_remote.c.499):last message repeat 1 times.	--->192.168.9.224
+2014-01-21 15:48:07;<4>hxGUI(src/dlg_main.c.650):admin@192.168.9.224 logout success with sessionID(1380169812).
+2014-01-21 15:48:08;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:48:08;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 15:48:13;<5>hxGUI(src/dlg_login.c.471):downloadfilepath = 192.168.9.224_20140121_154813
+2014-01-21 15:48:13;<4>hxGUI(src/dlg_login.c.474):user001@192.168.9.224 login success with sessionID(1380169813).
+2014-01-21 15:48:16;<4>hxGUI(src/dlg_main.c.650):user001@192.168.9.224 logout success with sessionID(1380169813).
+2014-01-21 15:48:16;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:48:16;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 15:48:22;<5>hxGUI(src/dlg_login.c.471):downloadfilepath = 192.168.9.224_20140121_154822
+2014-01-21 15:48:22;<4>hxGUI(src/dlg_login.c.474):admin@192.168.9.224 login success with sessionID(1380169814).
+2014-01-21 15:48:43;<4>hxGUI(src/dlg_main.c.650):admin@192.168.9.224 logout success with sessionID(1380169814).
+2014-01-21 15:49:51;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:49:51;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 15:50:09;<6>hxGUI(src/dlg_main.c.2615):Version 0.2.1.ff3 compiled Jan 15 2014 16:17:07
+
+2014-01-21 15:50:09;<7>hxGUI(src/dlg_main.c.2652):cfg_file = hxGUI.ini, word_dir = /work/hxGUI.QT/hxGUI.MiniGUI/trunk/hxGUI
+
+2014-01-21 15:50:09;<6>hxGUI(src/dlg_main.c.2379):read laguage from <>...
+2014-01-21 15:50:09;<6>hxGUI(src/dlg_main.c.2705):level = 15 proto = 0
+
+2014-01-21 15:50:09;<6>libhxSDK(src/hxSDK-core.c.223):target[0] registered hecp
+2014-01-21 15:50:09;<7>hxGUI(src/dlg_main.c.2543):have user:user001 pwd:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:50:09;<7>hxGUI(src/dlg_main.c.2543):have user:admin pwd:MD5:96e79218965eb72c92a549dd5a330112
+2014-01-21 15:50:21;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:50:21;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 15:50:27;<7>hxGUI(src/dlg_login.c.358):pwd_sz:001 pwd:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:50:27;<7>hxGUI(src/dlg_login.c.299):tmp:dc5c7986daef50c1e02ab09b442ee34f std:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:50:27;<7>hxGUI(src/dlg_login.c.359):ret:0
+2014-01-21 15:50:27;<7>hxGUI(src/dlg_login.c.299):tmp:dc5c7986daef50c1e02ab09b442ee34f std:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:50:27;<7>hxGUI(src/hxsdk_c.c.170):tm: 4194304
+2014-01-21 15:50:27;<7>hxGUI(src/hxsdk_c.c.171):tm_name: S2500
+2014-01-21 15:50:27;<7>hxGUI(src/hxsdk_c.c.172):tm_identity: hecp:192.168.9.34
+2014-01-21 15:50:27;<7>hxGUI(src/hxsdk_c.c.173):num_enc: 16
+2014-01-21 15:50:27;<7>hxGUI(src/hxsdk_c.c.174):num_dec: 1
+2014-01-21 15:50:27;<7>hxGUI(src/hxsdk_c.c.175):num_rwc: 0
+2014-01-21 15:50:27;<7>hxGUI(src/hxsdk_c.c.185):hecp:192.168.9.34's tid is 1
+2014-01-21 15:50:27;<5>hxGUI(src/dlg_login.c.471):downloadfilepath = 192.168.9.224_20140121_155027
+2014-01-21 15:50:27;<4>hxGUI(src/dlg_login.c.474):user001@192.168.9.224 login success with sessionID(899803319).
+2014-01-21 15:50:37;<4>hxGUI(src/dlg_main.c.650):user001@192.168.9.224 logout success with sessionID(899803319).
+2014-01-21 15:56:31;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_server.c.70):init_exclog local success.
+
+2014-01-21 15:56:54;<6>hxGUI(src/dlg_main.c.2615):Version 0.2.1.ff3 compiled Jan 15 2014 16:17:07
+
+2014-01-21 15:56:54;<7>hxGUI(src/dlg_main.c.2652):cfg_file = hxGUI.ini, word_dir = /work/hxGUI.QT/hxGUI.MiniGUI/trunk/hxGUI
+
+2014-01-21 15:56:54;<6>hxGUI(src/dlg_main.c.2379):read laguage from <>...
+2014-01-21 15:56:54;<6>hxGUI(src/dlg_main.c.2705):level = 15 proto = 0
+
+2014-01-21 15:56:54;<6>libhxSDK(src/hxSDK-core.c.223):target[0] registered hecp
+2014-01-21 15:56:54;<7>hxGUI(src/dlg_main.c.2543):have user:user001 pwd:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:56:54;<7>hxGUI(src/dlg_main.c.2543):have user:admin pwd:MD5:96e79218965eb72c92a549dd5a330112
+2014-01-21 15:57:04;<5>hxGUI(src/dlg_login.c.76):have user:user001
+2014-01-21 15:57:04;<5>hxGUI(src/dlg_login.c.76):have user:admin
+2014-01-21 15:57:10;<7>hxGUI(src/dlg_login.c.358):pwd_sz:001 pwd:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:57:10;<7>hxGUI(src/dlg_login.c.299):tmp:dc5c7986daef50c1e02ab09b442ee34f std:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:57:10;<7>hxGUI(src/dlg_login.c.359):ret:0
+2014-01-21 15:57:10;<7>hxGUI(src/dlg_login.c.299):tmp:dc5c7986daef50c1e02ab09b442ee34f std:MD5:dc5c7986daef50c1e02ab09b442ee34f
+2014-01-21 15:57:10;<7>hxGUI(src/hxsdk_c.c.170):tm: 4194304
+2014-01-21 15:57:10;<7>hxGUI(src/hxsdk_c.c.171):tm_name: S2500
+2014-01-21 15:57:10;<7>hxGUI(src/hxsdk_c.c.172):tm_identity: hecp:192.168.9.34
+2014-01-21 15:57:10;<7>hxGUI(src/hxsdk_c.c.173):num_enc: 16
+2014-01-21 15:57:10;<7>hxGUI(src/hxsdk_c.c.174):num_dec: 1
+2014-01-21 15:57:10;<7>hxGUI(src/hxsdk_c.c.175):num_rwc: 0
+2014-01-21 15:57:10;<7>hxGUI(src/hxsdk_c.c.185):hecp:192.168.9.34's tid is 1
+2014-01-21 15:57:10;<5>hxGUI(src/dlg_login.c.471):downloadfilepath = 192.168.9.224_20140121_155710
+2014-01-21 15:57:10;<4>hxGUI(src/dlg_login.c.474):user001@192.168.9.224 login success with sessionID(1204608731).
+2014-01-21 15:57:27;<5>hxGUI(src/dlg_mod_password.c.64):have user:user001
+2014-01-21 15:57:37;<5>hxGUI(src/dlg_mod_password.c.221):user001 set hxGUI password success
+2014-01-21 15:57:43;<4>hxGUI(src/dlg_main.c.650):user001@192.168.9.224 logout success with sessionID(1204608731).
+2014-01-22 13:42:21;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_server.c.72):init_exclog local success.
+
+2014-01-22 14:33:16;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_server.c.72):init_exclog local success.
+
+2014-01-22 14:33:53;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:33:53;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:33:53;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:33:53;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:33:53;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:33:53;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:33:53;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:33:53;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:33:54;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:33:54;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:33:54;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:33:54;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:33:54;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:33:54;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:33:54;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:33:54;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:33:55;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:33:55;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:33:55;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:33:55;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:33:55;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:33:55;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:33:55;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:33:55;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:33:56;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:33:56;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:33:56;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:33:56;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:33:56;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:33:56;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:33:56;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:33:56;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:33:57;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:33:57;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:33:57;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:33:57;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:33:57;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:33:57;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:33:57;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:33:57;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:33:58;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:33:58;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:33:58;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:33:58;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:33:58;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:33:58;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:33:58;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:33:58;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:33:59;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:33:59;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:33:59;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:33:59;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:33:59;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:33:59;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:33:59;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:33:59;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:00;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:00;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:00;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:00;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:00;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:00;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:00;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:00;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:01;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:01;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:01;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:01;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:01;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:01;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:01;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:01;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:02;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:02;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:02;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:02;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:02;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:02;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:02;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:02;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:03;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:03;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:03;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:03;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:03;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:03;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:03;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:03;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:04;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:04;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:04;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:04;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:04;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:04;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:04;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:04;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:05;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:05;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:05;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:05;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:05;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:05;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:05;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:05;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:06;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:06;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:06;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:06;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:06;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:06;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:06;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:06;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:07;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:07;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:07;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:07;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:07;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:07;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:07;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:07;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:08;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:08;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:08;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:08;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:08;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:08;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:08;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:08;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:09;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:09;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:09;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:09;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:09;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:09;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:09;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:09;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:10;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:10;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:10;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:10;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:10;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:10;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:10;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:10;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:11;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:11;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:11;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:11;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:11;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:11;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:11;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:11;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:12;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:12;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:12;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:12;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:12;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:12;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:12;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:12;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:13;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:13;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:13;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:13;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:13;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:13;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:13;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:13;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:14;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:14;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:14;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:14;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:14;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:14;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:14;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:14;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:15;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:15;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:15;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:15;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:15;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:15;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:15;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:15;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:16;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:16;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:16;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:16;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:16;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:16;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:16;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:16;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:17;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:17;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:17;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:17;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:17;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:17;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:17;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:17;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:18;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:18;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:18;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:18;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:18;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:18;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:18;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:18;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:19;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:19;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:19;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:19;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:19;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:19;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:19;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:19;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:20;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:20;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:20;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:20;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:20;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:20;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:20;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:20;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:21;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:21;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:21;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:21;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:21;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:21;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:21;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:21;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:22;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:22;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:22;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:22;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:22;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:22;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:22;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:22;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:23;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:23;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:23;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:23;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:23;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:23;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:23;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:23;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:24;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:24;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:24;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:24;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:24;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:24;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:24;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:24;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:25;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:25;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:25;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:25;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:25;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:25;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:25;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:25;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:26;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:26;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:26;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:26;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:26;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:26;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:26;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:26;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:27;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:27;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:27;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:27;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:27;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:27;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:27;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:27;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:28;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:28;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:28;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:28;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:28;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:28;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:28;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:28;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:29;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:29;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:29;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:29;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:29;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:29;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:29;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:29;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:30;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:30;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:30;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:30;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:30;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:30;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:30;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:30;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:31;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:31;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:31;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:31;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:31;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:31;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:31;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:31;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:32;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:32;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:32;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:32;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:32;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:32;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:32;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:32;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:33;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:33;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:33;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:33;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:33;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:33;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:33;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:33;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:34;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:34;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:34;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:34;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:34;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:34;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:34;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:34;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:35;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:35;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:35;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:35;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:35;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:35;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:35;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:35;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:36;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:36;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:36;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:36;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:36;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:36;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:36;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:36;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:37;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:37;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:37;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:37;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:37;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:37;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:37;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:37;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:38;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:38;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:38;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:38;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:38;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:38;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:38;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:38;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:39;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:39;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:39;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:39;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:39;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:39;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:39;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:39;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:40;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:40;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:40;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:40;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:40;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:40;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:40;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:40;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:41;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:41;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:41;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:41;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:41;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:41;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:41;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:41;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:42;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:42;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:42;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:42;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:42;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:42;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:42;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:42;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:43;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:43;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:43;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:43;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:43;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:43;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:43;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:43;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:44;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:44;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:44;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:44;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:44;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:44;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:44;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:44;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:45;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:45;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:45;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:45;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:45;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:45;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:45;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:45;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:46;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:46;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:46;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:46;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:46;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:46;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:46;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:46;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:47;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:47;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:47;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:47;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:47;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:47;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:47;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:47;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:48;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:48;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:48;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:48;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:48;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:48;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:48;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:48;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:49;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:49;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:49;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:49;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:49;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:49;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:49;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:49;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:50;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:50;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:50;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:50;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:50;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:50;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:50;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:50;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:51;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:51;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:51;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:51;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:51;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:51;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:51;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:51;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:52;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:52;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:52;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:52;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:52;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:52;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:52;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:52;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:53;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:53;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:53;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:53;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:53;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:53;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:53;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:53;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:54;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:54;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:54;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:54;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:54;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:54;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:54;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:54;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:55;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:55;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:55;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:55;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:55;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:55;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:55;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:55;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:56;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:56;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:56;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:56;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:56;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:56;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:56;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:56;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:57;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:57;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:57;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:57;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:57;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:57;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:57;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:57;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:58;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:58;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:58;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:58;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:58;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:58;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:58;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:58;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:34:59;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:34:59;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:34:59;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:34:59;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:34:59;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:34:59;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:34:59;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:34:59;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:00;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:00;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:00;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:00;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:00;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:00;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:00;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:00;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:01;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:01;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:01;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:01;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:01;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:01;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:01;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:01;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:02;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:02;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:02;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:02;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:02;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:02;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:02;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:02;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:03;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:03;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:03;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:03;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:03;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:03;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:03;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:03;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:04;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:04;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:04;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:04;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:04;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:04;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:04;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:04;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:05;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:05;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:05;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:05;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:05;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:05;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:05;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:05;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:06;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:06;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:06;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:06;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:06;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:06;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:06;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:06;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:07;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:07;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:07;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:07;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:07;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:07;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:07;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:07;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:08;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:08;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:08;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:08;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:08;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:08;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:08;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:08;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:09;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:09;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:09;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:09;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:09;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:09;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:09;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:09;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:10;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:10;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:10;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:10;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:10;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:10;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:10;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:10;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:11;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:11;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:11;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:11;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:11;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:11;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:11;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:11;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:12;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:12;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:12;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:12;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:12;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:12;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:12;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:12;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:13;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:13;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:13;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:13;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:13;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:13;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:13;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:13;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:14;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:14;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:14;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:14;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:14;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:14;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:14;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:14;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:15;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:15;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:15;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:15;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:15;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:15;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:15;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:15;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:16;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:16;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:16;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:16;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:16;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:16;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:16;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:16;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:17;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:17;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:17;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:17;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:17;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:17;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:17;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:17;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:18;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:18;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:18;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:18;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:18;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:18;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:18;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:18;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:19;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:19;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:19;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:19;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:19;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:19;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:19;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:19;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:20;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:20;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:20;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:20;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:20;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:20;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:20;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:20;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:21;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:21;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:21;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:21;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:21;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:21;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:21;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:21;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:22;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:22;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:22;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:22;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:22;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:22;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:22;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:22;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:23;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:23;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:23;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:23;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:23;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:23;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:23;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:23;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:24;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:24;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:24;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:24;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:24;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:24;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:24;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:24;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:25;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:25;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:25;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:25;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:25;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:25;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:25;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:25;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:26;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:26;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:26;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:26;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:26;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:26;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:26;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:26;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:27;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:27;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:27;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:27;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:27;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:27;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:27;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:27;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:28;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:28;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:28;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:28;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:28;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:28;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:28;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:28;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:29;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:29;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:29;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:29;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:29;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:29;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:29;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:29;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:30;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:30;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:30;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:30;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:30;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:30;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:30;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:30;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:31;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:31;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:31;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:31;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:31;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:31;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:31;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:31;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:32;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:32;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:32;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:32;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:32;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:32;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:32;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:32;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:33;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:33;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:33;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:33;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:33;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:33;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:33;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:33;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:34;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:34;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:34;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:34;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:34;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:34;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:34;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:34;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:35;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:35;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:35;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:35;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:35;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:35;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:35;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:35;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:36;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:36;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:36;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:36;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:36;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:36;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:36;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:36;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:37;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:37;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:37;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:37;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:37;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:37;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:37;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:37;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:38;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:38;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:38;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:38;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:38;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:38;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:38;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:38;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:39;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:39;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:39;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:39;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:39;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:39;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:39;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:39;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:40;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:40;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:40;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:40;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:40;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:40;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:40;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:40;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:41;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:41;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:41;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:41;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:41;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:41;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:41;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:41;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:42;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:42;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:42;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:42;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:42;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:42;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:42;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:42;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:43;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:43;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:43;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:43;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:43;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:43;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:43;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:43;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:44;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:44;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:44;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:44;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:44;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:44;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:44;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:44;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:45;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:45;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:45;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:45;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:45;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:45;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:45;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:45;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:46;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:46;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:46;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:46;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:46;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:46;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:46;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:46;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:47;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:47;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:47;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:47;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:47;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:47;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:47;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:47;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:48;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:48;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:48;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:48;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:48;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:48;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:48;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:48;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:49;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:49;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:49;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:49;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:49;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:49;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:49;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:49;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:50;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:50;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:50;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:50;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:50;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:50;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:50;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:50;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:51;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:51;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:51;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:51;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:51;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:51;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:51;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:51;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:52;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:52;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:52;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:52;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:52;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:52;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:52;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:52;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:53;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:53;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:53;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:53;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:53;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:53;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:53;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:53;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:54;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:54;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:54;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:54;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:54;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:54;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:54;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:54;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:55;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:55;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:55;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:55;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:55;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:55;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:55;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:55;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:56;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:56;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:56;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:56;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:56;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:56;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:56;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:56;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:57;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:57;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:57;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:57;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:57;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:57;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:57;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:57;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:58;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:58;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:58;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:58;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:58;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:58;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:58;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:58;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:35:59;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:35:59;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:35:59;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:35:59;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:35:59;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:35:59;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:35:59;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:35:59;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:00;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:00;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:00;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:00;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:00;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:00;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:00;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:00;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:01;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:01;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:01;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:01;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:01;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:01;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:01;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:01;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:02;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:02;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:02;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:02;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:02;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:02;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:02;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:02;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:03;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:03;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:03;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:03;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:03;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:03;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:03;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:03;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:04;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:04;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:04;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:04;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:04;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:04;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:04;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:04;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:05;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:05;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:05;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:05;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:05;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:05;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:05;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:05;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:06;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:06;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:06;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:06;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:06;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:06;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:06;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:06;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:07;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:07;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:07;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:07;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:07;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:07;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:07;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:07;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:08;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:08;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:08;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:08;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:08;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:08;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:08;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:08;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:09;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:09;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:09;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:09;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:09;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:09;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:09;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:09;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:10;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:10;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:10;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:10;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:10;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:10;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:10;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:10;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:11;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:11;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:11;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:11;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:11;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:11;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:11;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:11;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:12;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:12;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:12;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:12;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:12;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:12;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:12;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:12;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:13;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:13;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:13;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:13;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:13;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:13;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:13;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:13;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.
+2014-01-22 14:36:14;<7>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.130):local excLOG_DEBUG test.
+2014-01-22 14:36:14;<6>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.131):local excLOG_INFO test.
+2014-01-22 14:36:14;<5>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.132):local excLOG_NOTICE test.
+2014-01-22 14:36:14;<4>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.133):local excLOG_WARNING test.
+2014-01-22 14:36:14;<3>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.134):local excLOG_ERR test.
+2014-01-22 14:36:14;<2>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.135):local excLOG_CRIT test.
+2014-01-22 14:36:14;<1>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.136):local excLOG_ALERT test.
+2014-01-22 14:36:14;<0>libexcLOG(/develop/tao.utils/excLOG/test_local/exclog_local_test.c.137):local excLOG_EMERG test.

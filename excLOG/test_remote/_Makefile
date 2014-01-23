@@ -1,0 +1,28 @@
+#Build with external xelog.h
+CFLAGS += -DCONFIG_USE_EXTERNAL_EXCLOG=1
+#CFLAGS += -UCONFIG_USE_EXTERNAL_EXCLOG
+
+LDFLAGS += -lpthread
+
+SRC_FILES := $(wildcard *.c)
+ALL_BINS := $(patsubst %.c, %.bin, $(SRC_FILES))
+DEP_FILES := $(addsuffix .d,$(basename $(SRC_FILES)))
+
+%.bin:%.c
+# 	$(CC) -o $@ $(CFLAGS) $<  $(LIB_A) $(LDFLAGS)
+	$(CC) -o $@ $(CFLAGS) $<  $(LIB_SO) $(LDFLAGS)
+
+.PHONY: all clean
+
+all: $(LIB_A) $(ALL_BINS)
+	chmod +x $(ALL_BINS)
+	rm -rf $(DEP_FILES)
+	@echo "build test_remote finish"
+
+clean:
+	rm -rf $(ALL_BINS) $(DEP_FILES)
+	
+ifneq ($(MAKECMDGOALS),clean)
+-include $(DEP_FILES)
+endif
+

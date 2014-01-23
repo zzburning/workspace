@@ -13,3 +13,7 @@
 *.a
 
 build/*
+excLOG/build
+# misc
+mytemplate
+mymodule

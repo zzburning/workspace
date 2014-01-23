@@ -1,0 +1,114 @@
+# #package version 
+# VERSION_MAJOR := 0
+# VERSION_MINOR := 5
+# VERSION_REVISION := 0
+# VERSION_BUILD_ID := $(shell unset LANG; svn info | sed -n '/^Revision/s/Revision:[[:space:]]*\([[:digit:]]\+\)/\1/p'; )
+# 
+# ifeq  ($(VERSION_BUILD_ID),)
+# VERSION_BUILD_ID := 999
+# endif
+# 
+# export VERSION_MAJOR VERSION_MINOR VERSION_REVISION VERSION_BUILD_ID
+# 
+TOPDIR := $(shell pwd)
+RELEASEDIR :=$(TOPDIR)/release
+
+ARCH := X86
+CC := gcc
+AR := ar
+export ARCH CC AR
+
+CFLAGS += -DEXCLOG_PREFIX=\"libexcLOG\"
+CFLAGS += -DCONFIG_USE_EXTERNAL_EXCLOG=1
+
+# BUILD_TARGET := local
+# BUILD_TARGET := remote
+
+ifeq ($(BUILD_TARGET), local)
+CFLAGS += -DEXCLOG_2_LOCAL=1
+else
+CFLAGS += -DEXCLOG_2_REMOTE=1
+endif
+
+#BUILD_TYPE := Release
+BUILD_TYPE := Debug
+
+ifeq ($(BUILD_TYPE), Release)
+CFLAGS += -O2 
+CFLAGS += -DCONFIG_CLOSE_DBG -DNDEBUG #close DBG() and DEBUG_SELF()
+CFLAGS += -DBUILD_TYPE=\"Release\"
+else
+CFLAGS += -g 
+CFLAGS += -g -DDEBUG=1
+CFLAGS += -g -DCONFIG_CLOSE_DBG #close DEBUG_SELF()
+CFLAGS += -DBUILD_TYPE=\"Debug\"
+endif
+
+CFLAGS += -Wall -I$(TOPDIR)/include 
+
+
+export TOPDIR CFLAGS LDFLAGS
+
+#define lib name 
+MODNAME=excLOG
+
+DATE=$(shell date "+%Y%m%d")
+
+# LIB_A := $(TOPDIR)/build/lib/lib$(MODNAME).$(TARGET_PLATFORM).$(TARGET_BOARD_NAME).$(ARCH)_$(VERSION_MAJOR).$(VERSION_MINOR).$(VERSION_REVISION)-$(VERSION_BUILD_ID)_$(DATE)_LOCAL.a
+# LIB_SO := $(TOPDIR)/build/lib/lib$(MODNAME).$(TARGET_PLATFORM).$(TARGET_BOARD_NAME).$(ARCH)_$(VERSION_MAJOR).$(VERSION_MINOR).$(VERSION_REVISION)-$(VERSION_BUILD_ID)_$(DATE)_REMOTE.so
+LIB_A := $(TOPDIR)/build/lib$(MODNAME)_LOCAL.a
+LIB_SO := $(TOPDIR)/build/lib$(MODNAME)_REMOTE.so
+
+export LIB_A LIB_SO
+
+.PHONY:	local remote clean
+
+.PHONY: libexcLOG_local libexcLOG_remote libexcLOG_clean 
+
+.PHONY:	test_local test_remote test_query test_clean 
+
+
+local:clean libexcLOG_local test_local
+
+remote: clean libexcLOG_remote test_remote
+
+clean:libexcLOG_clean test_clean 
+
+	
+
+libexcLOG_local:
+	make -f _Makefile -C src  $(LIB_A)	
+	cp $(LIB_A) $(RELEASEDIR)/lib/
+	cp $(LIB_A) /usr/local/lib/
+	
+libexcLOG_remote:
+	make -f _Makefile -C src $(LIB_SO)
+	cp $(LIB_SO) $(RELEASEDIR)/lib/
+	cp $(LIB_SO) /usr/local/lib/
+	
+libexcLOG_clean:
+	make -f _Makefile -C src clean
+	
+
+test_local:
+	make -f _Makefile -C test_local	all
+
+test_remote:
+	make -f _Makefile -C test_remote all
+
+test_query:
+	make -f _Makefile -C test_query all
+	
+test_clean:
+	make -f _Makefile -C test_local clean
+	make -f _Makefile -C test_remote clean
+	make -f _Makefile -C test_query clean
+
+echo_ENV:
+	@echo "ARCH"=$(ARCH)
+	@echo "CC="$(CC)
+	@echo "AR="$(AR)
+	@echo "CFLAGS="$(CFLAGS)
+	
+###############################################################################################
+
