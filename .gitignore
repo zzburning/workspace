@@ -17,3 +17,5 @@ excLOG/build
 # misc
 mytemplate
 mymodule
+.tags
+a.out
