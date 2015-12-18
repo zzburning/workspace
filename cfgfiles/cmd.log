@@ -19,3 +19,5 @@ apt-get install tree
 git clone -b <branch> <remote_repo>
 scp %* root@172.21.77.224:/root
 :w !sudo tee %
+scp %* pi@192.168.2.106:/home/pi
+

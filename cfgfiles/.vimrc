@@ -23,6 +23,21 @@ filetype plugin indent on
 let mapleader = ','
 
 " ===plugin settings=========================================
+"ctrlp{
+  let g:ctrlp_match_window = 'order:ttb,max:20'
+  nmap <leader>p :CtrlP<CR>
+  nmap <leader>b :CtrlPBuffer<CR>
+"}
+
+"tagbar{
+  nmap <leader>t :TagbarToggle<cr>
+"}
+
+"ctags{
+  set tags=./.tags,.tags,./../.tags,./../../.tags
+  nmap <silent> <leader>C :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q -f .tags .<CR> 
+"}
+
 "ack or ag{
   " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
   if executable('ag')
@@ -38,32 +53,79 @@ let mapleader = ','
   nmap <leader>a :Ack<space>
 "}
 
-"ctrlp{
-  let g:ctrlp_match_window = 'order:ttb,max:20'
-  nmap <leader>p :CtrlP<CR>
-  nmap <leader>b :CtrlPBuffer<CR>
-" nmap <leader>T :CtrlPClearCache<CR>:CtrlP<CR>
-"
 
-"tagbar{
-  nmap <leader>t :TagbarToggle<cr>
+"NERDTree{
+  nmap <leader>d :NERDTreeToggle<CR>
+  nmap <leader>f :NERDTreeFind<CR>
+  let g:NERDSpaceDelims=1
 "}
 
+"powerline{
+  set guifont=PowerlineSymbols\ for\ Powerline
+  set nocompatible
+  set t_Co=256
+  let g:Powerline_symbols = 'fancy'
+"}
+
+"c.vim{
+  let g:C_MapLeader = ';'
+"}
+
+"ycm{
+" highlight Pmenu ctermfg=2 ctermbg=3 guifg=#005f87 guibg=#EEE8D5
+" highlight PmenuSel ctermfg=2 ctermbg=3 guifg=#AFD700 guibg=#106900
+" let g:ycm_use_ultisnips_completer = 1 " Default 1, just ensure
+  let g:ycm_collect_identifiers_from_tags_files = 1 " Let YCM read tags from Ctags file
+  let g:ycm_seed_identifiers_with_syntax = 1 " Completion for programming language's keyword
+  let g:ycm_complete_in_comments = 1 " Completion in comments
+  let g:ycm_complete_in_strings = 1 " Completion in string
+  let g:ycm_error_symbol = '>>'
+  let g:ycm_warning_symbol = '>*'
+  let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+
+  nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
+  nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
+  nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+  nmap <F4> :YcmDiags<CR>
+"}
+
+"omni complete (C-x,C-o){
+   set completeopt+=longest  								"离开插入模式后自动关闭预览窗口 
+   autocmd InsertLeave * if pumvisible() == 0|pclose|endif   "回车即选中当前项 
+   inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"  	"上下左右键的行为 
+   inoremap <expr> <Down> pumvisible() ? "\<C-n>" : "\<Down>" 
+   inoremap <expr> <Up> pumvisible() ? "\<C-p>" : "\<Up>" 
+   inoremap <expr> <PageDown> pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<PageDown>" 
+   inoremap <expr> <PageUp> pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
+"}
+
+"doxygen toolkit{
+"   let g:DoxygenToolkit_briefTag_pre="@synopsis  "
+"   let g:DoxygenToolkit_paramTag_pre="@param "
+"   let g:DoxygenToolkit_returnTag="@returns   "
+"   let g:DoxygenToolkit_blockHeader="--------------------------------------------------------------------------"
+"   let g:DoxygenToolkit_blockFooter="----------------------------------------------------------------------------"
+"   let g:DoxygenToolkit_authorName="Drunkedcat"
+"   let g:DoxygenToolkit_licenseTag="GPL 2.0"
+" 
+"   let g:DoxygenToolkit_authorName="wangtao <wangtao@hisome.com>"
+"   let s:licenseTag = "Copyright(C)\<enter>"
+"   let s:licenseTag = s:licenseTag . "For free\<enter>"
+"   let s:licenseTag = s:licenseTag . "All right reserved\<enter>"
+"   let g:DoxygenToolkit_licenseTag = s:licenseTag
+"   let g:DoxygenToolkit_briefTag_funcName="yes"
+"   let g:doxygen_enhanced_color=1
+"}
 
 "taglist{
-  let Tlist_Show_One_File = 1            "只显示当前文件的taglist，默认是显示多个
-  let Tlist_Exit_OnlyWindow = 1          "如果taglist是最后一个窗口，则退出vim
-  let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist
-  let Tlist_GainFocus_On_ToggleOpen = 1  "打开taglist时，光标保留在taglist窗口
-  let Tlist_File_Fold_Auto_Close=1       "自动折叠
-  nnoremap <leader>T :Tlist<CR>          "设置关闭和打开taglist窗口的快捷键
+"   let Tlist_Show_One_File = 1            "只显示当前文件的taglist，默认是显示多个
+"   let Tlist_Exit_OnlyWindow = 1          "如果taglist是最后一个窗口，则退出vim
+"   let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist
+"   let Tlist_GainFocus_On_ToggleOpen = 1  "打开taglist时，光标保留在taglist窗口
+"   let Tlist_File_Fold_Auto_Close=1       "自动折叠
+"   nnoremap <leader>T :Tlist<CR>          "设置关闭和打开taglist窗口的快捷键
 "}
-
-"ctags{
-  set tags=./.tags,.tags,./../.tags,./../../.tags
-  nmap <silent> <leader>C :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q -f .tags .<CR> 
-"}
-
+ 
 "cscope{
 " if has("cscope")
 "   set csprg=/usr/bin/cscope              "指定用来执行 cscope 的命令
@@ -86,74 +148,16 @@ let mapleader = ','
 "}
 
 "authorinfo{
-  let g:vimrc_author='zzburning'
-  let g:vimrc_email='zzburning@gmail.com'
-  let g:vimrc_homepage=''
-  nmap <silent> <leader>A :AuthorInfoDetect<cr>
+"   let g:vimrc_author='zzburning'
+"   let g:vimrc_email='zzburning@gmail.com'
+"   let g:vimrc_homepage=''
+"   nmap <silent> <leader>A :AuthorInfoDetect<cr>
 "   nmap <silent> <leader>C :call append(line("."),strftime("%b-%d-%Y")."  wangtao<wangtao@hisome.com>")<cr>
 "}
 
-" for ycm
-" highlight Pmenu ctermfg=2 ctermbg=3 guifg=#005f87 guibg=#EEE8D5
-" highlight PmenuSel ctermfg=2 ctermbg=3 guifg=#AFD700 guibg=#106900
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
-let g:ycm_collect_identifiers_from_tags_files = 1 " Let YCM read tags from Ctags file
-let g:ycm_seed_identifiers_with_syntax = 1 " Completion for programming language's keyword
-let g:ycm_complete_in_comments = 1 " Completion in comments
-let g:ycm_complete_in_strings = 1 " Completion in string
-let g:ycm_error_symbol = '>>'
-let g:ycm_warning_symbol = '>*'
-" let g:ycm_use_ultisnips_completer = 1 " Default 1, just ensure
-
-nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
-nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
-nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
-nmap <F4> :YcmDiags<CR>
-
-let g:NERDSpaceDelims=1
-let g:gitgutter_enabled = 0
-
-"doxygen toolkit{
-"   let g:DoxygenToolkit_briefTag_pre="@synopsis  "
-"   let g:DoxygenToolkit_paramTag_pre="@param "
-"   let g:DoxygenToolkit_returnTag="@returns   "
-"   let g:DoxygenToolkit_blockHeader="--------------------------------------------------------------------------"
-"   let g:DoxygenToolkit_blockFooter="----------------------------------------------------------------------------"
-"   let g:DoxygenToolkit_authorName="Drunkedcat"
-"   let g:DoxygenToolkit_licenseTag="GPL 2.0"
-" 
-"   let g:DoxygenToolkit_authorName="wangtao <wangtao@hisome.com>"
-"   let s:licenseTag = "Copyright(C)\<enter>"
-"   let s:licenseTag = s:licenseTag . "For free\<enter>"
-"   let s:licenseTag = s:licenseTag . "All right reserved\<enter>"
-"   let g:DoxygenToolkit_licenseTag = s:licenseTag
-"   let g:DoxygenToolkit_briefTag_funcName="yes"
-"   let g:doxygen_enhanced_color=1
+"Align{
+"  map <leader>l :Align
 "}
-
-"omni complete (C-x,C-o)
-"   set completeopt+=longest  								"离开插入模式后自动关闭预览窗口 
-"   autocmd InsertLeave * if pumvisible() == 0|pclose|endif   "回车即选中当前项 
-"   inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"  	"上下左右键的行为 
-"   inoremap <expr> <Down> pumvisible() ? "\<C-n>" : "\<Down>" 
-"   inoremap <expr> <Up> pumvisible() ? "\<C-p>" : "\<Up>" 
-"   inoremap <expr> <PageDown> pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<PageDown>" 
-"   inoremap <expr> <PageUp> pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
-"}
-
-"powerline{
-" set guifont=PowerlineSymbols\ for\ Powerline
-" set nocompatible
-" set t_Co=256
-" let g:Powerline_symbols = 'fancy'
-" }
-"
-nmap <leader>d :NERDTreeToggle<CR>
-nmap <leader>f :NERDTreeFind<CR>
-nmap <leader>g :GitGutterToggle<CR>
-nmap <leader>c <Plug>Kwbd
-"map <leader>l :Align
-
 
 "===local setting=====================================================
 " Fix Cursor in TMUX
@@ -232,6 +236,6 @@ imap <A-h> <Left>
 imap <A-l> <Right>
 
 imap <leader>s <ESC>:w<CR>
-set pastetoggle=<F9>
+set pastetoggle=<F8>
 
 
