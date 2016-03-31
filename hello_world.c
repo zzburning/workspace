@@ -1,19 +1,14 @@
-/*=============================================================================
-#     FileName: hello_world.c
-#         Desc: 
-#       Author: zzburning
-#        Email: zzburning@gmail.com
-#     HomePage: 
-#      Version: 0.0.1
-#   LastChange: 2013-04-08 13:57:21
-#      History:
-=============================================================================*/
 #include <stdio.h>
 #include <ctype.h>
 #include <time.h>
 #include <string.h>
 #include <unistd.h>
 #include <stdlib.h>
+
+int main(){
+  return 0;
+}
+
 
 #define MACRO "xx"
 
@@ -59,7 +54,7 @@ int validate(void *key,char *name,int type){
   return 0;
 }
 
-int main(void)
+int test_misc(void)
 {
   char path[64] = "", buf[256] = "";
 
@@ -111,7 +106,39 @@ int main(void)
 
 
 
+<<<<<<< HEAD
   return 0;
+=======
+	return 0;
+}
+/* getopt.c */
+int test_getopt(int argc, char * argv[])
+{
+	int aflag=0, bflag=0, cflag=0;
+	int ch;
+	while ((ch = getopt(argc, argv, "ab:c")) != -1)
+	{
+		printf("optind: %d\n", optind);
+		switch (ch) {
+			case 'a':
+				printf("HAVE option: -a\n");
+				aflag = 1;
+				break;
+			case 'b':
+				printf("HAVE option: -b\n");
+				bflag = 1;
+				printf("The argument of -b is %s\n", optarg);
+				break;
+			case 'c':
+				printf("HAVE option: -c");
+				cflag = 1;
+				break;
+			case '?':
+				printf("Unknown option: %c\n",(char)optopt);
+				break;
+		}
+	}
+>>>>>>> origin/master
 }
 
 /**
@@ -174,7 +201,7 @@ int main(void)
 /* ----------------------------------------------------------------------------*/
 // int mkfifo(const char *pathname, mode_t mode);
 
-int main()
+int test_pipe()
 {
   const char *string={"A sample message."};
   int ret, myPipe[2];
@@ -253,6 +280,7 @@ int main()
 
   return 0;
 }
+<<<<<<< HEAD
 main(_){_^448&&main(-~_);putchar(--_%64?32|-~7[__TIME__-_/8%8][">'txiZ^(~z?"-48]>>";;;====~$::199"[_*2&8|_/64]/(_&2?1:8)%8&1:10);}
 #endif
 
@@ -313,3 +341,8 @@ void get_info()
   strcpy(s.comment, comm);
   //do something using struct s
 }
+=======
+
+// int test_confused_(_){_^448&&main(-~_);putchar(--_%64?32|-~7[__TIME__-_/8%8][">'txiZ^(~z?"-48]>>";;;====~$::199"[_*2&8|_/64]/(_&2?1:8)%8&1:10);}
+// int test_confused_(_){_^448&&test_confused_(-~_);putchar(--_%64?32|-~7[__TIME__-_/8%8][">'txiZ^(~z?"-48]>>";;;====~$::199"[_*2&8|_/64]/(_&2?1:8)%8&1:10);}
+>>>>>>> origin/master
