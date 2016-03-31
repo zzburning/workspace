@@ -1,0 +1,20 @@
+[user]
+	name = zzburning
+	email = zzburning@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	visual = !gitk
+	ca = commit -a
+	pl = pull
+	ps = push
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+
+[http]
+	sslVerify = false
