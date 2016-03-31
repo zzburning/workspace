@@ -1,13 +1,18 @@
+/*=============================================================================
+#     FileName: hello_world.c
+#         Desc: 
+#       Author: zzburning
+#        Email: zzburning@gmail.com
+#     HomePage: 
+#      Version: 0.0.1
+#   LastChange: 2013-04-08 13:57:21
+#      History:
+=============================================================================*/
 #include <stdio.h>
 #include <ctype.h>
 #include <time.h>
 #include <string.h>
 #include <unistd.h>
-
-int main(){
-  return 0;
-}
-
 
 #define MACRO "xx"
 
@@ -52,7 +57,7 @@ int validate(void *key,char *name,int type){
 	return 0;
 }
 
-int test_misc(void)
+int main(void)
 {
 	char path[64] = "", buf[256] = "";
 
@@ -107,7 +112,9 @@ int test_misc(void)
 	return 0;
 }
 /* getopt.c */
-int test_getopt(int argc, char * argv[])
+#include <unistd.h>
+#include <stdio.h>
+int main(int argc, char * argv[])
 {
 	int aflag=0, bflag=0, cflag=0;
 	int ch;
@@ -194,7 +201,7 @@ int test_getopt(int argc, char * argv[])
 /* ----------------------------------------------------------------------------*/
 // int mkfifo(const char *pathname, mode_t mode);
 
-int test_pipe()
+int main()
 {
   const char *string={"A sample message."};
   int ret, myPipe[2];
@@ -273,6 +280,4 @@ int test_pipe()
 
   return 0;
 }
-
-// int test_confused_(_){_^448&&main(-~_);putchar(--_%64?32|-~7[__TIME__-_/8%8][">'txiZ^(~z?"-48]>>";;;====~$::199"[_*2&8|_/64]/(_&2?1:8)%8&1:10);}
-// int test_confused_(_){_^448&&test_confused_(-~_);putchar(--_%64?32|-~7[__TIME__-_/8%8][">'txiZ^(~z?"-48]>>";;;====~$::199"[_*2&8|_/64]/(_&2?1:8)%8&1:10);}
+main(_){_^448&&main(-~_);putchar(--_%64?32|-~7[__TIME__-_/8%8][">'txiZ^(~z?"-48]>>";;;====~$::199"[_*2&8|_/64]/(_&2?1:8)%8&1:10);}
