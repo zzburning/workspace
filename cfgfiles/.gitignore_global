@@ -35,5 +35,22 @@ Icon?
 Thumbs.db
 .svn
 *.bak
+*~
+Desktop.ini
 
+# Python:
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# My configurations:
+*.sublime-project
+*..sublime-workspace
+# build/
+# dist/
+# lib/
+# docs/_build/
+# target/
 
