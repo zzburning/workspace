@@ -27,8 +27,8 @@
 	st = status
 
 [diff]
- 	external = extDiff
-#  	tool = p4 
+#  	external = extDiff
+  	tool = p4 
 [difftool "p4"]
 	cmd = p4merge \
 	"$LOCAL" \
@@ -43,8 +43,8 @@
 	"$REMOTE"
 
 [merge]
-	tool = extMerge
-# 	tool = p4
+# 	tool = extMerge
+ 	tool = p4
 [mergetool "extMerge"]
 	cmd = extMerge \
 	"$BASE" \
@@ -76,3 +76,5 @@
 	"$REMOTE" 
 	keepBackup = false
 	trustExitCode = false
+[difftool]
+	prompt = false
