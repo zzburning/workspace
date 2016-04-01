@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../libEXC.a  CMakeFiles/libEXC.a.dir/glist.c.o CMakeFiles/libEXC.a.dir/memwatch.c.o CMakeFiles/libEXC.a.dir/excmd5.c.o CMakeFiles/libEXC.a.dir/lpconfig.c.o CMakeFiles/libEXC.a.dir/cJSON.c.o CMakeFiles/libEXC.a.dir/excport.c.o
+/usr/bin/ranlib ../libEXC.a

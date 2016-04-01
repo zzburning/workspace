@@ -1,0 +1,17 @@
+[TARGET]
+IDENTITY=hecp:192.168.9.98
+USERNAME=
+PWD=
+FIRST_CHA=0
+LAST_CHA=7
+LOOP=1
+#the file to save the result message
+RES_FILE=config_res.txt
+CFILE_NUM=5
+
+[CFILE]
+CFILE_0=EN_G.conf
+CFILE_1=EN_S.conf
+CFILE_2=EQ_G.conf
+CFILE_3=EQ_S.conf
+#CFILE_4=STAT.conf

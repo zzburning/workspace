@@ -1,0 +1,1 @@
+gcc   -O0 -Wall -g -ggdb -DDEBUG=1    CMakeFiles/test.bin.dir/test.c.o CMakeFiles/test.bin.dir/test_memwatch.c.o CMakeFiles/test.bin.dir/test_cjson.c.o  -o ../test.bin -rdynamic -L/develop/dev-notes/build ../libEXC.a -Wl,-Bstatic -lexcLOG -Wl,-Bdynamic -lpthread -lm -Wl,-rpath,/develop/dev-notes/build 
