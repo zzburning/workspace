@@ -1,0 +1,57 @@
+
+SRC_FILES := $(wildcard *.c)
+SRC_FILES += $(wildcard modules/common/*.c)
+
+# --- ceo srcs --- #
+SRC_FILES += $(wildcard modules/ceo/*.c)
+SRC_FILES += $(wildcard modules/ceo/xeceo_core/*.c)
+SRC_FILES += $(wildcard modules/ceo/xeceo_host/*.c)
+SRC_FILES += $(wildcard modules/ceo/xeceo_output/*.c)
+SRC_FILES += $(wildcard modules/ceo/xeceo_log/*.c)
+SRC_FILES += $(wildcard modules/ceo/xeceo_mpeg/*.c)
+SRC_FILES += $(wildcard modules/ceo/xeceo_alarm/*.c)
+SRC_FILES += $(wildcard modules/ceo/xeceo_hiscover/*.c)
+SRC_FILES += $(wildcard modules/ceo/xeceo_rectask/*.c)
+
+SRC_FILES += $(wildcard modules/hx_package/*.c)
+
+# --- hecp core --- #
+SRC_FILES += $(wildcard modules/hecp/hecp.c)
+SRC_FILES += $(wildcard modules/hecp/HiBUS_cli.c)
+
+# ---  soe sap aa sis ps - srcs --- #
+SRC_FILES += $(wildcard modules/soe/*.c)
+SRC_FILES += $(wildcard modules/sap/*.c)
+SRC_FILES += $(wildcard modules/aa/*.c)
+SRC_FILES += $(wildcard modules/ptz/*.c)
+SRC_FILES += $(wildcard modules/ortp/*.c)
+SRC_FILES += $(wildcard modules/rec/*.c)
+
+
+OBJ_FILES := $(patsubst %.c, %.o, $(SRC_FILES))
+DEP_FILES := $(addsuffix .d,$(basename $(OBJ_FILES)))
+
+CFLAGS += $(addsuffix include, -I./)
+CFLAGS += -DCONFIG_XESOE_HAVE_HIBUS
+
+EXEC := xe$(TARGET_BOARD_NAME)_$(TARGET_PLATFORM).bin
+
+.PHONY: core clean
+
+
+core:$(OBJ_FILES)
+	$(CC) -o $(EXEC) $(OBJ_FILES) $(LDFLAGS)
+
+clean:
+	rm -f $(EXEC) $(OBJ_FILES) $(DEP_FILES)
+	@echo "make $(TARGET_BOARD_NAME) clean"	
+
+
+%.o:%.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+
+ifneq ($(MAKECMDGOALS),clean)
+    -include $(DEP_FILES)
+endif
+

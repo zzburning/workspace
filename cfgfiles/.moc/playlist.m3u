@@ -1,0 +1,34 @@
+#EXTM3U
+#MOCSERIAL: 256
+#EXTINF:207,Alizee - La Isla Bonita (zzburning)
+/home/pi/music/Alizee-La Isla Bonita.mp3
+#EXTINF:245,John Lennon - Beautiful Boy (Double Fantasy)
+/home/pi/music/Beautiful Boy.mp3
+#EXTINF:251,jackson - Beat it (zzburning)
+/home/pi/music/Machael Jacksen-Beat it.MP3
+#EXTINF:295,3 Michael Jackson - Billie Jean (Michael Jackson's Number Ones)
+/home/pi/music/Machael Jacksen-Billie jean.mp3
+#EXTINF:216,Alex - The New Music (ft. Spinningmerkaba) (ccMixter)
+/home/pi/music/AlexBeroza - The New Music.mp3
+#EXTINF:232,7 西城男孩 - My Love (真爱无敌)
+/home/pi/music/MyLove.mp3
+#EXTINF:205,崔天琪,田丹 - Stronger (中国好声音第二季 汪峰组PK)
+/home/pi/music/Stronger.mp3
+#EXTINF:240,/home/pi/music/Summer Rain.mp3
+/home/pi/music/Summer Rain.mp3
+#EXTINF:215,Wonder Girls - Nobody ((The Wonder Years-T)
+/home/pi/music/Wonder Girls-Nobody.mp3
+#EXTINF:205,Emilia - Big Big World (Big Big World)
+/home/pi/music/big big world .mp3
+#EXTINF:243,6 The Beatles - Let It Be (Let It Be)
+/home/pi/music/let_it_be.mp3
+#EXTINF:165,grapes - I dunno  (ccMixter)
+/home/pi/music/Grapes - I dunno.mp3
+#EXTINF:201,9 Maroon 5 Feat. Christina Aguilera - Moves Like Jagger (US TOP40 Single Charts)
+/home/pi/music/moves like jagger.mp3
+#EXTINF:300,Michael Learns To Rock - Fairy Tale（传奇） (情歌传奇 (Disc1))
+/home/pi/music/Michael_Learns_To_Rock-Fairy_Tale.mp3
+#EXTINF:177,崔天琪 - Mad World (中国好声音第二季 第3期)
+/home/pi/music/mad_world.mp3
+#EXTINF:325,ÄÇÓ¢ - Ä¬-ÄÇÓ¢ (Ä¬)
+/home/pi/music/mo.mp3

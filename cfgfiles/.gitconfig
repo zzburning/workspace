@@ -1,0 +1,80 @@
+[user]
+	name = zzburning
+	email = zzburning@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	visual = !gitk
+	ca = commit -a
+	pl = pull
+	ps = push
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+
+[http]
+	sslVerify = false
+[help]
+  	autocorrect=1
+[alias]
+	co=checkout
+  	br=branch
+  	ci=commit
+	st = status
+
+[diff]
+#  	external = extDiff
+  	tool = p4 
+[difftool "p4"]
+	cmd = p4merge \
+	"$LOCAL" \
+	"$REMOTE"
+[difftool "bc3"]
+	cmd = bcompare \
+	"$LOCAL" \
+	"$REMOTE"
+[difftool "md"]
+	cmd = meld \
+	"$LOCAL" \
+	"$REMOTE"
+
+[merge]
+# 	tool = extMerge
+ 	tool = p4
+[mergetool "extMerge"]
+	cmd = extMerge \
+	"$BASE" \
+	"$LOCAL" \
+	"$REMOTE" \
+	"$MERGED"
+	keepBackup = false
+	trustExitCode = false
+[mergetool "p4"]
+	cmd = p4merge \
+	"$BASE" \
+	"$LOCAL" \
+	"$REMOTE" \
+	"$MERGED"
+	keepBackup = false
+	trustExitCode = false
+[mergetool "bc3"]
+	cmd = bcompare \
+	"$LOCAL" \
+	"$REMOTE" \
+	"$BASE" \
+	"$MERGED"
+	keepBackup = false
+	trustExitCode = false
+[mergetool "md"]
+	cmd = meld \
+	"$LOCAL" \
+	"$BASE" \
+	"$REMOTE" 
+	keepBackup = false
+	trustExitCode = false
+[difftool]
+	prompt = false

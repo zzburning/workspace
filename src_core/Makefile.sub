@@ -1,0 +1,55 @@
+TOPDIR := $(shell pwd)
+export TOPDIR
+
+#following *.mk files must included sequenced
+include $(TOPDIR)/CFG.mk
+include $(TOPDIR)/LIB.mk
+
+.PHONY: all base core clean package echo_ENV 
+
+all: echo_ENV core
+	@echo "build ALL complete."
+
+base:
+	make -C src lib
+	# make -C base lib
+
+core: base
+	make -C core core
+
+clean:
+	rm -rf lib/*
+	rm -rf release/*
+	make -C src clean
+	# make -C base clean
+	make -C core clean
+
+# PACKAGE_NAME := hisome_core_$(TARGET_PLATFORM)_$(TARGET_BOARD_NAME)_$(TARGET_PRODUCT_MODEL)_$(shell date "+%Y%m%d").tgz
+
+# EGF_Version:
+# 	svn --username EGF_Version --password EGF_Version_pwd --no-auth-cache export svn://svnserver/EGF_Version/make/EGF_Version.make EGF_Version.make
+# 	-make -f EGF_Version.make EGF_Version_mk
+
+# #package core as $CORENAME.X.Y.Z_YYYYMMDD.tar.bz2
+# package: EGF_Version core
+# 	make -C platform package
+
+# package:
+# 	cp -f $(EXEC) package/hisome_core_$(TARGET_PLATFORM)_$(TARGET_BOARD_NAME)_$(TARGET_PRODUCT_MODEL)/bin
+# 	rm -f package/$(PACKAGE_NAME)
+# 	cd package;\
+# 	tar -zcvf $(PACKAGE_NAME) hisome_core_$(TARGET_PLATFORM)_$(TARGET_BOARD_NAME)_$(TARGET_PRODUCT_MODEL)
+# 	cp -f package/$(PACKAGE_NAME) $(TOPDIR)/release
+	
+#	svn add package/$(PACKAGE_NAME)
+#	cd package
+#	svn ci -m "add $(PACKAGE_NAME)"
+echo_ENV:
+	@echo "TARGET_PLATFORM="$(TARGET_PLATFORM)
+	@echo "TARGET_PRODUCT_MODEL="$(TARGET_PRODUCT_MODEL)
+	@echo "TARGET_BOARD_NAME="$(TARGET_BOARD_NAME)
+	@echo "TARGET_BOARD_VERSION"=$(TARGET_BOARD_VERSION)
+	@echo "ARCH"=$(ARCH)
+	@echo "CC="$(CC)
+	@echo "AR="$(AR)
+	@echo "CFLAGS="$(CFLAGS)
