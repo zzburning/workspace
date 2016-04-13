@@ -12,9 +12,15 @@ Plugin 'The-NERD-Commenter'
 Plugin 'AuthorInfo'
 Plugin 'Align'
 Plugin 'a.vim'
+Plugin 'c.vim'
 Plugin 'Command-T'
 Plugin 'FuzzyFinder'
 Plugin 'L9'
+Plugin 'SuperTab'
+Plugin 'DoxygenToolkit.vim'
+Plugin 'comments.vim'
+Plugin 'comments.vim--Plt'
+
 " Plugin 'Syntastic'
 " Plugin 'greplace.vim'
 " Plugin 'kwbdi.vim'
@@ -23,19 +29,17 @@ Plugin 'L9'
 " Plugin 'Markdown'
 " Plugin 'Markdown-syntax'
 " Plugin 'OmniCppComplete'
-" Plugin 'DoxygenToolkit.vim'
-" Plugin 'SuperTab'
 " 
 
 " github:other repos
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'altercation/vim-colors-solarized'
-" Plugin 'Lokaltog/vim-powerline'
+Plugin 'Lokaltog/vim-powerline'
 " Plugin 'Raimond/delimitMate'
 " Plugin 'honza/vim-snippets'
 " Plugin 'msanders/snipmate.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'airblade/vim-gitgutter'
+" Plugin 'tpope/vim-fugitive'
+" Plugin 'airblade/vim-gitgutter'
 
 "
 " non github repos
