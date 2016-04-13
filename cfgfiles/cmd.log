@@ -1,0 +1,19 @@
+sudo modprobe snd_bcm2835
+amixer cset numid=3 2
+udo apt-key adv --keyserver keyserver.ubuntu.com --recv ID 
+add-apt-repository ppa:wiznote-team
+fuser -m /home/work/
+fuser -vn  tcp 80
+ctags -R --c++-kinds=+px --fields=+iaS --extra=+q -f .tags .
+rsync -avr --delete . /home/Dropbox/wdir
+find . -name .svn -exec rm -rf {} \;
+find . -name "*.h" | xargs ls
+find . -name "*.h" -exec ls {} \;
+find . -name "*.jpg" |xargs mv {} resize_{}
+find . -iname "*.a" | xargs ls -t |head -1|xargs -I{} cp -f {} /
+
+tightvncserver -geometry 800x600 :1
+mv .[^.]* ..
+sudo python -m SimpleHTTPServer 80
+apt-get install tree
+git clone -b <branch> <remote_repo>
