@@ -15,11 +15,17 @@ git clone https://github.com/zzburning/workspace.git
 # # --or
 # cmake -G "Unix Makefiles" -DUSE_SYSTEM_LIBCLANG=ON . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
 # cmake --build . --target ycm_support_libs --config Release
+#
 # # --update c.vim
 # wget http://www.vim.org/scripts/download_script.php?src_id=21803
 # unzip cvim.zip -d c.vim
 # cp -rf c.vim/* .vim/bundle/c.vim/
 # rm -r c.vim
-
+#
+# # --install quickopen
+# git clone https://github.com/natduca/quickopen.git
+# cd quickopen
+# git submodule update --init --recursive
+# 
 
 

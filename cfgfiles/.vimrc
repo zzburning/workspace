@@ -23,6 +23,10 @@ filetype plugin indent on
 let mapleader = ','
 
 " ===plugin settings=========================================
+"quickopen{
+  source /opt/quickopen/plugin/quickopen.vim
+"}
+
 "ctrlp{
   let g:ctrlp_match_window = 'order:ttb,max:20'
   nmap <leader>p :CtrlP<CR>
@@ -237,5 +241,6 @@ imap <A-l> <Right>
 
 imap <leader>s <ESC>:w<CR>
 set pastetoggle=<F8>
+
 
 
