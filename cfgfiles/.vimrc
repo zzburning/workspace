@@ -24,7 +24,9 @@ let mapleader = ','
 
 " ===plugin settings=========================================
 "quickopen{
+if filereadable(expand("/opt/quickopen/plugin/quickopen.vim"))
   source /opt/quickopen/plugin/quickopen.vim
+endif
 "}
 
 "ctrlp{
