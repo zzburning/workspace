@@ -34,6 +34,7 @@ rm -r c.vim cvim.zip
 git clone https://github.com/natduca/quickopen.git
 cd quickopen
 git submodule update --init --recursive
+cd ~
 sudo mv quickopen /opt/quickopen
 
 
