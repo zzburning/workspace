@@ -67,10 +67,18 @@ endif
 "}
 
 "powerline{
-  set guifont=PowerlineSymbols\ for\ Powerline
-  set nocompatible
-  set t_Co=256
-  let g:Powerline_symbols = 'fancy'
+"   set guifont=PowerlineSymbols\ for\ Powerline
+"   set nocompatible
+"   set t_Co=256
+"   let g:Powerline_symbols = 'fancy'
+"}
+
+"airline{
+  let g:airline#extensions#tabline#enabled = 1
+  let g:airline#extensions#tabline#left_sep = ' '
+  let g:airline#extensions#tabline#left_alt_sep = '|'
+  let g:airline_extensions = ['tabline']
+  let g:airline_theme='dark'
 "}
 
 "c.vim{
