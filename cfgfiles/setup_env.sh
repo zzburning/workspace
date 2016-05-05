@@ -1,5 +1,6 @@
 # # --install basic tools
 sudo apt-get install vim tmux zsh git tree ack-grep ctags cscope python-pip unzip
+sudo apt-get install dictd dict-gcide
 sudo pip install httpie cheat
 chsh -s /bin/zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -18,6 +19,7 @@ vim +PluginInstall +qall
 # vim -c "PluginInstall" -c "qall"
 
 # # --compile ycm 
+# sudo apt-get install vim-gnome
 # cd ~/.vim/bundle/YouCompleteMe
 # ./install.py --clang-completer --system-libclang --system-boost
 # # --or

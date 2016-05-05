@@ -31,6 +31,11 @@ endif
 
 "ctrlp{
   let g:ctrlp_match_window = 'order:ttb,max:20'
+  let g:ctrlp_max_height=15
+  let g:ctrlp_custom_ignore = {
+      \ 'dir':  '\v[\/]\.(git|hg|svn|rvm)$',
+      \ 'file': '\v\.(exe|so|dll|zip|tar|tar.gz|pyc)$',
+      \ }
   nmap <leader>p :CtrlP<CR>
   nmap <leader>b :CtrlPBuffer<CR>
 "}
@@ -74,11 +79,11 @@ endif
 "}
 
 "airline{
+  let g:airline_theme='simple'
   let g:airline#extensions#tabline#enabled = 1
-  let g:airline#extensions#tabline#left_sep = ' '
-  let g:airline#extensions#tabline#left_alt_sep = '|'
-  let g:airline_extensions = ['tabline']
-  let g:airline_theme='dark'
+"   let g:airline#extensions#tabline#left_sep = ' '
+"   let g:airline#extensions#tabline#left_alt_sep = '|'
+"   let g:airline_extensions = ['tabline']
 "}
 
 "c.vim{
@@ -104,13 +109,27 @@ endif
 "}
 
 "omni complete (C-x,C-o){
-   set completeopt+=longest  								"离开插入模式后自动关闭预览窗口 
+   set completeopt+=longest  				"离开插入模式后自动关闭预览窗口 
+   let OmniCpp_DefaultNamespaces = ["std"]  "下面的设置用于当用户预先声明namespace时也能自动补全代码
+   let OmniCpp_NamespaceSearch = 1
+   let OmniCpp_GlobalScopeSearch = 1
+   let OmniCpp_ShowAccess = 1
+   let OmniCpp_ShowPrototypeInAbbr = 1 " 显示函数参数列表
+   let OmniCpp_MayCompleteDot = 1 " 输入 . 后自动补全
+   let OmniCpp_MayCompleteArrow = 1 " 输入 -> 后自动补全
+   let OmniCpp_MayCompleteScope = 1 " 输入 :: 后自动补全
+   let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
    autocmd InsertLeave * if pumvisible() == 0|pclose|endif   "回车即选中当前项 
    inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"  	"上下左右键的行为 
    inoremap <expr> <Down> pumvisible() ? "\<C-n>" : "\<Down>" 
    inoremap <expr> <Up> pumvisible() ? "\<C-p>" : "\<Up>" 
    inoremap <expr> <PageDown> pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<PageDown>" 
    inoremap <expr> <PageUp> pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
+   " highlight Pmenu ctermbg=13 guibg=LightGray
+   " highlight PmenuSel ctermbg=7 guibg=DarkBlue guifg=White
+   " highlight Pmenu ctermbg=7 guibg=DarkBlue guifg=White
+   " highlight PmenuSbar ctermbg=7 guibg=DarkGray
+   " highlight PmenuThumb guibg=Black
 "}
 
 "doxygen toolkit{
