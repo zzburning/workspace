@@ -269,7 +269,7 @@ imap <A-h> <Left>
 imap <A-l> <Right>
 
 imap <leader>s <ESC>:w<CR>
-set pastetoggle=<F8>
+set pastetoggle=<F12>
 
 
 
