@@ -11,6 +11,7 @@ find . -name "*.h" | xargs ls
 find . -name "*.h" -exec ls {} \;
 find . -name "*.jpg" |xargs mv {} resize_{}
 find . -iname "*.a" | xargs ls -t |head -1|xargs -I{} cp -f {} /
+find . -size +10000k -xdev -exec ls -lh {}\;
 
 tightvncserver -geometry 800x600 :1
 mv .[^.]* ..
@@ -20,4 +21,5 @@ git clone -b <branch> <remote_repo>
 scp %* root@172.21.77.224:/root
 :w !sudo tee %
 scp %* pi@192.168.2.106:/home/pi
-
+ln -s !$ !:1
+echo $0
