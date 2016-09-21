@@ -136,15 +136,18 @@
 
 [diff]
 #  	external = extDiff
-  	tool = p4 
+  	tool = bc 
 [difftool "p4"]
 	cmd = p4merge \
 	"$LOCAL" \
 	"$REMOTE"
-[difftool "bc3"]
-	cmd = bcompare \
-	"$LOCAL" \
-	"$REMOTE"
+[difftool "bc"]
+##  for linux
+#	cmd = bcompare \ 
+#	"$LOCAL" \
+#	"$REMOTE"
+##  for windows
+	path = /C/Program Files/Beyond Compare 4/BCompare.exe
 [difftool "md"]
 	cmd = meld \
 	"$LOCAL" \
@@ -169,12 +172,15 @@
 	"$MERGED"
 	keepBackup = false
 	trustExitCode = false
-[mergetool "bc3"]
-	cmd = bcompare \
-	"$LOCAL" \
-	"$REMOTE" \
-	"$BASE" \
-	"$MERGED"
+[mergetool "bc"]
+##  for linux
+#	cmd = bcompare \
+#	"$LOCAL" \
+#	"$REMOTE" \
+#	"$BASE" \
+#	"$MERGED"
+##  for windows
+	path = /C/Program Files/Beyond Compare 4/BCompare.exe
 	keepBackup = false
 	trustExitCode = false
 [mergetool "md"]
