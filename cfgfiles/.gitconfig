@@ -4,126 +4,126 @@
 [alias]
 	co = checkout
 	br = branch
-    bc = branch --contains
+	bc = branch --contains
 	ci = commit
-    ca = commit --amend --no-edit
-    cm = commit --amend -o
-    cp = commit --patch
-    st = status -s -b
+	ca = commit --amend --no-edit
+	cm = commit --amend -o
+	cp = commit --patch
+	st = status -s -b
 	last = log -1 HEAD
 	visual = !gitk
 	pl = pull
 	ps = push
-    cdate = "!git --no-pager log -1 --format='%ci'"
-    d = diff
-    dc = diff --cached
-    dh = "!git diff --color | diff-highlight | less -r"
-    i = ghissues
-    m = merge --no-ff
-    mt = mergetool
-    rl = reflog --date=relative
-    short = rev-parse --short
-    stat = diff --stat
-    untracked = ls-files --others --exclude-standard
+	cdate = "!git --no-pager log -1 --format='%ci'"
+	d = diff
+	dc = diff --cached
+	dh = "!git diff --color | diff-highlight | less -r"
+	i = ghissues
+	m = merge --no-ff
+	mt = mergetool
+	rl = reflog --date=relative
+	short = rev-parse --short
+	stat = diff --stat
+	untracked = ls-files --others --exclude-standard
 
-    # Fetch all or one remote: git f; git f upstream
-    f = "!sh -c 'git fetch --tags ${1:-\"--all\"}' -"
+	l = log --format=format:'%C(auto)%h%d%C(reset) %s %C(bold blue)(%an, %ar)%C(reset)'
+	ll = log --stat --decorate --abbrev-commit --date=relative
+	lll = log -p --stat --decorate --abbrev-commit --date=relative
+	llll = "!sh -c 'git lll $@ | gvim - -R -v -c \"set ft=git\" -c \"set fdm=syntax\"' -"
+	lt = log --oneline --decorate --topo-order
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    
+	# Fetch all or one remote: git f; git f upstream
+	f = "!sh -c 'git fetch --tags ${1:-\"--all\"}' -"
 
-    # Interactive rebase against upstream HEAD or ref: git r; git r HEAD~10
-    r = "!sh -c 'git rebase -i ${1:-\"@{u}\"}' -"
+	# Interactive rebase against upstream HEAD or ref: git r; git r HEAD~10
+	r = "!sh -c 'git rebase -i ${1:-\"@{u}\"}' -"
 
-    # Rebase against upstream HEAD or ref: git r; git r HEAD~10
-    rup = "!sh -c 'git rebase ${1:-\"@{u}\"}' -"
+	# Rebase against upstream HEAD or ref: git r; git r HEAD~10
+	rup = "!sh -c 'git rebase ${1:-\"@{u}\"}' -"
 
-    # Reset HEAD and the index to upstream or ref: git re; git rs HEAD~1
-    rs = "!sh -c 'git reset --soft --keep ${1:-\"@{u}\"}' -"
+	# Reset HEAD and the index to upstream or ref: git re; git rs HEAD~1
+	rs = "!sh -c 'git reset --soft --keep ${1:-\"@{u}\"}' -"
 
-    # Hard reset to upstream or ref: git re; git rh HEAD~1
-    rh = "!sh -c 'git reset --hard ${1:-\"@{u}\"}' -"
+	# Hard reset to upstream or ref: git re; git rh HEAD~1
+	rh = "!sh -c 'git reset --hard ${1:-\"@{u}\"}' -"
 
-    # Fast-forward merge upstream or ref: git up; git up myremote/mybranch
-    up = "!sh -c 'git merge --ff-only ${1:-\"@{u}\"}' -"
+	# Fast-forward merge upstream or ref: git up; git up myremote/mybranch
+	up = "!sh -c 'git merge --ff-only ${1:-\"@{u}\"}' -"
 
-    # Perform a merge in-memory and output if any conflicts are found (dry-run)
-    # Takes the name of a branch / ref to merge
-    mergetest = "!sh -c 'git merge-tree `git merge-base $1 HEAD` $1 HEAD \
-        | awk '\\''/^@@/ { print \"Conflicts found\"; exit 1 }'\\''' -"
+	# Perform a merge in-memory and output if any conflicts are found (dry-run)
+	# Takes the name of a branch / ref to merge
+	mergetest = "!sh -c 'git merge-tree `git merge-base $1 HEAD` $1 HEAD \
+	| awk '\\''/^@@/ { print \"Conflicts found\"; exit 1 }'\\''' -"
 
-    # Delete all remote refs that have been merged into the current branch.
-    # Usage: git deleteremote <remote-name>
-    deleteremote = "!sh -c 'git branch -r --merged \
-        | awk -F/ -v remote=${1:?Missing remote name.} \
-            '\\''$0 ~ remote && !/(master|develop)/ { print \"refs/heads/\" $2 }'\\'' \
-        | xargs -p -r git push ${1} --delete' -"
+	# Delete all remote refs that have been merged into the current branch.
+	# Usage: git deleteremote <remote-name>
+	deleteremote = "!sh -c 'git branch -r --merged \
+	| awk -F/ -v remote=${1:?Missing remote name.} \
+	    '\\''$0 ~ remote && !/(master|develop)/ { print \"refs/heads/\" $2 }'\\'' \
+	| xargs -p -r git push ${1} --delete' -"
 
-    l = log --format=format:'%C(auto)%h%d%C(reset) %s %C(bold blue)(%an, %ar)%C(reset)'
-    ll = log --stat --decorate --abbrev-commit --date=relative
-    lll = log -p --stat --decorate --abbrev-commit --date=relative
-    llll = "!sh -c 'git lll $@ \
-        | gvim - -R -v -c \"set ft=git\" -c \"set fdm=syntax\"' -"
-    lt = log --oneline --decorate --topo-order
+	# http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html
+	ctags = !.git/hooks/ctags
 
-    # http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html
-    ctags = !.git/hooks/ctags
+	# Open all modified files in EDITOR
+	editm = "!$EDITOR $(git ls-files -m)"
 
-    # Open all modified files in EDITOR
-    editm = "!$EDITOR $(git ls-files -m)"
+	# Alias to make an archive with a prefix set to the name of the repo.
+	# git tar <ref> (defaults HEAD)
+	tar = "!bash -c 'REF=${1:-HEAD}; \
+	BASE=$(basename $(git rev-parse --show-toplevel)); \
+	git archive --prefix=${BASE}/ -o ${BASE}-$(git describe ${REF}).tar.gz ${REF}' -"
 
-    # Alias to make an archive with a prefix set to the name of the repo.
-    # git tar <ref> (defaults HEAD)
-    tar = "!bash -c 'REF=${1:-HEAD}; \
-        BASE=$(basename $(git rev-parse --show-toplevel)); \
-        git archive --prefix=${BASE}/ -o ${BASE}-$(git describe ${REF}).tar.gz ${REF}' -"
+	# Fetch all remotes in parallel using processes
+	fetchall = "!git remote | xargs -I@ -P10 git fetch @"
 
-    # Fetch all remotes in parallel using processes
-    fetchall = "!git remote | xargs -I@ -P10 git fetch @"
+	# Show the correct SHA for merging from FETCH_HEADS
+	showfetchhead = "!awk '!/not-for-merge/ {print $1}' \
+	$(git rev-parse --git-dir)/FETCH_HEAD"
 
-    # Show the correct SHA for merging from FETCH_HEADS
-    showfetchhead = "!awk '!/not-for-merge/ {print $1}' \
-        $(git rev-parse --git-dir)/FETCH_HEAD"
+	# Compare local branches to remote branches (without doing a fetch!)
+	# Takes (optional) remote name as an argument; default: "upstream".
+	# FIXME: branches that are ahead of upstream will also be shown.
+	showstale = "!bash -c 'join -j 2 \
+	<(git show-ref --heads) \
+	<(git ls-remote --heads ${1:-upstream}) \
+	| awk '\\''{ if ($2 != $3) print $1 }'\\''' -"
 
-    # Compare local branches to remote branches (without doing a fetch!)
-    # Takes (optional) remote name as an argument; default: "upstream".
-    # FIXME: branches that are ahead of upstream will also be shown.
-    showstale = "!bash -c 'join -j 2 \
-        <(git show-ref --heads) \
-        <(git ls-remote --heads ${1:-upstream}) \
-        | awk '\\''{ if ($2 != $3) print $1 }'\\''' -"
+	# Find the merge-base of an old branch merge.
+	# This is useful for rebasing an old pull request onto a new branch.
+	# The output from this command is used as the <upstream> argument to
+	# ``git rebase --onto <newbase> <upstream> <branch>``
+	# where <branch> is the current branch.
+	#
+	# Specify the branch the pull request was originally merged into.
+	#
+	# Usage: git preqbase upstream/develop
+	#
+	preqbase = "!sh -c 'parent1=$(git rev-list --merges --parents $1 \
+	| awk -v head=\"$(git rev-parse HEAD)\" '\\''$3 == head { print $2 }'\\'');\
+	git merge-base \"$parent1\" HEAD' -"
 
-    # Find the merge-base of an old branch merge.
-    # This is useful for rebasing an old pull request onto a new branch.
-    # The output from this command is used as the <upstream> argument to
-    # ``git rebase --onto <newbase> <upstream> <branch>``
-    # where <branch> is the current branch.
-    #
-    # Specify the branch the pull request was originally merged into.
-    #
-    # Usage: git preqbase upstream/develop
-    #
-    preqbase = "!sh -c 'parent1=$(git rev-list --merges --parents $1 \
-        | awk -v head=\"$(git rev-parse HEAD)\" '\\''$3 == head { print $2 }'\\'');\
-        git merge-base \"$parent1\" HEAD' -"
+	### Custom Git commands (found in ~/bin)
+	# Push only the current branch to the upstream branch
+	p = pushcurrent
 
-    ### Custom Git commands (found in ~/bin)
-    # Push only the current branch to the upstream branch
-    p = pushcurrent
+	# Show individual diffs for all incoming/outgoing changesets
+	in = pagediffs ..@{u}
+	out = pagediffs @{u}..
 
-    # Show individual diffs for all incoming/outgoing changesets
-    in = pagediffs ..@{u}
-    out = pagediffs @{u}..
+	# Fetch a GitHub pull request as a local branch.
+	# Usage: git preq <preq> <branch> [remote]
+	# Usage: git preq 1234 mylocalbranch
+	preq = "!sh -c 'git fetch \"${3:-upstream}\" \
+	pull/\"${1:?Missing preq}\"/head:\"${2:?Missing branch name}\" \
+	&& git branch --set-upstream-to=@{u} \"$2\"' -"
 
-    # Fetch a GitHub pull request as a local branch.
-    # Usage: git preq <preq> <branch> [remote]
-    # Usage: git preq 1234 mylocalbranch
-    preq = "!sh -c 'git fetch \"${3:-upstream}\" \
-        pull/\"${1:?Missing preq}\"/head:\"${2:?Missing branch name}\" \
-        && git branch --set-upstream-to=@{u} \"$2\"' -"
-
-    # Configure local clone to also make local refs for all GitHub pull
-    # requests for the specified remote
-    # Usage: git addrefspr upstream; git fetch upstream; git show upstream/pr/13
-    addrefspr = "!sh -c 'git config --add \
-        remote.$1.fetch \"+refs/pull/*/head:refs/remotes/$1/pr/*\"' -"
+	# Configure local clone to also make local refs for all GitHub pull
+	# requests for the specified remote
+	# Usage: git addrefspr upstream; git fetch upstream; git show upstream/pr/13
+	addrefspr = "!sh -c 'git config --add \
+	remote.$1.fetch \"+refs/pull/*/head:refs/remotes/$1/pr/*\"' -"
 [color]
 	status = auto
 	diff = auto
@@ -133,11 +133,6 @@
 	sslVerify = false
 [help]
   	autocorrect=1
-[alias]
-	co=checkout
-  	br=branch
-  	ci=commit
-	st = status
 
 [diff]
 #  	external = extDiff
