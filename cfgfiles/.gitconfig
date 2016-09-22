@@ -10,11 +10,11 @@
 	cm = commit --amend -o
 	cp = commit --patch
 	st = status -s -b
-	last = log -1 HEAD
 	visual = !gitk
 	pl = pull
 	ps = push
 	cdate = "!git --no-pager log -1 --format='%ci'"
+
 	d = diff
 	dc = diff --cached
 	dh = "!git diff --color | diff-highlight | less -r"
@@ -27,12 +27,13 @@
 	untracked = ls-files --others --exclude-standard
 
 	l = log --format=format:'%C(auto)%h%d%C(reset) %s %C(bold blue)(%an, %ar)%C(reset)'
-	ll = log --stat --decorate --abbrev-commit --date=relative
-	lll = log -p --stat --decorate --abbrev-commit --date=relative
-	llll = "!sh -c 'git lll $@ | gvim - -R -v -c \"set ft=git\" -c \"set fdm=syntax\"' -"
+	ls = log --stat --decorate --abbrev-commit --date=relative
+	ll = log -p --decorate --abbrev-commit --date=relative
+	lx = "!sh -c 'git lll $@ | gvim - -R -v -c \"set ft=git\" -c \"set fdm=syntax\"' -"
 	lt = log --oneline --decorate --topo-order
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-    
+    	last = log -1 HEAD
+	
 	# Fetch all or one remote: git f; git f upstream
 	f = "!sh -c 'git fetch --tags ${1:-\"--all\"}' -"
 
